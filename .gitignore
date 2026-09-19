@@ -1,0 +1,43 @@
+.vscode/
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.log
+
+# Python (Окружение, кэш, библиотеки)
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Кэш компиляции Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# 3. Go (Бинарники, сборки, кэш)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# PostgreSQL и Docker
+# Файлы с переменными окружения (пароли от БД, токены)
+.env
+.env.*
+!.env.example
+
+# Локальные папки с данными PostgreSQL (если будем монтировать БД в docker-compose)
+pgdata/
+postgres_data/
+
+# Кэш инструментов миграции (если будем использовать dbmate или подобные)
+.migrate/
