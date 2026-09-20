@@ -36,6 +36,7 @@ func main() {
 		json.NewEncoder(w).Encode(HealthResponse{Status: "ok"})
 	})
 	mux.HandleFunc("GET /objects", handler.ListObjects)
+	mux.HandleFunc("GET /objects/{id}", handler.GetObjectByID)
 	mux.HandleFunc("POST /objects", handler.CreateObject)
 	log.Println("сервер слушает порт :8080")
 	log.Fatal(http.ListenAndServe(":8080", mux))

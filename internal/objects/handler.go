@@ -2,7 +2,11 @@ package objects
 
 import (
 	"encoding/json"
+	"errors"
 	"net/http"
+	"strconv"
+
+	"github.com/jackc/pgx/v5"
 )
 
 type Handler struct {
@@ -17,6 +21,26 @@ func (h *Handler) ListObjects(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(list)
+}
+
+func (h *Handler) GetObjectByID(w http.ResponseWriter, r *http.Request) {
+	strID := r.PathValue("id")
+	id, err := strconv.Atoi(strID)
+	if err != nil {
+		http.Error(w, "неверный id", http.StatusBadRequest)
+		return
+	}
+	obj, err := h.repo.GetObjectByID(r.Context(), id)
+	if errors.Is(err, pgx.ErrNoRows) {
+		http.Error(w, "объект не найден", http.StatusNotFound)
+		return
+	}
+	if err != nil {
+		http.Error(w, "не удалось получить объект по id", http.StatusInternalServerError)
+		return
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(obj)
 }
 
 func (h *Handler) CreateObject(w http.ResponseWriter, r *http.Request) {

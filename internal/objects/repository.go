@@ -12,7 +12,8 @@ type Repository struct {
 }
 
 func (r *Repository) ListObjects(ctx context.Context) ([]Object, error) {
-	rows, err := r.pool.Query(ctx, "SELECT id, name, country, latitude, longitude, dam_type, height_m, construction_year, created_at FROM objects")
+	query := "SELECT id, name, country, latitude, longitude, dam_type, height_m, construction_year, created_at FROM objects"
+	rows, err := r.pool.Query(ctx, query)
 	if err != nil {
 		return nil, err
 	}
@@ -30,6 +31,26 @@ func (r *Repository) ListObjects(ctx context.Context) ([]Object, error) {
 		return nil, err
 	}
 	return listObjects, nil
+}
+
+func (r *Repository) GetObjectByID(ctx context.Context, id int) (Object, error) {
+	query := "SELECT id, name, country, latitude, longitude, dam_type, height_m, construction_year, created_at FROM objects WHERE id = $1"
+	var object Object
+	err := r.pool.QueryRow(ctx, query, id).Scan(
+		&object.ID,
+		&object.Name,
+		&object.Country,
+		&object.Latitude,
+		&object.Longitude,
+		&object.DamType,
+		&object.HeightM,
+		&object.ConstructionYear,
+		&object.CreatedAt,
+	)
+	if err != nil {
+		return Object{}, err
+	}
+	return object, nil
 }
 
 func (r *Repository) CreateObject(ctx context.Context, obj Object) (Object, error) {
