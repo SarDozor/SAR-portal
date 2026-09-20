@@ -5,18 +5,22 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
+	"os"
 
 	"github.com/darkn3sssss/sar-dozor/internal/db"
 	"github.com/darkn3sssss/sar-dozor/internal/objects"
+	"github.com/joho/godotenv"
 )
 
 type HealthResponse struct {
 	Status string `json:"status"`
 }
 
-var dsn = "postgres://sar:SAR_163788100@localhost:5432/sar_dozor?sslmode=disable"
-
 func main() {
+	if err := godotenv.Load(); err != nil {
+		log.Println("не удалось загрузить .env, использую переменные окружения как есть")
+	}
+	dsn := os.Getenv("DATABASE_URL")
 	ctx := context.Background()
 	pool, err := db.New(ctx, dsn)
 	if err != nil {
