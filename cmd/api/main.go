@@ -30,11 +30,13 @@ func main() {
 	defer pool.Close()
 	repository := objects.NewRepository(pool)
 	handler := objects.NewHandler(repository)
-	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
+	mux := http.NewServeMux()
+	mux.HandleFunc("GET /health", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(HealthResponse{Status: "ok"})
 	})
-	http.HandleFunc("/objects", handler.ListObjects)
+	mux.HandleFunc("GET /objects", handler.ListObjects)
+	mux.HandleFunc("POST /objects", handler.CreateObject)
 	log.Println("сервер слушает порт :8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":8080", mux))
 }

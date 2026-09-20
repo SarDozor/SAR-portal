@@ -2,6 +2,7 @@ package objects
 
 import (
 	"context"
+	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )
@@ -29,6 +30,19 @@ func (r *Repository) ListObjects(ctx context.Context) ([]Object, error) {
 		return nil, err
 	}
 	return listObjects, nil
+}
+
+func (r *Repository) CreateObject(ctx context.Context, obj Object) (Object, error) {
+	var id int
+	var createdAt time.Time
+	query := "INSERT INTO objects (name, country, latitude, longitude, dam_type, height_m, construction_year) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING id, created_at"
+	err := r.pool.QueryRow(ctx, query, obj.Name, obj.Country, obj.Latitude, obj.Longitude, obj.DamType, obj.HeightM, obj.ConstructionYear).Scan(&id, &createdAt)
+	if err != nil {
+		return Object{}, err
+	}
+	obj.ID = id
+	obj.CreatedAt = createdAt
+	return obj, nil
 }
 
 func NewRepository(pool *pgxpool.Pool) *Repository {
