@@ -37,7 +37,9 @@ func main() {
 	})
 	mux.HandleFunc("GET /objects", handler.ListObjects)
 	mux.HandleFunc("GET /objects/{id}", handler.GetObjectByID)
+	mux.HandleFunc("PUT /objects/{id}", handler.UpdateObject)
 	mux.HandleFunc("POST /objects", handler.CreateObject)
+	mux.HandleFunc("DELETE /objects/{id}", handler.DeleteObject)
 	log.Println("сервер слушает порт :8080")
 	log.Fatal(http.ListenAndServe(":8080", mux))
 }

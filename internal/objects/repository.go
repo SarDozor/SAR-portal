@@ -21,7 +21,11 @@ func (r *Repository) ListObjects(ctx context.Context) ([]Object, error) {
 	var listObjects []Object
 	for rows.Next() {
 		var object Object
-		err := rows.Scan(&object.ID, &object.Name, &object.Country, &object.Latitude, &object.Longitude, &object.DamType, &object.HeightM, &object.ConstructionYear, &object.CreatedAt)
+		err := rows.Scan(
+			&object.ID, &object.Name, &object.Country, &object.Latitude,
+			&object.Longitude, &object.DamType, &object.HeightM,
+			&object.ConstructionYear, &object.CreatedAt,
+		)
 		if err != nil {
 			return nil, err
 		}
@@ -37,15 +41,9 @@ func (r *Repository) GetObjectByID(ctx context.Context, id int) (Object, error) 
 	query := "SELECT id, name, country, latitude, longitude, dam_type, height_m, construction_year, created_at FROM objects WHERE id = $1"
 	var object Object
 	err := r.pool.QueryRow(ctx, query, id).Scan(
-		&object.ID,
-		&object.Name,
-		&object.Country,
-		&object.Latitude,
-		&object.Longitude,
-		&object.DamType,
-		&object.HeightM,
-		&object.ConstructionYear,
-		&object.CreatedAt,
+		&object.ID, &object.Name, &object.Country, &object.Latitude,
+		&object.Longitude, &object.DamType, &object.HeightM,
+		&object.ConstructionYear, &object.CreatedAt,
 	)
 	if err != nil {
 		return Object{}, err
@@ -57,13 +55,49 @@ func (r *Repository) CreateObject(ctx context.Context, obj Object) (Object, erro
 	var id int
 	var createdAt time.Time
 	query := "INSERT INTO objects (name, country, latitude, longitude, dam_type, height_m, construction_year) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING id, created_at"
-	err := r.pool.QueryRow(ctx, query, obj.Name, obj.Country, obj.Latitude, obj.Longitude, obj.DamType, obj.HeightM, obj.ConstructionYear).Scan(&id, &createdAt)
+	err := r.pool.QueryRow(
+		ctx, query, obj.Name, obj.Country, obj.Latitude,
+		obj.Longitude, obj.DamType, obj.HeightM, obj.ConstructionYear,
+	).Scan(&id, &createdAt)
 	if err != nil {
 		return Object{}, err
 	}
 	obj.ID = id
 	obj.CreatedAt = createdAt
 	return obj, nil
+}
+
+func (r *Repository) UpdateObject(ctx context.Context, id int, obj Object) (Object, error) {
+	query := "UPDATE objects SET name = $1, country = $2, latitude = $3, longitude = $4, dam_type = $5, height_m = $6, construction_year = $7 WHERE id = $8 RETURNING id, name, country, latitude, longitude, dam_type, height_m, construction_year, created_at"
+	var updatedOnj Object
+	err := r.pool.QueryRow(
+		ctx, query, obj.Name, obj.Country, obj.Latitude, obj.Longitude,
+		obj.DamType, obj.HeightM, obj.ConstructionYear, id,
+	).Scan(
+		&updatedOnj.ID, &updatedOnj.Name, &updatedOnj.Country,
+		&updatedOnj.Latitude, &updatedOnj.Longitude, &updatedOnj.DamType,
+		&updatedOnj.HeightM, &updatedOnj.ConstructionYear,
+		&updatedOnj.CreatedAt,
+	)
+	if err != nil {
+		return Object{}, err
+	}
+	return updatedOnj, nil
+}
+
+func (r *Repository) DeleteObject(ctx context.Context, id int) (Object, error) {
+	query := "DELETE FROM objects WHERE id = $1 RETURNING id, name, country, latitude, longitude, dam_type, height_m, construction_year, created_at"
+	var deletedObject Object
+	err := r.pool.QueryRow(ctx, query, id).Scan(
+		&deletedObject.ID, &deletedObject.Name, &deletedObject.Country,
+		&deletedObject.Latitude, &deletedObject.Longitude, &deletedObject.DamType,
+		&deletedObject.HeightM, &deletedObject.ConstructionYear,
+		&deletedObject.CreatedAt,
+	)
+	if err != nil {
+		return Object{}, err
+	}
+	return deletedObject, nil
 }
 
 func NewRepository(pool *pgxpool.Pool) *Repository {
