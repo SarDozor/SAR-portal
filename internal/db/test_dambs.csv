@@ -1,0 +1,14 @@
+tsf,country,latitude,longitude,status,raise_type,current_maximum_height
+"Dry Stack TSFs 1, 2 and 3",Chile,-29.766708,-69.976503,Closed,Upstream,215.0
+Southwest 1,USA,33.0323667,-109.3236889,Active,Upstream,198.0
+Mixed Tails Impoundment,New Zealand,-45.3669167,170.4335556,Inactive,"Downstream, Upstream",180.0
+Silver Basin 1X,USA,33.0119472,-109.36805,Active,Upstream,166.0
+Germano Main Dam,Brazil,-20.21811,-43.465195,Inactive,Upstream,163.0
+Main Dam,Brazil,-20.21811,-43.465195,Inactive,Upstream,163.0
+"Endako
+Tailings Pond #2",Canada,54.0507861,-125.09353,Inactive Care and Maintenance,Upstream,147.0
+Omokusa,Japan,35.88,136.5757,Inactive,Upstream,131.0
+Daberas FRD 5 (Zone 8),Namibia,-28.2411111,16.7761111,Active,In-pit,0.0
+Sendelingsdrif FRD 7,Namibia,-28.1488889,16.8436111,Active,In-pit,0.0
+Max Pit Tailings Facility,Australia,-23.3819444,148.9333333,Active,Other,0.0
+DSP in-pit WFSF,Australia,-23.14979,119.56939,Active,In-pit,0.0
