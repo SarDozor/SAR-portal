@@ -20,5 +20,5 @@ batch = hyp3.submit_prepared_jobs(prepared_jobs=[prepared_job])
 job = batch[0]
 print(f"задача отправлена {job}")
 job = hyp3.watch(job)
-downloaded_files = job.download_files(range_filter='*')
+downloaded_files = job.download_files()
 print(f"скачанные файлы {downloaded_files}")
