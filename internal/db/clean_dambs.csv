@@ -1,0 +1,1974 @@
+tsf,country,latitude,longitude,status,raise_type,current_maximum_height
+"Nchwaning II existing Tailings Storage
+Facility",South Africa,-27.1383111,22.8710389,Active,Upstream,10.0
+Nchwaning II New Tailings Storage Facility,South Africa,-27.1416167,22.8710389,Active,Upstream,0.0
+Gloria Tailings Storage Facility,South Africa,-27.176,22.9073278,Active,Upstream,3.0
+Beeshoek Mine Tailings Storage Facility,South Africa,-28.277825,23.0118972,Active,Downstream,25.0
+Khumani Mine Paste Disposal Facility,South Africa,-27.8398444,23.0099139,Active,"Upstream, Centreline",22.0
+Two Rivers Tailings Storage Facility,South Africa,-24.9218472,30.1227528,Active,Upstream,50.0
+Co-disposal Tailings Storage Facility,South Africa,-25.7558944,30.6370611,Active,Impoundment,58.0
+MSB Tailings Storage Facility,South Africa,-25.7324194,30.6054639,Closed,Upstream,19.0
+Onverwacht Tailings Storage Facility,South Africa,-25.8323472,30.6441861,Active,Upstream,65.0
+High Sulfide Storage Facility,South Africa,-25.7308889,30.6026111,inactive,Impoundment,15.0
+Modikwa Tailings Storage Facility,South Africa,-24.651158,30.1519,Active,Upstream,42.0
+North Cell,Canada,65.021558,-96.043328,Active,"Downstream, Upstream",31.0
+South Cell,Canada,65.013782,-96.033391,Active,Downstream,49.0
+In pit,Canada,65.001901,-96.032544,Active,,
+Meliadine TSF,Canada,63.020829,-92.140336,Active,,5.0
+South TSF,Canada,48.054342,-77.841978,Active,Not Raised,5.0
+Pinos Altos TMF,Mexico,28.264294,-108.297728,Inactive,,105.0
+Oberon de Weber in-pit TSF,Mexico,28.269961,-108.295792,Active,,
+Canadian Malartic TSF,Canada,48.112562,-78.091518,Active,Upstream,42.0
+NP3 TSF,Finland,67.560174,25.242074,Active,"Downstream, Upstream",31.0
+CIL2 TSF,Finland,67.553955,25.242243,Active,Upstream,19.0
+CIL1 TSF,Finland,67.552612,25.241898,Active,Not Raised,15.0
+Principal TSF,Canada,48.257872,-78.417616,Active,Upstream,30.0
+Extension A4,Canada,48.254847,-78.400641,Active,Not Raised,18.0
+TMF North,Canada,49.293567,-78.224010,Inactive,Downstream,9.0
+TMF South,Canada,49.291356,-78.224038,Inactive,Downstream,6.0
+Nova Scotia Tailings Area,Canada,47.392222,-79.6605556,Inactive,Not Raised,9.0
+Gahcho Kué Area 2 FINE PKC,Canada,63.463619,-109.2117519,Active,Downstream,12.0
+Gahcho Kué Course PKC Pile,Canada,63.463619,-109.2117519,Active,Dry stack,20.0
+Victor Fines PK storage facility,Canada,52.8230667,-83.9387,Active,Downstream,8.0
+Victor Coarse PK & Lo rade Ore Stockpile,Canada,52.8230667,-83.9387,Active,Dry stack,12.0
+Victor Coarse PK & overburden Stockpile,Canada,52.807844,-83.925833,Active,Dry stack,14.0
+Snap Lake North Pile,Canada,63.6052778,-110.8666667,Inactive,Hybrid PK Wasterock,22.0
+Venetia FRDs,South Africa,-22.42825,29.2983417,Active,"Upstream, Centreline",43.0
+Venetia CRD,South Africa,-22.42825,29.2983417,Active,Dry stack,42.0
+Voorspoed FRDs,South Africa,-27.3882583,27.2001222,Inactive,Downstream,28.0
+Voorspoed CRD,South Africa,-27.3882583,27.2001222,Inactive,Dry stack,40.0
+Namaqualand AK3 FRD,South Africa,-29.6422167,17.0408861,Inactive,Downstream,27.0
+Namaqualand AK3 CRD,South Africa,-29.6470639,17.044575,Inactive,Dry stack,51.0
+"Namaqualand Bulk Sample Plant FRD
+
+",South Africa,-29.589625,17.0341889,Inactive,,
+Namaqualand Bulk Sample CRD,South Africa,-29.5866,17.0414778,Inactive,Dry stack,34.0
+"Namaqualand Tweepad FRD
+",South Africa,-29.45615,17.0014417,Inactive,Downstream,9.0
+Namaqualand Tweepad CRD,South Africa,-29.4526417,17.0217889,Inactive,Dry stack,66.0
+The Oaks Paste Paddocks,South Africa,-22.956047,28.311392,Closed,Downstream,20.0
+The Oaks Pase & Tailings (Coarse) Co‐ disposal Residue Paddocks,South Africa,-22.95755,28.312397,Closed,Downstream,20.0
+Moranbah North Mine ‐ Co-Disposal Area / CDA,Australia,-21.872,147.948,Active,Upstream,34.0
+Capcoal / Pit C Tailings Dam,Australia,-22.922,148.57,Active,In-pit,14.0
+Capcoal / Pit B1 Tailings Dam,Australia,-22.962,148.552,Inactive,In-pit,30.0
+Capcoal / Pit B2 Tailings Dam,Australia,-22.95,148.556,Inactive,In-pit,34.0
+Capcoal / Pit D Tailings Dam North,Australia,-22.888,148.566,Inactive,In-pit,22.0
+Capcoal / Pit D Tailings Dam South,Australia,-22.888,148.566,Inactive,In-pit,34.0
+"Capcoal / Pit OF
+Mine affected water",Australia,-22.965,148.56,Inactive,In-pit,
+Dawson Nth TSF Cell 3,Australia,-24.563,150.051,Active,In-pit,
+Capcoal /Old Tailings Dam,Australia,-22.888,148.566,Closed,Centreline,
+Dawson Nth TSF Cell 2,Australia,-24.5,149.604,Inactive,In-pit,
+Dawson 2A TSF,Australia,-24.55,150.038,Inactive,In-pit,
+Dawson Nth Cell 1 TSF,Australia,-24.507,150.059,Inactive,In-pit,
+Dawson 1B South TSF,Australia,-24.557,149.959,Inactive,In-pit,
+Dawson Pit 2D TSF,Australia,-24.556,150.055,Inactive,In-pit,
+Perez Caldera,Chile,-33.223056,-70.343889,Inactive,"Landform, Downstream",110.0
+Las Tortolas,Chile,-33.1238889,-70.7322222,Active,Downstream,100.0
+Dams No. 1 and 2.,Chile,-32.6641667,-71.1472222,Inactive,Landform,25.0
+Dam No. 3,Chile,-32.6694444,-71.1441667,Inactive,Downstream,20.0
+Dam No. 4,Chile,-32.6586111,-71.1652778,Inactive,Downstream,65.0
+El Torito,Chile,-32.6405556,-71.1622222,Active,"Centreline, Downstream",91.0
+Chagres Slag Heap,Chile,-32.8027778,-70.955,Active,Dry stack,25.0
+Serro da Sapo Tailings Dam,Brazil,-18.8608333,-43.4047222,Active,Downstream,42.0
+Codemin: Dust Reservoir No 1,Brazil,-14.1494444,-48.3419444,Active,,10.0
+Codemin: Dust Reservoir No 3,Brazil,-14.1472222,-48.3419444,Active,,10.0
+Codemin: Dust Reservoir No 3,Brazil,-14.153611,-48.3433333,Active,,5.0
+Codemin: Slag Pile No. 1,Brazil,-14.1511111,-48.3455555,Inactive,Dry stack,45.0
+Codemin: Slag Pile No. 2,Brazil,-14.1572222,-48.3433333,Active,Dry stack,60.0
+Slag Pile No. 1,Brazil,-15.0894444,-48.3380556,Active,Dry stack,80.0
+"Sishen Mine (DMS Dams 1 to 4 and JIG
+infill Legs 1 to 4)",South Africa,-27.7427222,23.0404444,Active,Upstream,18.0
+Sishen Mine Dormant Tailings Storage Facility 1 (near pit),South Africa,-27.7619167,22.9793611,Inactive,Upstream,3.0
+Sishen Mine Dormant Tailings Storage Facility 2,South Africa,-27.7748611,22.9673056,Inactive,Upstream,4.0
+Kolomela Mine Tailings Facility,South Africa,-28.3806944,22.9460556,Active,Water Retaining,10.0
+Bank 2 Co‐disposal,South Africa,-25.9652778,29.4552778,Active,"Downstream, Upstream",60.0
+Bank 5 Co‐disposal,South Africa,-26.0075,29.4583333,Closed,"Upstream, Downstream",36.0
+Schoonie Dump,South Africa,-25.9852778,29.4441667,Closed,Dry stack,31.0
+Goedehoop Co‐disposal,South Africa,-26.0947222,29.4286111,Active,Downstream,54.0
+Old Springbok No.1,South Africa,-26.0872222,29.4983333,Closed,Dry stack,39.0
+Old Springbok No.2,South Africa,-26.0916667,29.3355556,Closed,Dry stack,13.0
+Klein Shaft,South Africa,-26.0475,29.3088889,Closed,Dry stack,14.0
+Old Slurry Dams,South Africa,-26.1044444,29.4197222,Active,Downstream,6.0
+Hope Dump,South Africa,-26.1202778,29.3980556,Closed,,28.0
+Klippan Co‐disposal,South Africa,-25.9888889,29.2122222,Active,"Downstream, Upstream",37.0
+Landau 1 Dump,South Africa,-25.9227778,29.1877778,Inactive,Dry stack,2.0
+Landau 2 Dump,South Africa,-25.9225,29.2069444,Inactive,Dry stack,24.0
+Klipfontein Dump,South Africa,-25.9405556,29.2136111,Active,Dry stack,45.0
+Slurry Dam 4,South Africa,-26.0233333,29.4038889,Closed,Downstream,5.0
+Slurry Dam 5,South Africa,-26.0347222,29.4202778,Closed,Downstream,5.0
+Kleinkopje Dump/Roof Coal Dump combined,South Africa,-26.0216667,29.2213889,Active,Dry stack,46.0
+Old Navigation Dump,South Africa,-25.9113889,29.1616667,Inactive,Dry stack,36.0
+Anglo French,South Africa,-25.935,29.1488889,Inactive,Dry stack,22.0
+Blaauwkrantz Co‐ disposal (North ext. and old combined),South Africa,-25.9277778,29.1558333,Active,Downstream,50.0
+Greenside Co‐disposal.,South Africa,-25.9613889,29.1869444,Active,"Downstream, Centreline",64.0
+Clydesdale Dump,South Africa,-25.9466667,29.1611111,Inactive,Dry stack,10.0
+Mafube Discards Dump,South Africa,-25.8097222,29.7541667,Active,Dry stack,30.0
+Mafube De‐watered Fines Dump,South Africa,-25.8091667,29.7577778,Active,Dry stack,25.0
+No. 1 Dump,South Africa,-27.6719444,31.0555556,Closed,Dry stack,20.0
+No. 2 Dump,South Africa,-27.6772222,31.0461111,Closed,Dry stack,40.0
+No. 3 Dump,South Africa,-27.6705556,31.075,Closed,Dry stack,36.0
+No. 4 Dump,South Africa,-27.6697222,31.08,Closed,Dry stack,20.0
+Boschhoek,South Africa,-27.8086111,31.1055556,Closed,Dry stack,42.0
+Ingagane No. 1,South Africa,-27.8727778,30.0452778,Closed,Dry stack,18.0
+Ingagane No. 2,South Africa,-27.8677778,30.0397222,Closed,Dry stack,8.0
+Presentation Dump,South Africa,-25.8538889,29.1944444,Inactive,Dry stack,10.0
+No. 2 Dump,South Africa,-25.8561111,29.1880556,Inactive,Dry stack,20.0
+Amandelbult,South Africa,-24.80972,27.34895,Active,Upstream,49.0
+Blinkwater,South Africa,-23.95692,28.9394,Active,Downstream,57.0
+Vaalkop,South Africa,-23.98747,28.92651,Active,Upstream,48.0
+Helena Dam 1,South Africa,-25.01605,30.11316,Active,Upstream,58.0
+Mareesburg,South Africa,-25.01143,30.14734,Active,Upstream,4.0
+Dam 1,Zimbabwe,-19.62417,30.07222,Active,"Downstream, Centreline, Upstream",24.0
+Polokwane Slag Stockpile,South Africa,-24.033458,29.4659,Active,Dry stack,38.0
+Mortimer Slag Stockpile,South Africa,-24.968333,27.144167,Active,Dry stack,28.0
+Unki Slag Stockpile,Zimbabwe,-19.613694,30.097567,Active,Dry stack,
+"Orapa Plant 1 Old Slimes dams (A, B, C, D paddocks)",Botswana,-21.296039,25.379076,Active,Upstream,16.0
+Orapa Plant 2 FRD 1,Botswana,-21.296039,25.379076,Inactive,Upstream,20.0
+Orapa Plant 2 FRD 2,Botswana,-21.296039,25.379076,Inactive,Upstream,39.0
+Orapa FRD 4,Botswana,-21.296039,25.379076,Active,Centreline,9.0
+Lethlakane Slimes dams,Botswana,-21.505293,25.696985,Active,Upstream,14.0
+Damtshaa FRD,Botswana,-21.306858,25.547167,Active,Downstream,14.0
+Jwaneng FRD 1‐5,Botswana,-24.5405556,24.68,Inactive,Upstream,23.0
+Jwaneng FRD 7,Botswana,-24.5272222,24.6647222,Active,Downstream,16.0
+Jwaneng FRD 8,Botswana,-24.5522222,24.6677778,Active,Downstream,16.0
+Jwaneng JMP CRD,Botswana,-24.5513889,24.7030556,Active,Dry stack,17.0
+Jwaneng RP CRD,Botswana,-24.5666667,24.6888889,Active,Dry stack,35.0
+Damtshaa CRD,Botswana,-21.3102778,25.5419444,Active,Dry stack,56.0
+Letlhakane -LTP CRD,Botswana,-21.5122222,25.6944444,Active,Dry stack,22.0
+Orapa Plant 1 CRD,Botswana,-21.3027778,25.4027778,Active,Dry stack,73.0
+Orapa Plant 2 CRD,Botswana,-21.3011111,25.3980556,Active,Dry stack,68.0
+Auchas FRD 1,Namibia,-28.3497222,16.78,Inactive,Downstream,36.0
+Daberas FRD 2 (Starter Dam),Namibia,-28.26,16.8030556,Inactive,Downstream,20.0
+Daberas FRD 3 (Megadam),Namibia,-28.2483333,16.7741667,Inactive,Downstream,30.0
+Daberas FRD 4 (Zone 7),Namibia,-28.2436111,16.7797222,Inactive,Downstream,0.0
+Daberas FRD 5 (Zone 8),Namibia,-28.2411111,16.7761111,Active,In-pit,0.0
+Sendelingsdrif FRD 6,Namibia,-28.1569444,16.8408333,Inactive,In-pit,0.0
+Sendelingsdrif FRD 7,Namibia,-28.1488889,16.8436111,Active,In-pit,0.0
+Sendelingsdrif CRD ‐ TD1,Namibia,-28.1622222,16.8522222,Active,Dry stack,55.0
+Daberas DTP CRD,Namibia,-28.2758333,16.7766667,Inactive,Dry stack,68.0
+Daberas OTP CRD,Namibia,-28.2461111,16.8058333,Inactive,Dry stack,57.0
+Auchas CRD,Namibia,-28.1386111,16.7683333,Inactive,Dry stack,64.0
+1 Plant CRD,Namibia,-28.1386111,15.8813889,Inactive,Dry stack,46.0
+2 Plant CRD,Namibia,-28.1622222,16.0727778,Inactive,Dry stack,65.0
+3 Plant CRD,Namibia,-28.1622222,16.2780556,Inactive,Dry stack,59.0
+4 Plant CRD,Namibia,-28.1622222,16.3375,Inactive,Dry stack,72.0
+PTF CRD,Namibia,-28.5941667,16.4052778,Inactive,Dry stack,49.0
+Elizabeth Bay CRD,Namibia,-26.8913889,15.1955556,Inactive,Dry stack,66.0
+Pampa Pabellón TSF,Chile,-20.9452778,-68.6044444,Active,Downstream,72.0
+Cerrejon TSF North Cell and South,Colombia,11.1055556,-72.6436111,Active,Downstream,5.0
+Wessels,South Africa,-27.1118833,22.8595833,Active,Upstream,6.0
+Adams pit,South Africa,-27.3817667,22.9879,Active,Other,
+TSF5,Australia,-13.97455,136.4339667,Inactive,Centreline,8.0
+TSF6,Australia,-13.9797167,136.43365,Inactive,"Centreline, Upstream",9.0
+TSF7,Australia,-13.9767333,136.4279333,Inactive,Centreline,15.0
+TSF8,Australia,-13.9927167,136.4385167,Inactive,Centreline,8.0
+TSF10,Australia,-13.9881667,136.4324833,Inactive,Centreline,14.0
+TSF11,Australia,-13.9963667,136.44885,Active,Downstream,15.0
+TSF13,Australia,-14.0134,136.4486,Active,Centreline,13.0
+TSF14,Australia,-13.9947667,136.43,Active,Centreline,13.0
+TSF16,Australia,-13.9986833,136.43625,Active,Centreline,16.0
+New North Plant Sludge Dam,South Africa,-26.5679333,27.9876833,Active,Downstream,5.0
+New West Plant Sludge Dam,South Africa,-26.56065,27.9865,Active,Downstream,5.0
+Fume dam 1,Australia,-41.1332667,146.8441667,Inactive,Centreline,7.0
+Fume dam 2,Australia,-41.1344333,146.8452667,Inactive,Centreline,7.0
+Fume dam 3,Australia,-41.1338833,146.84755,Active,Centreline,6.0
+CDA1,Australia,-22.4563889,148.4013889,Inactive,Upstream Co‐disposal,25.0
+CDA2,Australia,-22.4486111,148.4016667,Active,Upstream Co‐disposal,24.0
+CDA3,Australia,-22.4563889,148.3944444,Active,Upstream Co‐disposal,18.0
+Max Pit Tailings Facility,Australia,-23.3819444,148.9333333,Active,Other,0.0
+Consolidated Dam,South Africa,-24.29644,29.87809,Inactive,Upstream,17.0
+Dam 6,South Africa,-24.30033,29.88824,Inactive,Upstream,26.0
+Modikwa,South Africa,-24.651158,30.1519,Active,Upstream,42.0
+K1,South Africa,-25.71306,27.3296,Active,Upstream,41.0
+K150,South Africa,-25.7164,27.35163,Active,Upstream,38.0
+K2,South Africa,-25.71688,27.3604,Active,Upstream,34.0
+Marikana,South Africa,-25.732519,27.40939,Active,Upstream,22.0
+Sibanye Still Water/ Baobab,South Africa,-24.3698,29.4714,Active,Upstream,9.0
+Cells1&2,USA,40.26248,-116.702689,Closed,Upstream,66.0
+Cell 4,USA,40.266031,-116.686047,Active,Downstream,55.0
+TA1-3,USA,40.203921,-116.62253,Closed,Unknown,8.0
+TA4-5,USA,40.213596,-116.617825,Closed,Unknown,10.0
+TA6,USA,40.213491,-116.624058,Closed,Unknown,17.0
+TA7,USA,40.208789,-116.624296,Closed,Downstream,19.0
+TSF2,USA,45.889132,-111.990559,Active,"Upstream, Centreline",72.0
+TSF1,USA,45.889086,-112.003863,Closed,Centreline,33.0
+North Block TDF,USA,41.003265,-116.358552,Active,Downstream,130.0
+TSF3,USA,40.994527,-116.347161,Active,Downstream,86.0
+AA TSF,USA,40.985307,-116.342606,Closed,Downstream,66.0
+Mill 4 TSF,USA,40.989607,-116.357059,Closed,Downstream,57.0
+Arturo TSF (TD-1),USA,41.007315,-116.432022,Closed,Downstream,34.0
+David Bell / Williams Basin,Canada,48.668708,-85.878245,Active,"Upstream, Downstream",41.0
+CTSF 1,Democratic Republic of Congo,3.131053,29.598067,Active,Downstream,45.0
+CTSF 2,Democratic Republic of Congo,3.127811,29.605878,Active,Downstream,45.0
+FTSF,Democratic Republic of Congo,3.119041,29.605928,Active,Downstream,36.0
+Loulo TSF,Mali,13.096819,-11.343639,Active,Upstream,30.0
+Lumwana TSF,Zambia,-12.234695,25.862281,Active,Centreline,45.0
+Morila TSF,Mali,11.69565,-6.840917,Closed,In-pit,
+El Llagal TSF,Dominican Republic,18.898767,-70.17346,Active,Downstream,114.0
+Tongon TSF,Côte d'Ivoire,9.941306,-5.763114,Active,Upstream,26.0
+Turquoise Ridge TSF,USA,41.235985,-117.220018,Closed,"Centreline, Downstream",52.0
+Dry Stack TSF,Saudi Arabia,23.861374,40.942444,Active,Upstream,28.0
+Bulyanhulu TSF,Tanzania,-3.234281,32.486293,Active,Upstream,19.0
+Buzwagi TSF,Tanzania,-3.857605,32.679994,Active,Downstream,44.0
+North Mara TSF,Tanzania,-1.473721,34.499459,Active,Downstream,53.0
+Fimiston I,Australia,-30.746707,121.508969,Active,Upstream,60.0
+Fimiston II,Australia,-30.751359,121.546371,Active,Upstream,60.0
+Kaltails,Australia,-30.798458,121.563501,Active,Upstream,60.0
+Gidji I,Australia,-30.58317,121.453803,Inactive Care and Maintenance,Upstream,30.0
+Gidji II,Australia,-30.58317,121.453803,Active,Downstream,25.0
+Mullingar,Australia,-30.729694,121.471046,Inactive Care and Maintenance,Unknown,5.0
+Mt. Percy,Australia,-30.718556,121.487728,Inactive Care and Maintenance,Upstream,23.0
+Paringa,Australia,-30.757052,121.523793,Inactive Care and Maintenance,Unknown,5.0
+Croesus,Australia,-30.752291,121.499765,Inactive Care and Maintenance,Unknown,20.0
+Old Croesus,Australia,-30.759984,121.497266,Inactive Care and Maintenance,Unknown,23.0
+Zaldivar TSF,Chile,-24.415046,-69.13011,Active,Downstream,39.0
+North Tailings Basin,Canada,44.995564,-78.044357,Closed,Upstream,9.0
+South Tailings Basin,Canada,44.987684,-78.038638,Closed,Upstream,8.0
+Bousquet LTA,Canada,48.106408,-78.000949,Closed,Upstream,15.0
+Tailings Stack,Canada,48.315221,-78.382253,Closed,Upstream,20.0
+Tailings Pond 1,Canada,61.265859,-98.492138,Closed,Downstream,5.0
+Tailings Pond 2,Canada,61.264636,-98.4799,Closed,Downstream,0.0
+Albino Lake TSF,Canada,56.650496,-130.496457,Closed,Lake,
+Tom McKay TSF,Canada,56.619746,-130.520252,Closed,Lake,
+Upper TSF,Canada,49.482295,-121.461631,Closed,Upstream,17.0
+Lower TSF,Canada,49.48343,-121.457824,Closed,Downstream,22.0
+Golden Patricia TSF,Canada,51.369843,-91.131883,Closed,"Upstream, Centreline",5.0
+Nickel Plate TSF,Canada,49.35533,-120.024094,Closed,"Upstream, Centreline",49.0
+Parc A Residus,Canada,48.258235,-79.050362,Closed,Upstream,6.0
+Renabie TSFs,Canada,48.372015,-83.863747,Closed,Upstream,13.0
+Uchi TSFs,Canada,51.0709,-92.5936,Closed,Landform,
+Impoundment 1,USA,36.870915,-116.814836,Closed,Upstream,14.0
+Impoundment 2,USA,36.874481,-116.810404,Closed,Downstream,21.0
+Impoundment 3,USA,36.878424,-116.814814,Closed,"Upstream, Centreline",16.0
+Impoundment 4,USA,36.874791,-116.819066,Closed,Downstream,23.0
+Colosseum TSF,USA,35.557803,-115.570102,Closed,Downstream,41.0
+Large TSF,USA,35.243592,-107.8634,Closed,Upstream,31.0
+Small TSF,USA,35.237594,-107.862084,Closed,Upstream,8.0
+Grizzly Gulch TSF,USA,44.329214,-103.7379,Closed,"Upstream, Downstream",122.0
+McDermitt TSFs,USA,41.931197,-117.799907,Closed,Upstream,5.0
+McLaughlin TSF,USA,38.866172,-122.438928,Closed,Downstream,51.0
+Reservation Canyon TSF,USA,40.331531,-112.196932,Closed,"Upstream, Downstream",113.0
+"Dry Stack TSFs 1, 2 and 3",Chile,-29.766708,-69.976503,Closed,Upstream,215.0
+El Indio TSF,Chile,-29.783744,-69.986455,Closed,"Upstream, Downstream",78.0
+Pastos Largos SP,Chile,-29.794565,-70.000524,Closed,Downstream,49.0
+Upstream TSF,Chile,-29.800932,-69.939912,Closed,Downstream,68.0
+Downstream TSF,Chile,-29.807611,-69.940018,Closed,Downstream,85.0
+GillervattnetTMF(BolidenArea),Sweden,64.86,20.31,Closed,"Downstream, Centreline",14.0
+HötjärnTMF(BolidenArea),Sweden,64.85,20.32,Active,Downstream,20.0
+Kristineberg TMF(BolidenArea),Sweden,65.08,18.6,Inactive Care and Maintenance,"Downstream, Upstream, Downstream",20.0
+Aitik TMF,Sweden,67.07,20.8,Active,"Downstream, Upstream",67.0
+Tara TMF,Ireland,53.68,-6.71,Active,"Downstream, Upstream",30.0
+Kevitsa TMF(two different impoundments),Finland,67.68,26.93,Active,"Downstream, Upstream",26.0
+LuikonlahtiTMF(threediffrentimpoundment)Kylylahti,Finland,62.93,28.72,Active,"Downstream, Upstream",30.0
+HarjavaltaTMF(three different impoundments),Finland,61.32,22.09,Active,Upstream,24.0
+Stekenjokk TMF,Sweden,65.1,14.46,Closed,Centreline,13.0
+RyllshytteTMF(Garpenberg),Sweden,60.31,16.15,Active,"Downstream, Upstream",34.0
+"Morenci 1-West
+",USA,33.0310833,-109.3408528,Active,Upstream,21.0
+Morenci 2-West,USA,33.0310833,-109.3408528,Active,Upstream,38.0
+"Morenci 3-West
+",USA,33.0367667,-109.3404667,Active,Upstream,82.0
+"Morenci 4-West
+",USA,33.0439194,-109.339675,Active,Upstream,69.0
+3-East,USA,33.0200389,-109.3358861,Inactive,Upstream,12.0
+West/East Dam,USA,33.0246333,-109.3619694,Active,Centreline,94.0
+Silver Basin 1,USA,33.0155722,-109.3550611,Active,Upstream,94.0
+Silver Basin 1X,USA,33.0119472,-109.36805,Active,Upstream,166.0
+Southwest 1,USA,33.0323667,-109.3236889,Active,Upstream,198.0
+Southwest 2,USA,32.9971667,-109.3691889,Closed,Upstream,78.0
+Sierrita,USA,31.8472806,-111.0463083,Active,Upstream,119.0
+Esperanza,USA,31.862825,-111.0696361,Inactive,Upstream,40.0
+Mammoth,USA,34.5835528,-113.2703556,Active,Centreline,244.0
+Upper Mammoth,USA,34.5706306,-113.2454972,Inactive,Centreline,122.0
+Mulholland,USA,34.5916667,-113.248175,Active,Centreline,61.0
+Mayflower,USA,39.4339667,-106.1795694,Active,Upstream,65.0
+Tenmile,USA,39.4088194,-106.1945944,Closed,Upstream,88.0
+Robinson,USA,39.399775,-106.2010778,Active,Upstream,118.0
+1 Dam / 3 Dam,USA,39.8611778,-106.0987139,Active,Upstream,85.0
+Tailing Dam 1,USA,32.6354556,-108.1003861,Closed,Upstream,14.0
+Tailing Dam 2,USA,32.6763861,-108.1130139,Closed,Upstream,18.0
+Tailing Dam B,USA,32.6557917,-108.1035472,Closed,Upstream,39.0
+Tailing Dam C,USA,32.8537972,-108.091475,Closed,Upstream,41.0
+Tailing Dam 4,USA,32.849825,-108.0844639,Closed,Upstream,37.0
+ling Dam 6,USA,32.6848889,-108.1151139,Inactive,Upstream,55.0
+Tailing Dam 7,USA,32.6809889,-108.1143389,Active,Upstream,62.0
+Axiflo Lake,USA,32.6741833,-108.1205972,Active,Upstream,5.0
+Main Dam No. 1,USA,32.6659028,-108.1199722,Inactive,Upstream,94.0
+Magnetite,USA,32.66865,-108.1089694,Inactive,Upstream,43.0
+Enlozada,Peru,-16.4995222,-71.6057583,Active,Centreline,242.0
+Linga,Peru,-16.6106917,-71.5969417,Active,Centreline,265.0
+East,USA,32.381775,-112.8293361,Closed,Upstream,56.0
+North,USA,32.3836667,-112.8420778,Closed,Upstream,58.0
+Northeast,USA,32.3950278,-112.8302833,Closed,Upstream,18.0
+South,USA,32.3758167,-112.8447611,Closed,Upstream,53.0
+East,USA,34.5445778,-113.2313167,Inactive,Upstream,18.0
+North,USA,34.5453444,-113.2332833,Inactive,Upstream,21.0
+South,USA,34.5438861,-113.23305,Inactive,Upstream,21.0
+Tailing Dam #2,USA,33.4163028,-110.8509861,Closed,Upstream,35.0
+Tailing Dam #3,USA,33.4163222,-110.841675,Closed,Upstream,67.0
+Tailing Dam #4,USA,33.4222333,-110.840925,Closed,Upstream,61.0
+Tailing Dam #5,USA,33.4351028,-110.84185,Closed,Upstream,67.0
+Tailing Dam #6,USA,33.4234389,-110.8487111,Closed,Upstream,41.0
+Mill Tailings,USA,32.4882389,-111.9138944,Closed,Centreline,9.0
+North,USA,31.3965722,-109.8936889,Closed,Upstream,27.0
+South,USA,31.3861556,-109.8948667,Closed,Upstream,38.0
+Dam #1,USA,33.0735722,-110.7358778,Closed,Upstream,61.0
+Dam #2,USA,33.0740111,-110.7413889,Closed,Upstream,70.0
+Dam #3,USA,33.0765861,-110.7372028,Closed,Upstream,55.0
+Dam #5,USA,33.0770833,-110.7322417,Closed,Upstream,15.0
+Dam #6,USA,33.079,-110.7395972,Closed,Upstream,58.0
+Dam #7,USA,33.0824972,-110.7322889,Closed,Upstream,56.0
+Dam #8,USA,33.0856111,-110.7372222,Closed,Upstream,52.0
+Tailing Impoundment,USA,33.8663889,-114.2877778,Closed,Upstream,20.0
+Lower Dam,USA,36.0345306,-83.9934889,Closed,Downstream,24.4
+Upper Dam,USA,36.0364194,-83.9922694,Closed,Upstream rockfill,11.0
+Deming,USA,32.2841861,-107.7841611,Closed,Upstream,7.0
+Dam 1,USA,35.5881167,-105.7018306,Closed,Upstream,22.0
+Dam 2,USA,35.5797861,-105.6898028,Closed,Upstream,12.0
+Dam 1,USA,38.8678611,-107.0357722,Closed,Upstream,14.0
+Dam 2,USA,38.8679889,-107.0344861,Closed,Upstream,18.0
+Dam 3,USA,38.8677528,-107.0334,Closed,Upstream,9.0
+Dam 4,USA,38.8676833,-107.0313944,Closed,Upstream,18.0
+Shafter,USA,29.8146,-104.3110417,Closed,Upstream,15.0
+Tailing Pond No.2,USA,31.9062528,-111.0172444,Closed ,Centreline Rockfill,65.0
+Tailing Pond No.3,USA,31.9227111,-111.0169194,Closed ,Centreline Rockfill,61.0
+Tailing Pond No. 4,USA,31.9164639,-111.0337639,Closed,Centreline Rockfill,23.0
+Clarkdale,USA,34.7701222,-112.0340167,Closed,Upstream,12.0
+Tailing Dam 1,USA,32.6803861,-108.3969028,Closed,Upstream,58.0
+Tailing Dam 1X,USA,32.6708222,-108.3930139,Closed,Upstream,55.0
+Tailing dam 1a,USA,32.6798556,-108.4083194,Closed,Upstream,46.0
+Tailing Dam 2,USA,32.7112833,-108.4050083,Closed,Upstream,73.0
+Tailing Dam 3,USA,32.7316611,-108.4287056,Closed,Upstream,49.0
+Tailing Dam3X,USA,32.7205389,-108.4141861,Closed,Upstream,67.0
+Burro Mountain,USA,32.636,-108.3214889,Closed,Upstream,15.0
+Lower URAD,USA,39.7588639,-105.8229417,Closed,Upstream,43.0
+Upper URAD,USA,39.7502444,-105.8326139,Closed,Upstream,76.0
+RSA 1,Brazil,-2.73,-44.317,Closed,Single embankment,28.0
+RSA 2,Brazil,-2.726,-44.315,Closed,Upstream,31.0
+RSA 3,Brazil,-2.728,-44.312,Closed,Upstream,27.0
+RSA 4,Brazil,-2.724,-44.307,Inactive,Upstream,27.0
+RSA 5,Brazil,-2.718,-44.303,Inactive,Upstream,22.0
+RSA 6,Brazil,-2.726,-44.302,Active,Single embankment,24.0
+RSA 7,Brazil,-2.723,-44.298,Active,Single embankment,23.0
+Interface 2/3 (23Ha),Brazil,-2.727,-44.313,Inactive,Upstream,9.0
+AK1 TSF,Australia,-16.71172,128.41963,Active,Downstream,72.0
+Alluvials TSF ATD 1,Australia,-16.65782,128.45753,Closed,Downstream,0.0
+Alluvials TSF ATD 2,Australia,-16.65674,128.45984,Closed,Downstream,0.0
+Alluvials TSF ATD 3,Australia,-16.65407,128.45932,Inactive,Downstream,8.0
+Alluvials TSF ATD 4,Australia,-16.6647,128.44812,Inactive,Downstream,13.0
+Alluvials TSF ATD 5,Australia,-16.65579,128.4895,Inactive,Downstream,12.0
+Red Mud Dam,Australia,-41.12451,146.87901,Inactive,Single embankment,6.0
+West Fork TSF,USA,45.09222,-114.30444,Closed,Upstream,40.0
+Boric Acid Pond 1,USA,35.04481,-117.7271,Active,Downstream,8.0
+Boric Acid Pond 2,USA,35.04481,-117.73185,Active,Downstream,9.0
+Boric Acid Pond 3,USA,35.0447,-117.7361,Active,Downstream,10.0
+Boric Acid Pond 4,USA,35.0484,-117.73601,Active,Downstream,8.0
+Boric Acid Pond5,USA,35.05234,-117.73613,Active,Downstream,10.0
+Boric Acid Pond 6,USA,35.05308,-117.73198,Active,Single embankment,15.0
+Boric Acid Pond 7A,USA,35.05644,-117.736,Active,Single embankment,6.0
+Boric Acid Pond 7B,USA,35.05645,-117.7324,Active,Single embankment,6.0
+Evaporation Ponds R1,USA,35.04199,-117.7349,Inactive,Single embankment,2.0
+Evaporation Ponds R2,USA,35.04058,-117.73487,Inactive,Single embankment,2.0
+Evaporation Ponds R3,USA,35.03903,-117.73477,Inactive,Single embankment,2.0
+Evaporation Ponds R4,USA,35.0376,-117.73477,Active,Single embankment,2.0
+Evaporation Ponds R5,USA,35.03632,-117.73479,Active,Single embankment,2.0
+Evaporation Ponds R6,USA,35.03483,-117.7347,Active,Single embankment,2.0
+Evaporation Ponds R7,USA,35.03297,-117.73578,Active,Single embankment,3.0
+Pond 1,USA,35.0397,-117.71776,Closed,Single embankment,5.0
+Pond 2,USA,35.04029,-117.71147,Closed,Single embankment,8.0
+Pond 3,USA,35.0373,-117.71132,Closed,Single embankment,9.0
+Pond 4,USA,35.05091,-117.71392,Closed,Single embankment,2.0
+Pond 5,USA,35.05582,-117.71399,Closed,Single embankment,4.0
+Pond 6,USA,35.03917,-117.72759,Closed,Single embankment,2.0
+Ponds A-E,USA,35.0458,-117.71779,Closed,Single embankment,7.0
+PKC TSF,Canada,64.4914,-110.31224,Active,Modified Centreline,48.0
+Pit 1 TSF,Australia,-12.69066,132.9161,Closed,In-pit,0.0
+Pit 3 TSF,Australia,-12.67528,132.91892,Active,In-pit,0.0
+TSF,Australia,-12.69026,132.90168,Inactive,Downstream,39.0
+Hamburgo,Chile,-24.295,-69.053,Inactive,Landform,0.0
+Laguna Seca TSF,Chile,-24.408,-69.123,Active,Downstream,43.0
+Star FMA,Canada,53.22399,-104.77753,Active,Centreline,2.0
+Northern Ponds,Australia,-12.18981,136.71969,Closed,Downstream,3.0
+Pond 2,Australia,-12.1931,136.71359,Inactive,Downstream,7.0
+Pond 3,Australia,-12.19446,136.72209,Closed,Mud farming stacking,29.0
+Pond 4,Australia,-12.19848,136.72995,Closed,Mud farming stacking,42.0
+Pond 5,Australia,-12.2063,136.72572,Inactive,Downstream,24.0
+Pond 6,Australia,-12.20084,136.73899,Inactive,Downstream,20.0
+Tailings Pile #1,USA,48.19753,-120.77576,Closed,Upstream,15.0
+Tailings Pile #2,USA,48.19705,-120.76856,Closed,Upstream,30.0
+Tailings Pile #3,USA,48.19687,-120.76329,Closed,Upstream,25.0
+DSP in-pit WFSF,Australia,-23.14979,119.56939,Active,In-pit,0.0
+WFSF Stage 2,Australia,-23.13124,119.58704,Active,Downstream,22.0
+Wabush Lake Disposal,Canada,53.0,-66.87,Active,Lake,0.0
+Sept-iles Tailings,Canada,50.21811,-66.32314,Inactive,Single embankment,5.0
+Namuk Tailings Storage Facility,Indonesia,-0.05793,115.40819,Closed,Single embankment,55.0
+South (Magna) TSF Impoundment,USA,40.73433,-112.1256,Inactive,Upstream,75.0
+North TSF Impoundment,USA,40.75834,-112.12846,Active,Modified Centreline,47.0
+WFSF,Australia,-22.63443,118.10099,Active,Downstream,28.0
+Kennecott Nevada Copper,USA,39.41564,-114.8023,Closed,Upstream,15.0
+TSF1,Australia,-21.74257,116.25916,Inactive,Downstream,10.0
+TSF2.5,Australia,-21.76412,116.2525,Closed,In-pit,0.0
+TSF3,Australia,-21.73704,116.24503,Inactive,Downstream,3.0
+TSF4 (TSF2),Australia,-21.75912,116.24496,Active,Upstream,18.0
+TSF5 (TSF3 South),Australia,-21.7412,116.23862,Active,Downstream,29.0
+SP-1,Brazil,-1.68322,-56.41798,Inactive,Single embankment,15.0
+SP-10,Brazil,-1.68325,-56.45298,Active,Single embankment,16.0
+SP-11,Brazil,-1.68313,-56.46272,Active,Single embankment,16.0
+SP-12,Brazil,-1.68648,-56.46907,Active,Single embankment,15.0
+SP-13,Brazil,-1.69405,-56.46783,Active,Single embankment,15.0
+SP-14,Brazil,-1.69918,-56.47018,Active,Single embankment,15.0
+SP-15,Brazil,-1.69917,-56.47503,Active,Single embankment,16.0
+SP-16,Brazil,-1.68735,-56.47962,Active,Single embankment,17.0
+SP-19,Brazil,-1.68178,-56.46877,Active,Single embankment,20.0
+SP-2/3,Brazil,-1.68445,-56.4038,Inactive,Single embankment,17.0
+SP-4N,Brazil,-1.68515,-56.42683,Inactive,Upstream,19.0
+SP-4S,Brazil,-1.69148,-56.42743,Inactive,Upstream,19.0
+SP-5L,Brazil,-1.68348,-56.43753,Inactive,Upstream,19.0
+SP-5O,Brazil,-1.68465,-56.44488,Inactive,Upstream,19.0
+SP-6,Brazil,-1.67747,-56.42485,Inactive,Upstream,12.0
+SP-7A,Brazil,-1.67215,-56.43432,Inactive,Upstream,19.0
+SP-7B,Brazil,-1.67008,-56.4401,Inactive,Upstream,17.0
+SP-7C,Brazil,-1.66985,-56.44507,Inactive,Upstream,17.0
+SP-8,Brazil,-1.67313,-56.45257,Active,Single embankment,12.0
+SP-9,Brazil,-1.67458,-56.46098,Active,Single embankment,16.0
+SP-9A,Brazil,-1.66825,-56.46208,Active,Single embankment,12.0
+TP1,Brazil,-1.68342,-56.41098,Inactive,Single embankment,18.0
+TP2,Brazil,-1.67647,-56.43787,Active,Single embankment,15.0
+Montgrand 0128,France,43.28647,5.48889,Closed,Dry stack,15.0
+Mount Rosser RDA,Jamaica,18.20752,-77.09123,Closed,Centreline,52.0
+NBWT WFSF,Australia,-22.38009,117.33783,Active,Downstream,28.0
+Olette 0425,France,42.56101,2.28912,Closed,Upstream,18.0
+TC1,Mongolia,43.00315,106.89232,Active,Downstream,40.0
+TSF1,Australia,-23.26194,117.62384,Active,Upstream,21.0
+Feedprep Pond,Madagascar,-24.9675,47.00806,Active,Excavated storage facility,0.0
+Settling Pond,Madagascar,-24.9625,47.00806,Active,Excavated storage facility,0.0
+Ash Pond 1,Australia,-23.86514,151.28357,Closed,Centreline,4.0
+Ash Pond 2,Australia,-23.85695,151.28255,Closed,Centreline,4.0
+Ash Pond 3,Australia,-23.85548,151.28686,Closed,Centreline,4.0
+Ash Pond 4,Australia,-23.8765,151.29657,Active,Upstream,13.0
+Mineral Waste Disposal Facility,Australia,-23.87271,151.2939,Active,Upstream,12.0
+Red Mud Dam 1,Australia,-23.91739,151.32311,Active,Upstream,18.0
+Red Mud Dam 2,Australia,-23.93845,151.32111,Active,Upstream,30.0
+No. 1 and 2 TSF Impoundment,USA,33.29812,-111.10605,Closed,Upstream,9.0
+No. 3 and 4 TSF Impoundment,USA,33.29639,-111.10489,Closed,Upstream,18.0
+No. 5 TSF Impoundment,USA,33.30175,-111.10786,Closed,Upstream,18.0
+No. 6 and 7 TSF Impoundment,USA,33.30142,-111.11338,Closed,Modified Centreline,23.0
+Clarifier Site,South Africa,-28.70239,32.20633,Active,Downstream,15.0
+Ridgeway TSF,USA,34.27101,-80.90087,Closed,Downstream,53.0
+Saint Cyr 0426,France,43.27548,5.48027,Closed,Downstream,75.0
+Salindres 0431 - B2,France,44.16504,4.14985,Closed,Upstream,35.0
+Segoussac 0126,France,44.20231,4.15795,Closed,Downstream,55.0
+P84,Canada,45.973,-73.168,Active,Dry stack,33.0
+Kennecott Uranium Company,USA,42.05327,-107.89085,Inactive,Single embankment,15.0
+TSF1,Australia,-22.71664,117.80191,Inactive,Downstream,40.0
+TSF2A,Australia,-22.72349,117.80393,Active,Upstream,35.0
+Laterriere TSF - Basins XC-XD,Canada,48.34421,-71.2042,Inactive,Downstream,30.0
+Local TSF - Jonquiere,Canada,48.41559,-71.15169,Active,Downstream,40.0
+Andoom TSF,Australia,-12.52302,141.84215,Active,Upstream,20.0
+East Weipa Emergency TSF,Australia,-12.66507,141.87952,Inactive,Modified Centreline,8.0
+East Weipa TSF1 and 2 (EW1 & 2),Australia,-12.66802,141.89163,Inactive,Modified Centreline,10.0
+East Weipa TSF4 (EW4),Australia,-12.65124,141.86974,Active,Upstream,26.0
+G & X Dam,Australia,-12.65528,141.85232,Closed,Upstream,6.0
+G2 Dam,Australia,-12.66241,141.84233,Closed,Downstream,7.0
+Torro TSF,Australia,-12.99423,141.61315,Active,Single embankment,14.0
+West Weipa TSF2 Dam (including G1 Dam),Australia,-12.6499,141.84887,Inactive,Upstream,10.0
+Whinnyhall Landfill,UK,56.07323,-3.21091,Closed,Single embankment,20.0
+WFC1,Australia,-22.7667,119.22004,Inactive,Downstream,51.0
+WFC2/4,Australia,-22.75407,119.22877,Active,Centreline,44.0
+WFC3,Australia,-22.81468,119.25733,Inactive,Downstream,55.0
+WFC3A,Australia,-22.81011,119.2598,Active,Downstream,40.0
+RMA1,Australia,-23.86659,151.07449,Active,Downstream,36.0
+RSA A,Australia,-32.212,115.789,Closed,Not Raised,8.0
+RSA B,Australia,-32.213,115.793,Closed,Not Raised,0.0
+RSA C,Australia,-32.218,115.793,Closed,Not Raised,0.0
+RSA F,Australia,-32.202,115.829,Inactive,Upstream,60.0
+RSA H,Australia,-32.194,115.827,Active,Upstream,28.0
+RSA J,Australia,-32.194,115.818,Active,Upstream,31.0
+RSA K,Australia,-32.2,115.818,Active,Upstream,31.0
+RSA L,Australia,-32.205,115.817,Active,Upstream,23.0
+RSA N,Australia,-32.207,115.81,Active,Upstream,16.0
+Pilot Drainable (DAR ),Australia,-32.648,115.928,Active,Upstream,21.0
+RSA 1,Australia,-32.641,115.933,Active,Upstream,23.0
+RSA 2,Australia,-32.641,115.923,Active,Upstream,53.0
+RSA 3,Australia,-32.632,115.923,Active,Upstream,51.0
+RSA 4,Australia,-32.643,115.915,Active,Upstream,43.0
+RSA 5,Australia,-32.628,115.915,Active,Upstream,37.0
+RSA 6,Australia,-32.627,115.923,Active,Upstream,36.0
+RSA 9,Australia,-32.629,115.94,Active,Upstream,17.0
+RSA 10,Australia,-32.619,115.928,Active,Upstream,7.0
+RSA 1,Australia,-32.91,115.885,Active,Upstream,23.0
+RSA 2,Australia,-32.909,115.88,Active,Upstream,30.0
+RSA 3,Australia,-32.914,115.881,Active,Upstream,26.0
+RSA 4,Australia,-32.912,115.876,Active,Upstream,26.0
+RSA 5,Australia,-32.906,115.876,Active,Upstream,28.0
+RSA 6,Australia,-32.902,115.881,Active,Upstream,30.0
+RSA 7,Australia,-32.898,115.876,Active,Upstream,17.0
+RSA 8,Australia,-32.897,115.884,Active,Upstream,15.0
+RSA 9,Australia,-32.907,115.868,Active,Upstream,6.0
+Sand Lake,Australia,-32.906,115.885,Active,Not Raised,23.0
+Hedges Tailing storage facility (TSF),Australia,-32.794,116.334,Closed,Downstream,50.0
+Interface 2/3 (23Ha),Brazil,-2.727,-44.313,Inactive,Upstream,9.0
+RSA 1,Brazil,-2.73,-44.317,Closed,Downstream,28.0
+RSA 2,Brazil,-2.726,-44.315,Closed,Upstream,31.0
+RSA 3,Brazil,-2.728,-44.312,Closed,Upstream,27.0
+RSA 4,Brazil,-2.724,-44.307,Inactive,Upstream,27.0
+RSA 5,Brazil,-2.718,-44.303,Inactive,Upstream,22.0
+RSA 6,Brazil,-2.726,-44.302,Active,Not Raised,24.0
+RSA 7,Brazil,-2.723,-44.298,Active,Not Raised,23.0
+LD1 - Disposal Pond 1,Brazil,-2.5,-56.17,Inactive,Not Raised,24.0
+LD2 - Disposal Pond 2,Brazil,-2.497,-56.172,Inactive,Not Raised,24.0
+LD3 - Disposal Pond 3,Brazil,-2.495,-56.18,Active,Downstream,15.0
+LD4 - Disposal Pond 4,Brazil,-2.484,-56.182,Active,Not Raised,12.0
+LD5 - Disposal Pond 5,Brazil,-2.488,-56.193,Active,Not Raised,16.0
+LE - Thickening Pond,Brazil,-2.502,-56.174,Active,Not Raised,12.0
+SP-01,Brazil,-1.683,-56.418,Inactive,Not Raised,15.0
+SP-2/3,Brazil,-1.684,-56.403,Inactive,Not Raised,17.0
+SP-4N,Brazil,-1.685,-56.427,Inactive,Upstream,19.0
+SP-4S,Brazil,-1.691,-56.427,Inactive,Upstream,19.0
+SP-5L,Brazil,-1.683,-56.437,Inactive,Upstream,19.0
+SP-5O,Brazil,-1.684,-56.445,Inactive,Upstream,19.0
+SP-06,Brazil,-1.677,-56.425,Inactive,Upstream,12.0
+SP-7A,Brazil,-1.672,-56.434,Inactive,Upstream,19.0
+SP-7B,Brazil,-1.67,-56.44,Inactive,Upstream,17.0
+SP-7C,Brazil,-1.669,-56.445,Inactive,Upstream,17.0
+SP-08,Brazil,-1.673,-56.452,Active,Not Raised,12.0
+SP-09,Brazil,-1.674,-56.461,Active,Not Raised,16.0
+SP-9A,Brazil,-1.668,-56.462,Active,Not Raised,12.0
+SP-10,Brazil,-1.683,-56.453,Active,Not Raised,16.0
+SP-11,Brazil,-1.683,-56.462,Active,Not Raised,16.0
+SP-12,Brazil,-1.686,-56.469,Active,Not Raised,15.0
+SP-13,Brazil,-1.694,-56.467,Active,Not Raised,15.0
+SP-14,Brazil,-1.699,-56.47,Active,Not Raised,15.0
+SP-15,Brazil,-1.699,-56.475,Active,Not Raised,16.0
+SP-16,Brazil,-1.687,-56.479,Active,Not Raised,17.0
+SP-19,Brazil,-1.681,-56.468,Active,Not Raised,20.0
+TP-01,Brazil,-1.683,-56.411,Inactive,Not Raised,18.0
+TP-02,Brazil,-1.676,-56.437,Active,Not Raised,15.0
+Cell1 (17Ha),Brazil,-21.854,-46.582,Active,Upstream,5.0
+Cell2 (13Ha),Brazil,-21.854,-46.581,Active,Upstream,8.0
+Cell3 (11Ha),Brazil,-21.858,-46.577,Active,Upstream,5.0
+RSA 1,Brazil,-21.858,-46.577,Inactive,Upstream,14.0
+RSA 3,Brazil,-21.854,-46.581,Inactive,Upstream,24.0
+RSA 4,Brazil,-21.851,-46.586,Inactive,Not Raised,20.0
+RSA 5,Brazil,-21.856,-46.585,Inactive,Upstream,17.0
+RSA 6,Brazil,-21.862,-46.579,Inactive,Not Raised,25.0
+RSA 6A,Brazil,-21.861,-46.582,Inactive,Upstream,20.0
+RSA 7,Brazil,-21.864,-46.578,Inactive,Upstream,23.0
+RSA 8,Brazil,-21.862,-46.586,Inactive,Not Raised,19.0
+RSA Cell 1,Saudi Arabia,27.484,49.173,Active,Not Raised,9.0
+RSA Cell 2,Saudi Arabia,27.479,49.173,Active,Not Raised,9.0
+RSA Cell 3 (Under Construction),Saudi Arabia,27.473,49.173,Inactive,Not Raised,9.0
+RSA 1,Spain,43.710602,-7.495062,Active,Upstream,72.0
+DRDA 1,Suriname,5.588,-55.121,Inactive,Upstream,7.0
+DRDA 1Ext.,Suriname,5.591,-55.113,Inactive,Upstream,7.0
+DRDA 2,Suriname,5.608,-55.134,Inactive,Not Raised,4.0
+Mine lands ponds (4x),Suriname,5.618,-54.277,Inactive,Not Raised,7.0
+RSA 1,Suriname,5.588,-55.111,Inactive,Not Raised,7.0
+RSA 2,Suriname,5.587,-55.116,Inactive,Not Raised,7.0
+RSA 3,Suriname,5.594,-55.113,Inactive,Not Raised,7.0
+RSA 4,Suriname,5.585,-55.123,Inactive,Not Raised,7.0
+RSA 5A,Suriname,5.588,-55.125,Inactive,Not Raised,7.0
+RSA 5C,Suriname,5.591,-55.119,Inactive,Not Raised,7.0
+RSA 6,Suriname,5.61,-55.129,Inactive,Not Raised,3.0
+Brown Mud Lake,USA,34.568,-92.523,Closed,Upstream,35.0
+S. Red Mud Lake,USA,34.57,-92.615,Closed,Not Raised,21.0
+Brown Mud Lakes,USA,34.568,-92.467,Closed,Upstream,30.0
+Red Mud Lake #2,USA,34.571,-92.492,Closed,Not Raised,6.0
+West Red Mud Lake,USA,34.765,-87.598,Closed,Centreline,6.0
+RSA 1,USA,28.66,-96.536,Inactive,Not Raised,14.0
+RSA 2,USA,28.663,-96.537,Inactive,Not Raised,14.0
+RSA 3,USA,28.668,-96.554,Inactive,Not Raised,14.0
+RSA 4,USA,28.675,-96.545,Inactive,Not Raised,14.0
+Bed 1,USA,27.991,-97.206,Inactive,Upstream,5.0
+Bed 2,USA,28.017,-97.184,Inactive,Not Raised,5.0
+Bed 3,USA,28.0,-97.193,Inactive,Not Raised,7.0
+Hamburgo,Chile,-24.295,-69.053,Inactive,In-pit,
+Laguna Seca TSF,Chile,-24.408,-69.123,Active,Downstream,43.0
+Mt Arthur Tailings Storage Facility - Stage 1,Australia,-32.36142,150.8969,Active,Downstream,15.0
+Kambalda TSF,Australia,-31.170604,121.688347,Inactive,Upstream,30.0
+Baldivis TSF,Australia,-32.289041,115.806297,Inactive,In-pit,
+Leinster TSF 1,Australia,-27.80918,120.696149,Inactive,Upstream,10.0
+Leinster TSF 2/3,Australia,-27.78905,120.70633,Active,Upstream,39.0
+CDTSF,Australia,-27.255301,120.596133,Active,Upstream,17.0
+Cells 1 and 2,USA,35.399516,-107.830734,Closed,Upstream,27.0
+No. 10 Tailings,USA,33.444556,-110.894123,Inactive,Upstream,24.0
+No. 2 Tailings,USA,33.444885,-110.849794,Inactive,Upstream,107.0
+No. 8 Tailings,USA,33.451026,-110.847079,Inactive,Upstream,91.0
+No. 9 Tailings,USA,33.442478,-110.887516,Inactive,Upstream,24.0
+East Kemptville Tailings Management Area,Canada,44.111,-65.702,Closed,Centreline,9.0
+Lacnor Tailings Management Area,Canada,46.392515,-82.585363,Closed,Upstream,15.0
+Milliken Tailings Management Area,Canada,46.399908,-82.646575,Closed,Centreline,4.0
+Nordic Tailings Management Area,Canada,46.38231,-82.607482,Closed,Upstream,12.0
+Panel Tailings Management Area,Canada,46.52408,-82.551727,Closed,Centreline,23.0
+Pronto Tailings Management Area,Canada,46.206818,-82.704707,Closed,Centreline,13.0
+Quirke Tailings Management Area,Canada,46.50859,-82.657137,Closed,Centreline,26.0
+Spanish American Tailings Management Area,Canada,46.472266,-82.601569,Closed,Centreline,2.0
+Stanleigh Tailings Management Area,Canada,46.44754,-82.59924,Closed,Centreline,23.0
+Island Copper Tailings,Canada,50.59055,-127.467926,Closed,In-pit,
+Lower Tailings Impoundment,USA,38.266665,-109.283435,Closed,Downstream,18.0
+Upper Tailings Impoundment,USA,38.266746,-109.289064,Closed,Downstream,25.0
+Canyon Tailings,USA,33.405426,-110.869838,Inactive,Upstream,15.0
+Miami Avenue Tailings,USA,33.404667,-110.873353,Inactive,Upstream,34.0
+No. 2 Tailings Storage Facility,USA,33.408419,-110.866957,Closed,In-pit,
+Old Dominion Tailings No 1 (ODT1),USA,33.415831,-110.79549,Closed,Upstream,37.0
+Old Dominion Tailings No 2 (ODT2),USA,33.413253,-110.794813,Closed,Upstream,12.0
+Old Dominion Tailings No 3 (ODT3),USA,33.421585,-110.799598,Closed,Upstream,18.0
+Poirier Tailings Disposal Area,Canada,49.445809,-78.392419,Closed,Upstream,10.0
+No. 1/2 Tailings Storage Facility,USA,32.626395,-110.601369,Closed,Upstream,70.0
+No. 10 Tailings Storage Facility,USA,32.644168,-110.612761,Closed,Upstream,91.0
+No. 3/4 Tailings Storage Facility,USA,32.61504,-110.588221,Closed,Upstream,67.0
+No. 5 Tailings Storage Facility,USA,32.606259,-110.574557,Closed,Upstream,76.0
+No. 6 Tailings Storage Facility,USA,32.608736,-110.560017,Closed,Upstream,76.0
+Tiger Tailings,USA,32.706177,-110.67929,Closed,Upstream,6.0
+Selbaie Tailings Facility,Canada,49.799028,-78.957185,Closed,Centreline,24.0
+Solitude Tailings Storage Facility,USA,33.392315,-110.830696,Inactive,Upstream,70.0
+TSF 1-3,Australia,-30.439,136.84,Inactive,Upstream,30.0
+TSF4,Australia,-30.444,136.828,Active,Upstream,32.0
+TSF5,Australia,-30.412,136.832,Active,Upstream,16.0
+Laleham TSF,Australia,-23.943,148.823,Closed,Downstream,8.0
+NCPP Tailings Dam,Australia,-23.739,148.787,Active,Hybrid,24.0
+Ramp 72,Australia,-23.924,148.809,Inactive,Downstream,13.0
+Ramp 74,Australia,-23.945,148.834,Inactive,In-pit,
+GS1,Australia,-21.804,147.949,Active,Hybrid,24.0
+RS1,Australia,-21.743,147.946,Active,Hybrid,20.0
+Old Tailings Dam,Australia,-22.768,148.471,Inactive,Hybrid,15.0
+Ramp 5,Australia,-22.765,148.487,Inactive,In-pit,
+Airfield Tailings Dam,Australia,-22.255,148.169,Inactive,Downstream,14.0
+Old Tailings Dam,Australia,-22.264,148.172,Inactive,Hybrid,23.0
+Ramp 2N TSF,Australia,-22.245,148.181,Inactive,Downstream,7.0
+Ramp 6S TSF,Australia,-22.305,148.209,Inactive,Downstream,6.0
+Ramp 7S TSF,Australia,-22.303,148.219,Active,Downstream,10.0
+Ramp 2/3 TSF,Australia,-22.376,148.276,Active,Hybrid,12.0
+Ramp 6 TSF,Australia,-22.402,148.292,Inactive,In-pit,
+TSF No. 2,Australia,-22.406,148.284,Inactive,Downstream,15.0
+TSF No. 3,Australia,-22.4,148.275,Closed,Downstream,15.0
+TSF No. 4,Australia,-22.399,148.282,Closed,Downstream,16.0
+Bidgerley Tailings Dam,Australia,-21.791405,148.499321,Active,Downstream,10.0
+Old Tailings Dam,Australia,-21.781,148.483,Inactive,Downstream,11.0
+MDSA,Australia,-34.225166,115.262928,Closed,Hybrid,12.0
+Boodarie TSF,Australia,-20.3806,118.5239,Inactive,Upstream,9.0
+Finucane Island TSF,Australia,-20.30084,118.5588,Inactive,Downstream,12.0
+Whaleback TSF,Australia,-23.38653,119.6759,Active,Upstream,25.0
+Antamina Tailings Dam,Peru,-9.5394889,-77.0328778,Active,"Downstream, Centreline",240.0
+Bullmoose Tailings,Canada,55.136278,-121.476274,Inactive,Downstream,38.0
+Cantor TSF,Colombia,11.1055556,-72.6436111,Active,Downstream,5.0
+No. 1 and  2 TSF Impoundment,USA,33.298117,-111.106052,Closed,Upstream,9.0
+No. 3 and 4 TSF Impoundment,USA,33.2963881,-111.104885,Closed,Upstream,18.0
+No. 5 TSF Impoundment,USA,33.301751,-111.107863,Closed,Upstream,18.0
+No. 6 and  7 TSF Impoundment,USA,33.301415,-111.113384,Closed,Modified Centreline,23.0
+Main Dam,Brazil,-20.21811,-43.465195,Inactive,Upstream,163.0
+Pit Dam,Brazil,-20.193637,-43.491281,Inactive,Upstream,60.0
+MCPP - TSF -North Saddle Dam,Australia,-32.94694444,151.5944444,Inactive,Downstream,18.0
+TSF (TD 1),Australia,-32.56027778,150.9902778,Inactive,Downstream,12.0
+TSF (TD 2),Australia,-32.55888889,150.9927778,Inactive,Downstream,19.5
+Oaky Creek TSF (East Embankment),Australia,-23.07305556,148.4761111,Inactive,Hybrid,17.0
+Oaky Creek TSF South Embankment,Australia,-23.07722222,148.4733333,Inactive,Upstream,10.0
+Hail Creek TSF 1 (Ring Dyke),Australia,-21.49694444,148.3808333,Active,Downstream,35.0
+Mine Residue Facility,South Africa,-26.09555556,29.08472222,Active,Centreline,20.0
+South Pit Discard Dump,South Africa,-26.11583333,29.25305556,Active,Downstream,10.0
+Phoenix Discard Dump,South Africa,-26.10555556,29.21638889,Inactive,Downstream,20.0
+Boschmans,South Africa,-26.03666667,29.12777778,Active,Downstream,35.0
+New South Witbank Waste Dump,South Africa,-26.16611111,29.14833333,Inactive,Downstream,5.0
+New Tavistock Dump,South Africa,-26.15166667,29.18861111,Inactive,Downstream,25.0
+Old Tavistock Dump,South Africa,-26.13916667,29.19555556,Closed,Downstream,20.0
+Cantor Facility ,Colombia,11.10555556,-72.64361111,Active,Downstream,5.0
+KITD (South),Democratic Republic of Congo,-10.7325,25.39166667,Inactive,Centreline,12.0
+Mupine Pit (West Dam),Democratic Republic of Congo,-10.69972222,25.40194444,Active,Hybrid,6.0
+Mumi 1 (South West East),Democratic Republic of Congo,-10.79166667,25.80805556,Inactive,Hybrid,33.0
+Mumi 2 (South East),Democratic Republic of Congo,-10.79138889,25.81444444,Active,Downstream,18.5
+Mumi 3 (North East) South West,Democratic Republic of Congo,-10.79222222,25.86083333,Active,Downstream,32.0
+Nkana TD 15 (East Wall),Zambia,-12.79305556,28.1525,Closed,Upstream,13.0
+Nkana TD 15A (Central Wall),Zambia,-12.8,28.11611111,Active,Upstream,30.0
+"(TD 11 TD2, 6, 7, & 9)",Zambia,-12.54666667,28.19944444,Active,Upstream,30.0
+"(TD 3, 4, 5, & 8)",Zambia,-12.52777778,28.24055556,Closed,Upstream,30.0
+Southern Tailings Storage Facility (South Embankment),Australia,-31.41111111,145.8211111,Active,Upstream,25.0
+"TD 1/2, (NA)",Australia,-20.71944444,139.4813889,Closed,Downstream,
+"TD 4, (NA)",Australia,-20.72583333,139.4669444,Closed,Downstream,
+"TD 5, (TD 5W, 5/7E, 5/7W, 5W/N, 5W/NW)",Australia,-20.72194444,139.4533333,Active,Downstream,35.0
+"TD 7/8, TD 8, Kennedy's Wall, Saddle Dam 1,4, Saddle Dam 3, TD 7W",Australia,-20.77416667,139.4583333,Active,Upstream,40.0
+North Cell (North Wall),Australia,-20.44416667,140.7311111,Active,Upstream,27.0
+South Cell South Wall,Australia,-20.46027778,140.7319444,Active,Upstream,24.5
+TSF (Presa de Relaves de ANTAMINA),Argentina,-27.33194444,-66.56388889,Inactive,Modified Centreline,125.0
+Main Dam,Peru,-9.554444444,-77.03194444,Active,"Downstream, Centreline",240.0
+Ccamacmayo TSF (Main Dam),Peru,-14.8575,-71.30666667,Closed,Hybrid,75.0
+Huinipampa TSF (Cross Valley Dam),Peru,-14.91555556,-71.3725,Closed,Centreline,35.0
+Tintaya Pit TSF (Pit Dam),Peru,-14.90444444,-71.32472222,Active,,30.0
+Collahuasi Pampa Pabellón TFS (TSF Embankment),Chile,-20.94527778,-68.60444444,Active,Downstream,72.0
+Process pond (Altonorte Process Pond),Chile,-23.80630556,-70.34488889,Active,Downstream,31.0
+Tailings Storage Facility (Dam 2) (7),Canada,48.1325,-77.60138889,Closed,Downstream,15.0
+"Mine 12 Tailings Impoundment East Dam E1, E2,E3, North Dam west dam and south dam",Canada,47.48388889,-65.86833333,Closed,Upstream,35.0
+Mine 12 Tailings Impoundment East Dam E2,Canada,47.48388889,-65.86833333,Closed,Upstream,35.0
+West Fork TSF,USA,45.09138889,-114.3094444,Closed,Upstream,40.0
+Tailings Storage Facility (Tailings Dam),USA,41.86361111,-123.3744444,Closed,Downstream,131.0
+Dam 6,Canada,48.91916667,-65.4375,Closed,Downstream,15.0
+Tailings Storage Facility 1 (Tailings Dam 1),Canada,48.92611111,-65.46083333,Closed,Upstream,35.0
+Tailings Storage Facility 2 (Tailings Dam 2),Canada,48.92194444,-65.47138889,Closed,Upstream,44.0
+Tailings Storage Facility 3 (Tailings Dam 3),Canada,48.91666667,-65.49888889,Closed,Downstream,54.0
+"Geco Tailings Facility (CN1, CN2 , CP, CP3, E1-E3)",Canada,49.16222222,-85.78111111,Closed,Upstream,35.0
+Tailings Management Area ,Canada,47.2725,-66.075,Closed,Downstream,21.0
+Mattabi TSF ,Canada,49.86833333,-90.95027778,Closed,Upstream,10.0
+Tailings Storage Facility (Dam D/G),Canada,49.16555556,-85.82972222,Closed,Upstream,21.0
+Tailings Storage Facility (Main Dam),Canada,49.85972222,-119.9513889,Closed,Centreline,140.0
+Tailings Storage Facility Saddle Dam,Canada,49.86160833,-119.9519417,Closed,Downstream,38.0
+Boss Tailings Storage Facility (Main Dam),Canada,52.09305556,-120.8694444,Closed,Downstream,15.0
+Boss Tailings Storage Facility North Tailings Berm,Canada,52.09305556,-120.8694444,Closed,Downstream,5.0
+Main Tailings Impoundment Dam 1-6,Canada,55.00309444,-126.2323306,Closed,Downstream,52.0
+"Tailings Expansion (Dam 7,8)",Canada,55.00309444,-126.2323306,Closed,Downstream,55.0
+No. 1 Tailings Impoundment (Dam 1),Canada,54.93888889,-126.1725,Closed,Downstream,12.0
+No. 2 Tailings Impoundment Dam 3-5,Canada,54.93888889,-126.1725,Closed,Downstream,60.0
+Noranda 4 (Principal Dyke),Canada,48.23,-79.07333333,Inactive,Downstream,9.1
+"Noranda 5 Polishing Pond (South, North-East  and West Dyke)",Canada,48.22638889,-79.08833333,Active,Downstream,9.5
+"Noranda 5 (Dyke N5-1,2,3)",Canada,48.22111111,-79.09444444,Active,Upstream,8.0
+Waite Amulet TSF (Acid rock drainage water pond) (Principal Dike),Canada,48.33078889,-79.07521111,Closed,Centreline,3.0
+Quémont-2 TSF (A-G),Canada,48.26805556,-78.97833333,Inactive,Downstream,14.0
+Boshoek Smelter (Slimes),South Africa,-25.48666667,27.11527778,Active,Downstream,7.2
+Rustenburg Smelter (Slimes 1 2 3),South Africa,-25.61555556,27.225,Inactive,Upstream,20.0
+Rustenburg Smelter (Slimes 4),South Africa,-25.61444444,27.22611111,Active,Upstream,6.0
+Wonderkop Smelter (Slimes Dam 1),South Africa,-25.71583333,27.405,Inactive,Upstream,17.0
+Wonderkop Smelter (Slimes Dam 2),South Africa,-25.71638889,27.40305556,Inactive,Upstream,25.0
+Wonderkop Smelter (Slimes Dam 3),South Africa,-25.71777778,27.40333333,Active,Upstream,8.0
+Rhovan TSF (Dam 1),South Africa,-25.56805556,27.57583333,Inactive,Upstream,35.0
+Rhovan TSF (Dam 2),South Africa,-25.56194444,27.5775,Active,Upstream,16.0
+Kroondal TSF (TSF),South Africa,-25.71638889,27.35611111,Active,Upstream,13.5
+Waterval TSF (East),South Africa,-25.68416667,27.27,Closed,Upstream,18.8
+Waterval TSF (West),South Africa,-25.68444444,27.26888889,Closed,Upstream,10.3
+Rietvly (Silica TSF),South Africa,-25.62972222,27.13305556,Active,Upstream,5.0
+Lydenburg Smelter (Furnace Slimes - Dam 11),South Africa,-25.0675,30.47,Active,Upstream,19.0
+Lion Smelter (Cell 1),South Africa,-24.82361111,30.11611111,Active,Upstream,20.0
+Lion Smelter (Cell 2 and 3),South Africa,-24.82222222,30.11694444,Active,Upstream,15.0
+Thorncliffe TSF (North Tailings Disposal Dam),South Africa,-24.96055556,30.12472222,Active,Upstream,14.0
+Helena TSF (Tailings Dam),South Africa,-25.00027778,30.11972222,Inactive,Upstream,10.0
+Neutralizing Reservoir Dam,Canada,46.64277778,-81.33527778,Active,Centreline,15.0
+Polishing Reservoir Dam,Canada,46.64514444,-81.349975,Inactive,Centreline,8.0
+Strathcona Tailings Area Dam 3A & 3B,Canada,46.65916667,-81.31111111,Active,Centreline,13.0
+Smelter Complex (Dam 1),Canada,46.59222222,-80.7825,Inactive,Centreline,13.0
+Smelter Complex Dam 12,Canada,46.597875,-80.78607222,Inactive,Centreline,17.0
+Smelter Complex East Mine Tailings,Canada,46.57901944,-80.7858,Inactive,Upstream,15.0
+Nickel Rim South NR-2,Canada,46.67027778,-80.80472222,Inactive,Downstream,2.5
+Nickel Rim South (Moose Lake Dam),Canada,46.66083333,-80.7975,Inactive,Downstream,5.0
+Raglan (Tailings Dry Stack),Canada,61.687425,-73.67841389,Active,Dry stack,35.0
+Hardy Mine (Tailings Dam),Canada,46.63694444,-81.40777778,Closed,Downstream,15.0
+Paddock TSF - North (North Dam),Australia,-28.76901389,121.9175056,Inactive,Upstream,14.5
+Paddock TSF - South (South Dam),Australia,-28.75815,121.9085167,Inactive,Upstream,14.5
+Ferrite (West),Canada,45.23111111,-74.07583333,Active,Dry stack,3.0
+Ferrite North,Canada,45.23138889,-74.12361111,Active,Downstream,6.0
+Ferrite South,Canada,45.23472222,-74.1275,Active,Downstream,6.0
+Jarofix (North Dyke),Canada,45.23083333,-74.11972222,Closed,Downstream,5.5
+Jarosite Triangular North-West,Canada,45.22861111,-74.10888889,Active,Downstream,3.5
+Jarosite North,Canada,45.23083333,-74.10888889,Active,Downstream,3.5
+Jarosite North-East,Canada,45.22805556,-74.10416667,Active,Downstream,3.0
+UNA (North-West),Canada,45.23527778,-74.10416667,Active,Downstream,11.0
+UNA South,Canada,45.23361111,-74.10472222,Active,Upstream,11.5
+Tailings Management Facility (Balsa I),Spain,43.58138889,-5.939444444,Closed,Downstream,20.0
+Tailings Management Facility (Balsa II),Spain,43.58,-5.942777778,Closed,Downstream,20.0
+Tailings Management Facility (Balsa III),Spain,43.58361111,-5.938055556,Active,Downstream,20.0
+"Zhairem, (Flotation)",Kazakhstan,48.22166667,70.25916667,Inactive,Centreline,10.0
+"Zhairem Slurry settler, Lead Gravity concentrator",Kazakhstan,48.29333333,70.21638889,Active,Downstream,10.0
+"Zhairem(Slurry settler, manganese gravity concentrator)",Kazakhstan,48.3775,70.31388889,Active,Downstream,10.0
+Altyntau-Kokshetau (Flotation),Kazakhstan,53.41083333,69.19277778,Active,Upstream,23.0
+"Zyryanovsky, (West)",Kazakhstan,49.7825,84.32138889,Active,Upstream,45.0
+Chashinsky (West),Kazakhstan,50.36277778,83.59694444,Inactive,Upstream,69.0
+Talovsky (South),Kazakhstan,50.39611111,83.58861111,Active,Upstream,64.0
+GFM TSF (Main Dam),Australia,-20.55916667,139.4647222,Inactive,Downstream,25.3
+Tailings Storage Facility (Perimeter Embankment),Australia,-16.41611111,136.0625,Active,Upstream,15.0
+"Tailings Management Area (TMA), Perimeter Dyke, Corckys Pond, Pond A-C",Canada,48.59305556,-81.09666667,Active,Centreline,10.0
+"TMA Pond D, West Dam",Canada,48.5575,-81.11527778,Active,Centreline,6.5
+"TMA Pond E, North Dam",Canada,48.56166667,-81.11888889,Active,Centreline,7.0
+" Central Pond, (Lalanne Dyke and Central Dyke)",Canada,49.743986,-77.767269,Closed,Centreline,8.9
+"South Pond, (South Dyke)",Canada,49.71944444,-77.7675,Active,,3.0
+West Ponds,Canada,49.74305556,-77.79611111,Closed,Centreline,5.5
+Bolivar (Antiguo),Bolivia,-18.46944444,-66.86222222,Inactive,Upstream,34.0
+Bolivar (Queaqueani),Bolivia,-18.465,-66.87361111,Active,Downstream,33.5
+"Don Diego 1,2,3",Bolivia,-19.5,-65.59972222,Inactive,Upstream,15.0
+Don Diego (Chilimoco),Bolivia,-19.51111111,-65.61027778,Active,Downstream,53.0
+Don Diego (Yana Khasa),Bolivia,-19.49611111,-65.59805556,Inactive,Upstream,40.0
+Porco (Dique 1),Bolivia,-19.775,-65.97666667,Inactive,Upstream,25.0
+Porco (Dique 2),Bolivia,-19.77414167,-66.978325,Inactive,Upstream,23.5
+Porco (Dique 3),Bolivia,-19.77644167,-65.97636667,Inactive,Upstream,10.4
+Porco (Dique 4),Bolivia,-19.77630833,-66.97373333,Inactive,Upstream,20.0
+Porco (Dique 5),Bolivia,-19.77605,-66.97101389,Inactive,Upstream,13.5
+Porco (Dique A),Bolivia,-19.78944444,-65.98277778,Inactive,Upstream,30.8
+Porco (Dique B),Bolivia,-19.78638889,-65.98305556,Inactive,Upstream,40.0
+Porco (Dique C),Bolivia,-19.78638889,-65.98305556,Inactive,Upstream,12.5
+Porco (Dique D),Bolivia,-19.78277778,-66.00777778,Active,Downstream,23.0
+"Cola 6 (North)
+",Argentina,-23.20361111,-65.6125,Inactive,Upstream,12.5
+"Cola 7 (South)
+",Argentina,-23.21055556,-65.60638889,Active,Downstream,35.0
+Colas 4 (East),Argentina,-23.19216111,-65.6205,Closed,Upstream,13.0
+Colas 5 (East),Argentina,-23.19722222,-65.62555556,Closed,Upstream,26.0
+Pajuscocha TSF (Pile),Peru,-9.502222222,-77.08194444,Closed,Upstream,15.0
+Tucush TSF (Dam),Peru,-9.509166667,-77.07111111,Active,Centreline,40.0
+Escondida TSF (Dam 3),Peru,-10.78361111,-76.72194444,Inactive,Centreline,20.0
+Geniococha TSF (Dam 1),Peru,-10.79083333,-76.71944444,Inactive,Downstream,47.0
+Tinyag TSF (North Dike),Peru,-10.78972222,-76.72777778,Inactive,Upstream,12.0
+Chinchán (Cross Valley Dam),Peru,-11.59777778,-76.23333333,Active,Centreline,101.0
+Rosaura (Cross Valley Dam),Peru,-11.67694444,-76.26277778,Inactive,Downstream,40.0
+Mahr Tunel (TSF 1-2),Peru,-11.6275,-76.0525,Inactive,Upstream,22.0
+Mahr Tunel (TSF 3),Peru,-11.62583333,-76.05027778,Inactive,Upstream,67.0
+Mahr Tunel (TSF 4/5),Peru,-11.62472222,-76.04555556,Inactive,Upstream,57.0
+Mahr Tunel (TSF 6),Peru,-11.62305556,-76.04277778,Active,Centreline,51.0
+Carahuacra 1 to 3 (TSF 1-3),Peru,-11.68388889,-76.09166667,Closed,Upstream,18.0
+Carahuacra 4 (TSF 4),Peru,-11.68388889,-76.09166667,Closed,Upstream,35.0
+Carahuacra 5 (TSF 5),Peru,-11.68388889,-76.09166667,Closed,Upstream,38.0
+Carahuacra 6 (TSF 6),Peru,-11.68388889,-76.09166667,Closed,Upstream,28.0
+Rumichaca (Dique 1/2),Peru,-11.69583333,-76.10833333,Active,Downstream,35.0
+Ticlio TSF (Main Dam),Peru,-11.60972222,-76.19666667,Active,Upstream,12.0
+Andaychagua Alto (Andaychagua Alto),Peru,-11.75166667,-76.00333333,Active,Downstream,47.0
+Andaychagua Bajo (Andaychagua Bajo),Peru,-11.75722222,-75.99333333,Inactive,Downstream,67.0
+" El Pilar, (El Pilar Deposit 1)",Peru,-10.63583333,-76.26527778,Closed,Upstream,14.0
+El Pilar Deposit 2,Peru,-10.63553333,-76.26552778,Closed,Upstream,17.0
+ El Pilar Deposit 3,Peru,-10.63484167,-76.2655,Closed,Upstream,14.0
+"Ocroyoc TSF, (Main Dam)",Peru,-10.69027778,-76.29694444,Active,Downstream,47.0
+"San Sebastian TSF, (TSF 1-3)",Peru,-10.62111111,-76.19305556,Inactive,Unknown,18.0
+"San Sebastian TSF, (TSF 4)",Peru,-10.62,-76.18972222,Inactive,Unknown,12.0
+"Vinchos 5, (Vinchos 5)",Peru,-10.43361111,-76.28361111,Inactive,Unknown,20.0
+" Vinchos TSF's, (Vinchos 1, 2A, 2B, 3, 4, 6 and 7)",Peru,-10.43833333,-76.28361111,Inactive,Unknown,10.0
+"Alpamarca TSF, (TSF)",Peru,-11.20888889,-76.46027778,Active,Downstream,40.0
+"Chungar Animon, (TSF)",Peru,-11.03611111,-76.42,Active,Downstream,36.0
+Sukari South Tailings Storage Facility (TSF 1),Egypt,24.9472222,34.7075,Active,Downstream,45.0
+Kumtor TSF,Kyrgyzstan,41.900375,78.1539306,Active,Downstream,41.0
+Mount Milligan TSF,Canada,55.125756,-124.02302,Active,Centreline,100.0
+Kemess South TSF,Canada,57.0216667,-126.66972,Inactive,Modified Centreline,180.0
+Bruno Creek TSF,USA,44.3224667,-114.51478,Inactive Care and Maintenance,Centreline,230.0
+"Endako
+Tailings Ponds #1 & #3",Canada,54.0507861,-125.09353,Inactive Care and Maintenance,Upstream,96.0
+"Endako
+Tailings Pond #2",Canada,54.0507861,-125.09353,Inactive Care and Maintenance,Upstream,147.0
+CVSA TSF,Argentina,-48.3903056,-68.2369361,Active,Downstream,34.0
+CdS II TSF,Brazil,-19.9830861,-43.4720917,Active,Centreline,13.0
+Fines Dam,Brazil,-20.0191,-43.4938583,Active,Downstream,84.0
+Cuiaba TSF,Brazil,-19.8690028,-43.7266944,Active,Downstream,97.0
+Open Pit Backfill,Brazil,-19.8643278,-43.7469944,Active,Upstream,40.0
+Calcinados,Brazil,-19.9619056,-43.8395639,Active,Downstream,60.0
+Cocoruto,Brazil,-19.9744806,-43.8312083,Active,Downstream,41.0
+Rapaunha,Brazil,-19.9650333,-43.84335,Active,Downstream,56.0
+MSG TSF,Brazil,-14.5617889,-49.9579417,Active,Upstream,87.0
+Geita TSF,Tanzania,-2.8480111,32.1950639,Active,Upstream,45.0
+Old TSF,Tanzania,-2.8656389,32.1813056,Inactive Care and Maintenance,Upstream,17.0
+Interim TSF,Ghana,5.2463806,-2.0539917,Inactive Care and Maintenance,Upstream,13.0
+Block 1,Ghana,5.2434194,-2.0309778,Inactive Care and Maintenance,In-pit,
+Block 2,Ghana,5.2396333,-2.0487694,Inactive Care and Maintenance,In-pit,
+Greenfields,Ghana,5.2334667,-2.0337778,Active,Upstream,32.0
+East Kokoteasua,Ghana,6.2211556,-1.6654861,Inactive Care and Maintenance,Upstream,30.0
+Pompora,Ghana,6.2216667,-1.6536889,Inactive,Upstream,65.0
+South,Ghana,6.1944306,-1.7187278,Active,Upstream,60.0
+Sadiola TSF,Mali,13.86395,-11.6502417,Active,Upstream,42.0
+Siguiri TSF,Guinea,11.518525,-9.4080889,Active,"Upstream, Downstream",61.0
+CTD TSF,Australia,-29.1129417,122.4582167,Active,CTD,33.0
+TSF 1,Australia,-29.07765,122.4465778,Inactive Care and Maintenance,Upstream,10.0
+Tropicana TSF,Australia,-29.2324083,124.5526389,Active,Downstream,24.0
+Kareerand,South Africa,-26.8879639,26.8937639,Active,Upstream,50.0
+Buffelsfontein 1,South Africa,-26.9142056,26.8052056,Inactive Care and Maintenance,Upstream,32.0
+Buffelsfontein 5,South Africa,-26.9185611,26.7866917,Inactive Care and Maintenance,Upstream,60.0
+Hartebeesfontein 1 & 2,South Africa,-26.8804556,26.7691556,Reclamation,Upstream,50.0
+Hartebeesfontein 5 & 6,South Africa,-26.8773583,26.75455,Inactive Care and Maintenance,Upstream,50.0
+MWS (Chemwes) 4,South Africa,-26.8111333,26.8007556,Inactive Care and Maintenance,Upstream,20.0
+MWS (Chemwes) 5,South Africa,-26.8187194,26.7725917,Inactive Care and Maintenance,Upstream,42.0
+East Complex,South Africa,-26.91715,26.7698,Reclamation,Upstream,57.0
+South Pay Dam,South Africa,-26.9046056,26.7655389,Reclamation,Upstream,20.0
+Southeast,South Africa,-26.9052583,26.7477861,Reclamation,Upstream,42.0
+West Complex,South Africa,-26.9434611,26.6857778,Inactive Care and Maintenance,Upstream,63.0
+West Extension,South Africa,-26.9344306,26.7084361,Active,Upstream,63.0
+Mponeng TSF,South Africa,-26.4551972,27.4011583,Active,Upstream,41.0
+Savuka New Complex,South Africa,-26.4337861,27.3587778,Active,Upstream,48.0
+Savuka Old Complex,South Africa,-26.4236944,27.3809083,Reclamation,Upstream,56.0
+CTSF 1,Democratic Republic of Congo,3.131053,29.598067,Active,Downstream,45.0
+CTSF 2,Democratic Republic of Congo,3.127811,29.605878,Active,Downstream,45.0
+FTSF,Democratic Republic of Congo,3.119041,29.605928,Active,Downstream,36.0
+Morila TSF,Mali,11.69565,-6.840917,Reclamation,,
+Thickened Tailings Deposit,Chile,-22.999619,-69.124331,Active,Downstream,25.0
+Tailings Dam,Chile,-31.839079,-70.60156,Active,Downstream,165.0
+Quillayes Tailings Dam,Chile,-31.839079,-70.60156,Active,Downstream,191.0
+Minera Zaldivar,Chile,-24.197807,-69.065695,Active,Downstream,39.0
+COMILOG - B1 to B9,Gabon,-1.541367,13.24778,Inactive,"Not Raised, Centreline",18.0
+"COMILOG B10 (new bassins 2020-2028 - B11, B12, B13)",Gabon,-1.541367,13.24778,Active,Not Raised,18.0
+COMILOG CIM,Gabon,-1.505945,13.267704,Active,"Dry stack, Integrated pond",30.0
+Northern Impoundment,USA,39.3784994,-81.0218342,Active,Downstream,36.0
+Patiseng TSF,Lesotho,-28.9937545,28.8825465,Active,"Centreline, Downstream",106.0
+Old TSF,Lesotho,-28.9907184,28.866784,Active,"Centreline, Downstream",80.0
+Yanfolila Tailings Storage Facility,Mali,11.2533333,-8.4194444,Active,Downstream,19.0
+Żelazny Most Tailings Storage Facility,Poland,51.514786,16.206948,Active,Upstream,74.5
+Giroux Wash Tailings Storage Facility,USA,39.2251278,-115.0491167,Active,"Centreline, Downstream",64.0
+Tailing Storage Facilities Sierra Gorda SCM,Chile,-22.8640778,-69.3886722,Active,Downstream,35.0
+Cajati B1,Brazil,-24.699864,-48.112508,Active,Downstream,44.0
+Cajati B12,Brazil,-24.718983,-48.095425,Active,Centreline,14.0
+Cajati B2,Brazil,-24.69315,-48.118478,Active,"Downstream, Upstream",72.0
+Araxa B1/B4,Brazil,-19.633894,-46.996814,Inactive Care and Maintenance,Centreline,54.0
+Araxá B2,Brazil,-19.641597,-46.974292,Inactive Care and Maintenance,Single Stage,48.0
+Araxá B5,Brazil,-19.616039,-47.021417,Active,"Centreline, Upstream",75.0
+Araxa B6,Brazil,-19.613417,-47.009975,Construction,Downstream,60.0
+Catalão BR,Brazil,-18.105497,-47.779675,Active,"Centreline, Upstream",54.0
+Catalão BM,Brazil,-18.113694,-47.784042,Inactive Care and Maintenance,Downstream,28.0
+Tapira BL-1,Brazil,-19.842606,-46.865617,Inactive Care and Maintenance,Centreline,89.0
+Tapira BR,Brazil,-19.838831,-46.833661,Active,Centreline,63.0
+Patos de Minas A,Brazil,-18.379322,-46.92645,Inactive Care and Maintenance,Single Stage,6.0
+Patos de Minas B,Brazil,-18.380683,-46.927536,Inactive Care and Maintenance,Downstream,28.0
+"K1;Dykes, Ponds, Expansion, Reclaim",Canada,50.733,-101.947,Active,Downstream,6.0
+"K2; Dykes, Ponds: Phase I, Phase II, Phase III, Phase IV, Phase V.",Canada,50.663,-101.861,Active,Downstream,5.0
+"Dykes, Ponds: TMA, Production.",Canada,50.437,-105.18,Active,Downstream,7.0
+"dykes, Ponds: Cooling, Reclaim",Canada,51.925,-105.777,Active,Downstream,8.0
+Clay Settling Dyke,USA,32.412,-103.939,Active,Downstream,7.0
+Wasabo,Japan,36.32673,137.319256,Active,Downstream,137.0
+Masutani,Japan,36.441608,137.286521,Active,Downstream,140.0
+Shikamadani,Japan,36.358467,137.303616,Active,Downstream,130.0
+Omokusa,Japan,35.88,136.5757,Inactive,Upstream,131.0
+Todorokidani,Japan,35.8844,136.6063,Inactive,Upstream,76.0
+Kushikino No.3,Japan,31.7335,130.2539,Inactive,Upstream,86.0
+Kurotani,Japan,35.879,136.6019,Inactive,Upstream,8.0
+Noda,Japan,35.1906,132.4377,Inactive,Upstream,25.0
+Kushikino No.1,Japan,31.4349,130.1627,Inactive,Upstream,23.0
+Hatai,Japan,35.1805,132.4367,Inactive,Upstream,15.0
+Kushikino No.2,Japan,31.7309,130.2746,Inactive,Upstream,40.0
+Arakawa,Japan,31.7561,130.2757,Inactive,Upstream,26.0
+Ounoyama,Japan,31.9297,130.6943,Inactive,Upstream,14.0
+Chuspic,Peru,-9.876181,-77.020846,Active,Downstream,40.0
+La Brea,Chile,-28.123056,-69.617278,Active,Downstream,140.0
+Bajo (“El Tambo”),Chile,-28.189933,-69.541228,Active,Spigot and Paddock,10.0
+Didipio Tailings Storage Facility,Philippines,16.3162778,121.4391389,Active,Downstream,60.0
+Duckwood Tailings Storage Facility,USA,34.6158333,-80.5371,Active,Downstream,23.0
+TSF1A,New Zealand,-37.3996667,175.8787222,Active,Downstream,66.0
+TSF2,New Zealand,-37.3996667,175.8787222,Inactive,Downstream,60.0
+Mixed Tails Impoundment,New Zealand,-45.3669167,170.4335556,Inactive,"Downstream, Upstream",180.0
+Southern Pit 11A,New Zealand,-45.36225,170.4428889,Inactive,"Downstream, Upstream",85.0
+Top Tipperary Tailings Storage Facility,New Zealand,-45.3596389,170.4847778,Active,Downstream,66.0
+Fossickers Tailing Storage Facility,New Zealand,-42.1807222,171.8885278,Closed,Downstream,40.0
+Souvenir Tailings Storage Facility,New Zealand,-42.1845833,171.8963333,Closed,Open-pit,71.0
+Sheahan-Grants TSF,Australia,-33.6292417,148.9977917,Closed,Downstream,0.0
+Sheahan-Grants In-Pit TSF,Australia,-33.6230583,148.9903639,Closed,In-pit,0.0
+Wodgina TSF1,Australia,-21.18138,118.67333,Closed,Landform,
+Wodgina TSF2,Australia,-21.18083,118.67944,Closed,Landform,
+Wodgina TSF3,Australia,-21.187777,118.663888,Closed,Landform,27.0
+Wodgina TSF3E,Australia,-21.1841528,118.6648972,Active,Landform,16.0
+Mt Marion GCB,Australia,-31.08083,121.4325,Active,In-pit,37.0
+Jacinth,Australia,-30.907,132.22,Active,Downstream,37.0
+Cataby,Australia,-30.75,115.75,Active,Downstream,4.0
+Narngulu,Australia,-28.82,114.67,Active,Downstream,5.0
+North Capel,Australia,-33.51,115.6,Active,Downstream,8.0
+Lanti,Sierra Leone,7.67,-12.3,Active,Downstream,25.0
+Gangama,Sierra Leone,7.72,-12.35,Active,Downstream,20.0
+Sierra Rutile MSP,Sierra Leone,7.76,-12.29,Active,Downstream,5.0
+Las Bambas TSF1,Peru,-14.099444,-72.315556,Active,Downstream,190.0
+Kinsevere TSF1,Democratic Republic of Congo,-11.3625,27.555,Inactive/reclimation under planning,Upstream,25.0
+Kinsevere TSF2,Democratic Republic of Congo,-11.376389,27.575,Active,Downstream,33.0
+Rosebery Bobadil Dam,Australia,-41.750833,145.513056,Inactive Care and Maintenance,"Upstream, Downstream",35.0
+Rosebery 2/5 Dam,Australia,-41.786389,145.542222,Active,"Downstream, Upstream",26.0
+Dugald River TSF1,Australia,-20.223889,140.129167,Active,Centreline,37.0
+Cooke TSF,South Africa,-26.2434528,27.749525,Inactive Care and Maintenance,Upstream,45.0
+"Millsite complex (38,39,40,41, Valley dam)",South Africa,-26.1317444,27.7018139,Inactive Care and Maintenance,Upstream,50.0
+Ezulwini South TSF (Dormant),South Africa,-26.3811667,27.7197667,Inactive Care and Maintenance,Upstream,36.0
+Ezulwini North TSF (Active),South Africa,-26.35345,27.7256778,Active,Upstream,31.0
+Kloof TSF 2,South Africa,-26.4434417,27.5908444,Active,Upstream,58.0
+Leeudoorn TSF,South Africa,-26.4601028,27.5680028,Active,Upstream,31.0
+Driefontein 1 TSF,South Africa,-26.2434528,27.749525,Active,Upstream,33.0
+Driefontein 2 TSF,South Africa,-26.3705278,27.5026583,Active,Upstream,33.0
+BTX1 (Beatrix Dormant TSF compartment),South Africa,-28.28695,26.7704111,Inactive Care and Maintenance,Upstream,30.0
+BTX2 (Beatrix Active TSF compartment),South Africa,-28.2736972,26.7716583,Active,Upstream,28.0
+BTX4 (Oryx TSF),South Africa,-28.188975,26.7037361,Active,Upstream,20.0
+Burnstone TSF,South Africa,-26.6224333,28.6782361,Inactive Care and Maintenance,Cyclone wall construction,15.0
+Paardekraal Central,South Africa,-25.6373,27.3171,Active,Upstream,62.0
+Paardekraal PK4,South Africa,-25.6273,27.3053,Active,Upstream,19.0
+Paardekraal PK5,South Africa,-25.6457,27.3271,Active,Upstream,24.0
+Western Limb Tailings Retreatment Plant,South Africa,-25.6727,27.4097,Active,Upstream,33.0
+K1,South Africa,-25.71306,27.3296,Active,Upstream,41.0
+K150,South Africa,-25.7164,27.35163,Active,Upstream,38.0
+K2,South Africa,-25.71688,27.3604,Active,Upstream,34.0
+Marikana,South Africa,-25.732519,27.40939,Active,Upstream,22.0
+TSF1,USA,45.5075583,-110.0876667,Active,Downstream,35.0
+TSF2,USA,45.3846556,-109.8766528,Active,Downstream,30.0
+TSF3,USA,45.453675,-109.7876139,Active,Downstream,54.0
+Driefontein TSF 4,South Africa,-26.3474833,27.45585,Active,Cycloning,40.0
+Driefontein TSF 5,South Africa,-26.3987833,27.41415,Closed,Day Wall,35.0
+Driefontein TSF 3,South Africa,-26.36845,27.4507667,Inactive,Day Wall,30.0
+Libanon TSF,South Africa,-26.3372667,27.6182667,Inactive,Day Wall,40.0
+Venterspost North TSF,South Africa,-26.2621833,27.6376833,Inactive,Day Wall,45.0
+Venterspost South TSF,South Africa,-26.2782833,27.6373667,Inactive,Day Wall,20.0
+Bozshakol,Kazakhstan,51.8477417,74.2913917,Active,Downstream,12.0
+Aktogay,Kazakhstan,46.9473944,79.9366778,Active,Downstream,23.0
+Bozymchak,Kyrgyzstan,41.2593472,71.0868833,Active,Dry Stack,35.0
+Orlovsky (Zhezkent),Kazakhstan,50.9332667,81.2911917,Active,Upstream,14.0
+Nikolayevsky,Kazakhstan,50.5828056,81.9038833,Active,Upstream,45.0
+Belousovsky,Kazakhstan,50.1301722,81.2913583,Active,Upstream,60.0
+TSF on Latyshsky stream,Russia,58.873225,125.510756,Active,Upstream,60.2
+Flotation TSF on Kadalikan stream,Russia,57.9,114.2,Active,Upstream,61.6
+"Mill TSF, Zapadny Area, Pervenets",Russia,59.6074972,150.791794,Inactive,Downstream,33.4
+Agnew TSF 1,Australia,-28.0079722,120.5006056,Closed,Upstream,9.0
+Agnew TSF 2,Australia,-28.0126389,120.4963611,Re-mining,Upstream,25.0
+Agnew Redeemer,Australia,-28.0626944,120.4839167,Inactive,In-pit,0.0
+Agnew Songvang,Australia,-28.1411944,120.4613611,Active,In-pit,0.0
+Asanko TSF,Ghana,6.3577167,1.9880444,Active,Downstream,26.0
+Cerro Corona TSF,Peru,-6.7654583,-78.6411278,Active,Centreline,137.0
+Damang FETSF,Ghana,5.5040444,-1.8350222,Active,Downstream,18.0
+Damang ETSF,Ghana,5.5133278,-1.8318972,Closed,"Downstream, Centreline",43.0
+Damang STSF,Ghana,5.4946972,-1.8426278,Closed,Downstream,19.0
+Granny Smith Cell 1,Australia,-28.8229111,122.4099833,Inactive,Upstream,33.0
+Granny Smith Cell 2,Australia,-28.8182972,122.4152222,Re-mining,Upstream,35.0
+Granny Smith Cell 3,Australia,-28.8273833,122.4026167,Active,Upstream,21.0
+Gruyere IWL TSF,Australia,-27.9823833,123.8690722,Construction,Downstream,13.0
+Lawlers TSF 1,Australia,-28.0762528,120.5405583,Closed,Downstream,10.0
+Lawlers TSF 2,Australia,-28.0832083,120.5363778,Closed,Upstream,22.0
+Lawlers GEP TSF,Australia,-28.0789444,120.5383333,Closed,In-pit,0.0
+Lawlers LEP TSF,Australia,-28.0788333,120.5432222,Closed,In-pit,0.0
+Lawlers CI TSF,Australia,-28.0835111,120.5522861,Closed,In-pit,0.0
+Lawlers HPI TSF,Australia,-28.0844389,120.5586667,Closed,In-pit,0.0
+Lawlers TSF 3,Australia,-28.0809611,120.5436444,Closed,Upstream,11.0
+Lepanto TD5A,Australia,16.8989194,120.7672139,Active,Downstream,95.0
+St. Ives TSF 1,Australia,-31.3786111,121.7936111,Re-mining,Upstream,30.0
+St. Ives TSF 2,Australia,-31.3861111,121.7972222,Inactive Care and Maintenance,Upstream,36.0
+St. Ives TSF 3,Australia,-31.3802778,121.7841667,Inactive Care and Maintenance,Upstream,25.0
+St. Ives TSF 4,Australia,-31.3330556,121.7297222,Inactive,Upstream,15.0
+St. Ives North Orchin,Australia,-31.3175,121.7583333,Inactive Care and Maintenance,In-pit,0.0
+St. Ives Leviathan,Australia,-31.3272222,121.7719444,Active,In-pit,0.0
+South Deep South Shaft,South Africa,-26.4146583,27.6767861,Inactive Care and Maintenance,Upstream,45.0
+South Deep Twin Shaft,South Africa,-26.4184056,27.6705194,Re-mining,Upstream,39.0
+South Deep Doornpoort,South Africa,-26.4626056,27.6483639,Active,Upstream,19.0
+Tarkwa TSF1,Ghana,5.339325,-2.0254806,Active,Upstream,39.0
+Tarkwa TSF2,Ghana,5.3514861,-2.0318861,Active,Upstream,37.0
+Tarkwa TSF3,Ghana,5.3648917,-2.0295444,Active,Upstream,30.0
+Tarkwa TSF5,Ghana,5.3459667,-2.018625,Active,Downstream,12.0
+Anderson TIA One dam,Canada,54.855099,-99.973959,Active,Downstream,5.0
+Birch Lake TDF,Canada,54.901791,-100.0176,Inactive,"Not applicable – no raises are
+planned",10.0
+Flin Flon TIS,Canada,54.771931,-101.90583,Active,"Downstream, Upstream",21.0
+Constancia TMF One dam,Peru,-14.45,-71.783,Active,Downstream,97.0
+TSF 1,Indonesia,1.12065,127.7161778,Active,"Downstream, Centreline, Upstream",37.0
+WEX,Indonesia,1.1176861,127.7125083,Active,Downstream,30.0
+NTSF,Australia,-33.4975583,149.0051111,Inactive Care and Maintenance,"Downstream, Centreline, Upstream",91.0
+STSF,Australia,-33.5145306,148.9990111,Active,"Downstream, Centreline, Upstream",73.0
+Open Pit,Australia,-33.4568222,148.9981778,Active,Mining void storage - open pit,
+TSF 7,Australia,-21.7595361,122.2374083,Active,"Downstream, Upstream ",57.0
+TSF 1-3,Australia,-21.7022361,122.2031472,Inactive Care and Maintenance,Unknown,
+TSF 4,Australia,-21.7022361,122.2031472,Inactive Care and Maintenance,Upstream,20.0
+TSF 5,Australia,-21.7022361,122.2031472,Inactive Care and Maintenance,Upstream,27.0
+TSF 6,Australia,-21.7022361,122.2031472,Inactive Care and Maintenance,Upstream,21.0
+TSF,Canada,57.7833,129.7167,Active,Centreline,60.2
+Kinross Dam 1,South Africa,-26.478611,29.0816667,Inactive,"Upstream,  Daywall",28.0
+Kinross Dam 2,South Africa,-26.480556,29.0869444,Inactive,"Upstream,  Daywall",24.0
+Kinross Dam 3,South Africa,-26.479444,29.0922222,Inactive,"Upstream,  Daywall",36.0
+Elikhulu Dam 1,South Africa,-26.488056,29.0897222,Active,"Upstream, Cyclone",10.0
+Elikhulu Dam 2,South Africa,-26.490833,29.0791667,Active,"Upstream, Cyclone",13.0
+Winkelhaak Dam 1,South Africa,-26.511111,29.1125,Closed,"Upstream,  Daywall",15.0
+Winkelhaak Dam 2,South Africa,-26.506944,29.1097222,Active,"Upstream,  Daywall",40.0
+Winkelhaak Dam 3,South Africa,-26.517222,29.1063889,Active,"Upstream,  Daywall",18.0
+Winkelhaak Dam 4,South Africa,-26.511944,29.1041667,Active,"Upstream, Cyclone",27.0
+Brake/Leslie Dam,South Africa,-26.517778,29.0463889,Closed,"Upstream,  Daywall",35.0
+Segalla,South Africa,-25.641681,31.061875,Active,"Upstream,  Daywall",45.0
+Bramber,South Africa,-25.725119,31.0622889,Active,"Upstream, Cyclone",27.0
+Camelot,South Africa,-25.71665,31.1556083,Active,"Upstream,  Daywall",40.0
+Sheba,South Africa,-25.722664,31.1550583,Closed,"Upstream,  Daywall",32.0
+Edikan FTFS,Ghana,5.9572222,-1.9222222,Active,"downstream, upstream",29.5
+Edikan CTFS,Ghana,5.9602778,-1.9294444,Active,downstream,18.8
+Sissingué,Côte d'Ivoire,10.4402778,-6.1947222,Active,downstream ,16.3
+Yaouré,Côte d'Ivoire,7.0094444,-5.5202778,Construction,downstream ,38.2
+TSF pond 16,Brazil,-6.31,-55.79,Active,Downstream,8.0
+TSF pond 17,Brazil,-6.31,-55.79,Active,Downstream,8.0
+TSF pond 14,Brazil,-6.31,-55.79,Rehabilitated,Downstream,
+TSF pond 15,Brazil,-6.31,-55.79,Rehabilitated,Downstream,
+Fernandinho,Brazil,-20.18332,-43.859515,Inactive Care and Maintenance,Upstream,19.0
+Vargem Grande,Brazil,-20.181878,-43.867009,Inactive Care and Maintenance,Upstream,35.0
+Diogo,Brazil,-19.929942,-43.196194,Active,Downstream,39.0
+5 - MAC System,Brazil,-19.977087,-43.893003,Inactive Care and Maintenance,Downstream,78.0
+Campo Grande,Brazil,-20.176068,-43.487317,Inactive Care and Maintenance,Centreline,99.0
+Norte/Laranjeira s,Brazil,-19.847915,-43.421438,Active,Single Stage,59.0
+Sul (Córrego do Canal),Brazil,-19.883975,-43.38568,Active,Downstream,83.0
+Torto,Brazil,-19.851575,-43.413685,Construction,Single Stage,0.0
+Peneirinha,Brazil,-20.110615,-43.963614,Inactive Care and Maintenance,Single Stage,40.0
+Pontal System,Brazil,-19.625463,-43.182944,Inactive Care and Maintenance,Downstream,69.0
+Conceição,Brazil,-19.647591,-43.274146,Active,Downstream,60.0
+Itabiruçu,Brazil,-19.685378,-43.286226,Active,Downstream,71.0
+Rio do Peixe System,Brazil,-19.674226,-43.23642,Active,Single Stage,31.0
+VI,Brazil,-20.104298,-44.119671,Inactive Care and Maintenance,Single Stage,40.0
+Galego,Brazil,-19.857202,-43.804528,Inactive Care and Maintenance,Downstream,37.0
+Forquilha I,Brazil,-20.406063,-43.855737,Inactive Care and Maintenance,Upstream,98.0
+Forquilha II,Brazil,-20.408278,-43.851811,Inactive Care and Maintenance,Upstream,88.0
+Forquilha III,Brazil,-20.410942,-43.83663,Inactive Care and Maintenance,Upstream,77.0
+Grupo,Brazil,-20.414798,-43.865151,Inactive Care and Maintenance,Upstream,43.0
+Forquilha IV,Brazil,-20.394796,-43.851556,Inactive Care and Maintenance,Centreline,105.0
+Forquilha V,Brazil,-20.39488,-43.839693,Construction,Single Stage,99.0
+Sul Superior,Brazil,-19.970176,-43.596867,Inactive Care and Maintenance,Upstream,85.0
+2 Kalunga,Brazil,-6.118713,-50.305265,Inactive Care and Maintenance,Upstream,8.0
+3 Kalunga,Brazil,-6.120066,-50.302444,Inactive Care and Maintenance,Upstream,4.0
+Azul,Brazil,-6.078161,-50.291473,Active,Downstream,32.0
+1 Kalunga,Brazil,-6.112529,-50.308309,Active,Downstream,21.0
+B3/B5,Brazil,-20.049122,-43.954696,Inactive Care and Maintenance,Upstream,55.0
+5 - Mutuca,Brazil,-20.026226,-43.942562,Active,Downstream,55.0
+Maravilhas II,Brazil,-20.214436,-43.891707,Inactive Care and Maintenance,Downstream,98.0
+Maravilhas I,Brazil,-20.224925,-43.873226,Inactive Care and Maintenance,Downstream,12.0
+Maravilhas III,Brazil,-20.220594,-43.908509,Construction,Single Stage,
+Gregório,Brazil,-19.224447,-57.559979,Active,Centreline,35.0
+Geladinho,Brazil,-5.994793,-50.109482,Active,Single Stage,24.0
+Gelado,Brazil,-5.979277,-50.141444,Active,Downstream,34.0
+Doutor,Brazil,-20.290449,-43.490528,Inactive Care and Maintenance,Centreline,77.0
+Timbopeba,Brazil,-20.270514,-43.496235,Inactive Care and Maintenance,Single Stage,65.0
+Bacia 02 Pé da Serra,Brazil,-19.171285,-57.636445,Active,Single Stage,4.0
+Bacia 03-04 Pé da Serra,Brazil,-19.174031,-57.639508,Active,Single Stage,4.0
+Bacia 02-03 Alto da Serra Mn,Brazil,-19.190809,-57.616698,Active,Single Stage,10.0
+Bacia 05 Alto da Serra,Brazil,-19.19184,-57.613781,Active,Single Stage,12.0
+Bacia 07 Alto da Serra,Brazil,-19.192036,-57.614591,Active,Single Stage,13.0
+Tete TSF-01,Mozambique,-16.166667,33.7666667,Active,Downstream,29.0
+Barragem de Rejeitos do Sossego,Brazil,-6.4339722,-50.080278,Active,Centreline,42.0
+Pondes de Rejeitos,Brazil,-6.0289722,-50.580083,Inactive Care and Maintenance,Downstream,25.0
+Barragem de,Brazil,-5.5923611,-50.183278,Active,Downstream,63.0
+KO2 Berm,New Caledonia,-22.308528,166.918417,Active,Downstream,65.0
+Voisey's Bay TSF,Canada,56.323,-61.986333,Active,Single Stage,11.0
+Long Harbour,Canada,47.41325,-53.81225,Active,Single Stage,10.0
+FETA Dam,Canada,46.5158611,-81.024806,Inactive Care and Maintenance,Single Stage,12.0
+Levack TSF,Canada,47.41325,-53.81225,Inactive Care and Maintenance,Downstream,16.0
+Shebandowan TSF,Canada,46.5158611,-81.024806,Inactive Care and Maintenance,Downstream,10.0
+Thompson TSF Dam A ¹,Canada,55.7040278,-97.805056,Active,Downstream,26.0
+Thompson TSF Other Dams ¹,Canada,55.7040278,-97.805056,Active,Downstream,26.0
+Upper Pond Tailings Facility,Canada,46.4863056,-81.050833,Inactive Care and Maintenance,Upstream,19.0
+A Area Tailings,Canada,46.4714167,-81.140583,Inactive Care and Maintenance,Upstream,25.0
+M Area Tailings,Canada,46.4714167,-81.140583,Inactive Care and Maintenance,Upstream,37.0
+P Area Tailings,Canada,46.4714167,-81.140583,Inactive Care and Maintenance,Upstream,45.0
+R1 Tailings,Canada,46.4714167,-81.140583,Active,"Compacted
+Outer Shell",14.0
+R2 Tailings,Canada,46.4714167,-81.140583,Active,"Compacted
+Outer Shell",13.0
+R3 Tailings,Canada,46.4714167,-81.140583,Active,"Compacted
+Outer Shell",27.0
+R4 Tailings,Canada,46.4714167,-81.140583,Active,"Compacted
+Outer Shell",22.0
+Germano Main Dam,Brazil,-20.21811,-43.465195,Inactive,Upstream,163.0
+Germano Pit Dam,Brazil,-20.193637,-43.491281,Inactive,Upstream,60.0
+MRN - SP-01,Brazil,-1.6832167,-56.417983,Inactive,Single Stage,15.0
+MRN - SP-2/3,Brazil,-1.68445,-56.4038,Inactive,Single Stage,17.0
+MRN - SP-4N,Brazil,-1.68515,-56.426833,Inactive,Upstream,19.0
+MRN - SP-4S,Brazil,-1.6914833,-56.427433,Inactive,Upstream,19.0
+MRN - SP-5L,Brazil,-1.6834833,-56.437533,Inactive,Upstream,19.0
+MRN - SP-5O,Brazil,-1.68465,-56.444883,Inactive,Upstream,19.0
+MRN - SP-06,Brazil,-1.6774667,-56.42485,Inactive,Upstream,12.0
+MRN - SP-7A,Brazil,-1.67215,-56.434317,Inactive,Upstream,19.0
+MRN - SP-7B,Brazil,-1.6700833,-56.4401,Inactive,Upstream,17.0
+MRN - SP-7C,Brazil,-1.66985,-56.445067,Inactive,Upstream,17.0
+MRN - SP-08,Brazil,-1.6731333,-56.452567,Active,Single Stage,12.0
+MRN - SP-09,Brazil,-1.6745833,-56.460983,Active,Single Stage,16.0
+MRN - SP-9A,Brazil,-1.66825,-56.462083,Active,Single Stage,12.0
+MRN - SP-10,Brazil,-1.68325,-56.452983,Active,Single Stage,16.0
+MRN - SP-11,Brazil,-1.6831333,-56.462717,Active,Single Stage,16.0
+MRN - SP-12,Brazil,-1.6864833,-56.469067,Active,Single Stage,15.0
+MRN - SP-13,Brazil,-1.69405,-56.467833,Active,Single Stage,15.0
+MRN - SP-14,Brazil,-1.6991833,-56.470183,Active,Single Stage,15.0
+MRN - SP-15,Brazil,-1.6991667,-56.475033,Active,Single Stage,16.0
+MRN - SP-16,Brazil,-1.68735,-56.479617,Active,Single Stage,17.0
+MRN - SP-19,Brazil,-1.6817833,-56.468767,Active,Single Stage,20.0
+MRN - TP-01,Brazil,-1.6834167,-56.410983,Inactive,Single Stage,18.0
+MRN - TP-02,Brazil,-1.6764667,-56.437867,Active,Single Stage,15.0
+Lunnoye TSF,Russia,65.0833333,155.0855556,Active,"Centreline, Downstream",50.0
+Mayskoye TSF,Russia,68.99,173.7380556,Active,Downstream,23.0
+Omsukchan TSF 2,Russia,62.5286111,155.82,Active,Upstream,35.0
+Omsukchan TSF 3,Russia,62.54,155.8241667,Active,Upstream,27.0
+Omolon TSF,Russia,63.6877778,159.9869444,Active,Upstream,28.0
+Albazino TSF 1,Russia,52.8791667,137.9013889,Active,Upstream,26.0
+Albazino TSF 2,Russia,52.89,137.9061111,Active,Upstream,24.0
+Varvara TSF,Kazakhstan,52.935,62.1488889,Active,"Upstream, Downstream",22.0
+Kyzyl TSF,Kazakhstan,49.7027778,81.6280556,Active,Downstream,20.0
+Voro DSF,Russia,59.6519444,60.3158333,Active,Dry stack,
+Amursk DSF,Russia,50.255,136.8252778,Active,Dry stack,
+BRDA 1,Australia,-33.2222,116.0814167,Closed,Upstream,40.0
+BRDA 2,Australia,-33.2193333,116.0728333,Active,Upstream,24.5
+BRDA 4,Australia,-33.223,116.0642833,Active,Upstream,51.0
+BRDA 4X,Australia,-33.2104333,116.0633,Active,Upstream,46.0
+BRDA 5,Australia,-33.2452167,116.0506167,Active,"Upstream, Downstream",36.5
+.SEP 1,Australia,-33.23055,116.0817333,Active,Downstream,2.0
+SEP 2A,Australia,-33.2266,116.0812667,Inactive,Downstream,14.0
+.SEP3,Australia,-33.229,116.08005,Active,Downstream,11.0
+Cannington TSF,Australia,-21.84945,140.9061167,Active,Upstream,17.0
+Sajana TSF,Colombia,7.89365,-75.52595,Inactive,Upstream,34.0
+Wessels TSF,South Africa,-27.1118833,22.8595833,Active,Upstream,6.0
+Adams pit,South Africa,-27.3817667,22.9879,Active,Other,
+New North Plant Sludge Dam,South Africa,-26.5679333,27.9876833,Active,Downstream,4.6
+New West Plant Sludge Dam,South Africa,-26.56065,27.9865,Active,Downstream,4.75
+TSF5,Australia,-13.97455,136.4339667,Inactive,Centreline,8.1
+TSF6,Australia,-13.9797167,136.43365,Inactive,"Centreline, Upstream",9.4
+TSF7,Australia,-13.9767333,136.4279333,Inactive,Centreline,15.0
+TSF8,Australia,-13.9927167,136.4385167,Inactive,Centreline,8.0
+TSF10,Australia,-13.9881667,136.4324833,Inactive,Centreline,14.0
+TSF11,Australia,-13.9963667,136.44885,Active,Downstream,14.8
+TSF13,Australia,-14.0134,136.4486,Active,Centreline,13.0
+TSF14,Australia,-13.9947667,136.43,Active,Centreline,12.7
+TSF16,Australia,-13.9986833,136.43625,Active,Centreline,15.7
+Fume dam 1,Australia,-41.1332667,146.8441667,Inactive,Centreline,7.0
+Fume dam 2,Australia,-41.1344333,146.8452667,Inactive,Centreline,6.5
+Fume dam 3,Australia,-41.1338833,146.84755,Active,Centreline,5.65
+West Cliff Emplacement Area (Stages 1 - 4),Australia,-34.2219333,150.8171667,Active,Landform,63.0
+Filtered tailings facility,USA,31.4658333,-110.7278833,Active,Upstream,27.0
+North Export Plant Slurry Facility,South Africa,-25.9441333,29.4143667,Active,Downstream,15.0
+VDD Coal Fines Slurry Dams,South Africa,-26.0913333,29.2933333,Inactive,Upstream,8.0
+South Export Plant Slurry Cells,South Africa,-26.0085833,29.3355167,Active,Centreline,15.0
+Dam 45,South Africa,-25.921,29.4041,Inactive,Upstream,25.0
+Dam 46,South Africa,-25.9196167,29.3985833,Inactive,Upstream,15.0
+Rietspruit Coal Fines Slurry Dam,South Africa,-26.15885,29.1941,Inactive,Upstream,15.0
+Checkpoint 1 Slurry Dam,South Africa,-25.9314667,29.3966,Inactive,Upstream,30.0
+PSS Slurry Dam,South Africa,-26.0845,29.2942,Inactive,Upstream,
+5# Slurry Cells,South Africa,-26.1059333,29.0259333,Inactive,Downstream,3.0
+MRN - SP-01,Brazil,-1.6832167,-56.4179833,Inactive,Single Stage,15.0
+MRN - SP-2/3,Brazil,-1.68445,-56.4038,Inactive,Single Stage,17.0
+MRN - SP-4N,Brazil,-1.68515,-56.4268333,Inactive,Upstream,19.0
+MRN - SP-4S,Brazil,-1.6914833,-56.4274333,Inactive,Upstream,19.0
+MRN - SP-5L,Brazil,-1.6834833,-56.4375333,Inactive,Upstream,19.0
+MRN - SP-5O,Brazil,-1.68465,-56.4448833,Inactive,Upstream,19.0
+MRN - SP-06,Brazil,-1.6774667,-56.42485,Inactive,Upstream,12.0
+MRN - SP-7A,Brazil,-1.67215,-56.4343167,Inactive,Upstream,19.0
+MRN - SP-7B,Brazil,-1.6700833,-56.4401,Inactive,Upstream,17.0
+MRN - SP-7C,Brazil,-1.66985,-56.4450667,Inactive,Upstream,17.0
+MRN - SP-08,Brazil,-1.6731333,-56.4525667,Active,Single Stage,12.0
+MRN - SP-09,Brazil,-1.6745833,-56.4609833,Active,Single Stage,16.0
+MRN - SP-9A,Brazil,-1.66825,-56.4620833,Active,Single Stage,12.0
+MRN - SP-10,Brazil,-1.68325,-56.4529833,Active,Single Stage,16.0
+MRN - SP-11,Brazil,-1.6831333,-56.4627167,Active,Single Stage,16.0
+MRN - SP-12,Brazil,-1.6864833,-56.4690667,Active,Single Stage,15.0
+MRN - SP-13,Brazil,-1.69405,-56.4678333,Active,Single Stage,15.0
+MRN - SP-14,Brazil,-1.6991833,-56.4701833,Active,Single Stage,15.0
+MRN - SP-15,Brazil,-1.6991667,-56.4750333,Active,Single Stage,16.0
+MRN - SP-16,Brazil,-1.68735,-56.4796167,Active,Single Stage,17.0
+MRN - SP-19,Brazil,-1.6817833,-56.4687667,Active,Single Stage,20.0
+MRN - TP-01,Brazil,-1.6834167,-56.4109833,Inactive,Single Stage,18.0
+MRN - TP-02,Brazil,-1.6764667,-56.4378667,Active,Single Stage,15.0
+RSA 1,Brazil,-2.73,-44.317,Closed,Not Raised,28.0
+RSA 2,Brazil,-2.726,-44.315,Closed,Upstream,31.0
+RSA 3,Brazil,-2.728,-44.312,Closed,Upstream,27.0
+RSA 4,Brazil,-2.724,-44.307,Inactive,Upstream,27.0
+RSA 5,Brazil,-2.718,-44.303,Inactive,Upstream,22.0
+RSA 6,Brazil,-2.726,-44.302,Active,Not Raised,24.0
+RSA 7,Brazil,-2.723,-44.298,Active,Not Raised,23.0
+Interface 2/3,Brazil,-2.727,-44.313,Inactive,Upstream,9.0
+B1 TSF,Brazil,-11.2441667,-40.5238889,Closed,Centreline,61.0
+B2 TSF,Brazil,-11.2341667,-40.5288889,Active,Downstream,83.0
+Chapada TSF,Brazil,-14.2191667,-49.405,Active,Centreline,47.5
+Tranque Pasta,Chile,-34.0477778,-71.0397222,Active,Centreline,7.0
+Tranque Adosado,Chile,-34.0427778,-71.0313889,Closure,"Centreline, Downstream",28.5
+Dique de Colas,Argentina,-48.133858,-66.647189,Active,Downstream,8.0
+Canadian Malartic TSF,Canada,48.1113889,-78.1036111,Active,Upstream,40.0
+Flotation Tailings Reservoir,USA,38.0083333,-120.6847222,Closed,Downstream,24.0
+Karelsky Okatysh tailing dam,Russia,64.685,30.9113889,Active,Downstream,32.0
+Olcon tailing pond,Russia,68.1025,33.1588889,Active,Downstream,40.0
+Vorkutaugol Pechorskaya tailing dam,Russia,67.51,63.7158333,Active,Downstream,17.0
+Cherepovets Steel Mill sludge pond №1,Russia,59.2333333,38.5166667,Active,Downstream,13.0
+Cherepovets Steel Mill sludge pond №2,Russia,59.1463889,37.7561111,Active,Downstream,9.0
+Oguchi TSF No 1,Japan,32.1016778,130.6251,Closed,Upstream,28.0
+Oguchi TSF No 2,Japan,32.0981972,130.627269,Closed,Upstream,19.0
+Oguchi TSF No 3,Japan,32.0981806,130.631508,Closed,Single Stage,10.0
+Oguchi TSF No 4,Japan,32.1051833,130.617989,Closed,Upstream,
+Oguchi Zinzyaura,Japan,32.1020278,130.618944,Closed,Single Stage,6.0
+Koashidani,Japan,33.8529111,133.341744,Closed,Single Stage,25.0
+Daiichi-Tsudomae-Minami,Japan,33.8570944,133.331933,Closed,Single Stage,
+Besshi Hinochi,Japan,33.8500444,133.385442,Closed,Single Stage,3.0
+Besshi IkadatsuKou-Minami,Japan,33.8467417,133.38165,Closed,Single Stage,3.0
+Besshi Kisoudani,Japan,33.8766417,133.316097,Closed,Single Stage,57.0
+Sazare No.2,Japan,33.9092889,133.540447,Closed,Upstream,27.0
+Sazare No.3,Japan,33.91185,133.535825,Closed,Upstream,60.0
+Sazare Jimusho-Higashi,Japan,33.9052917,133.540753,Closed,Single Stage,6.0
+Kyu-Sazare Waste Rock Dump,Japan,33.8970028,133.55595,Closed,Upstream,8.0
+Sazare Kinritsu,Japan,33.8939861,133.556483,Closed,Upstream,2.0
+Ooishizawa,Japan,37.2322944,139.553944,Closed,Single Stage,19.0
+Shishigoyasawa,Japan,37.0623583,139.657408,Closed,Upstream,39.0
+Rotenbori-Ato,Japan,37.0784667,139.639378,Closed,Upstream,6.0
+Akakura No.1,Japan,37.0614417,139.663406,Closed,Upstream,10.0
+Akakura No.2,Japan,37.0624556,139.665019,Closed,Upstream,9.0
+Kazumasawa,Japan,37.0206833,140.077264,Closed,Single Stage,
+Kunitomi TSF No 1,Japan,42.9874861,140.664214,Closed,Single Stage,26.0
+Kunitomi TSF No 2,Japan,42.993575,140.669047,Closed,Single Stage,32.0
+Toyohama No.5,Japan,43.2299972,140.703539,Closed,Single Stage,
+Toyohama No.7,Japan,43.2288361,140.699831,Closed,Single Stage,5.0
+Toyoka No.1,Japan,43.1568806,140.692239,Closed,Single Stage,10.0
+Toyoka No.2,Japan,43.1569639,140.689786,Closed,Single Stage,8.0
+Toyoka No.3,Japan,43.1532306,140.706981,Closed,Single Stage,8.0
+Toyoka No.4A,Japan,43.1514889,140.707744,Closed,Single Stage,15.0
+Toyoka No.4B,Japan,43.1546222,140.706458,Closed,Single Stage,12.0
+Toyoka No.6,Japan,43.1513444,140.694508,Closed,Single Stage,29.0
+Kitami No.1,Japan,44.0236139,143.366017,Closed,Single Stage,5.0
+Kitami No.2,Japan,44.0244361,143.369739,Closed,Single Stage,5.0
+Kounomaisawa,Japan,44.1478361,143.352925,Closed,Single Stage,89.0
+Sumiyoshi,Japan,44.1439444,143.344608,Closed,Single Stage,6.0
+Suehiro,Japan,44.1480139,143.341772,Closed,Single Stage,9.0
+"No. 5 A,B",Japan,44.1639722,143.344956,Closed,Upstream,12.0
+No. 5 C,Japan,44.1647361,143.343094,Closed,Upstream,12.0
+"No. 6 A,B",Japan,44.1669111,143.3419,Closed,Upstream,15.0
+"No. 7 A,B",Japan,44.1692028,143.341336,Closed,Upstream,15.0
+No. 8,Japan,44.1711778,143.339536,Closed,Upstream,15.0
+No. 9,Japan,44.1730028,143.338022,Closed,Upstream,16.0
+Beaverdell North Tailings Storage Facility,Canada,49.441605,-119.095922,Inactive,Downstream,12.0
+Beaverdell South Tailings Storage Facility,Canada,49.435957,-119.097717,Inactive,Downstream,10.0
+Bullmoose Tailings Storage Facility,Canada,55.136278,-121.476274,Inactive,Downstream,38.0
+Douglas Mine,USA,46.523795,-113.182639,Closed,Downstream,15.0
+Duck Pond Tailings Management Facility,Canada,48.64748,-56.490561,Inactive,Single Stage,9.5
+Elkview Lagoon A,Canada,49.7525131,-114.874237,Inactive,Single Stage,4.0
+Elkview Lagoon B,Canada,49.7540611,-114.8742807,Inactive,Single Stage,4.0
+Elkview Lagoon C,Canada,49.754622,-114.87837,Inactive,"Downstream, Upstream",19.5
+Elkview Lagoon D,Canada,49.748306,-114.874921,Active,Upstream,57.0
+Elkview West Fork Tailings Facility,Canada,49.751937,-114.791046,Active,Downstream,80.0
+Embalse de Relaves,Chile,-30.266758,-71.103254,Active,Downstream,100.0
+Fisherman Road Tailings Impoundment Area,Canada,49.484757,-117.390042,Inactive,Single Stage,3.5
+Fording River 2 Pit - 3 Pit Tailings Disposal Area,Canada,50.180256,-114.896016,Inactive,Downstream,6.0
+Fording River North Tailings Pond,Canada,50.190698,-114.895532,Inactive,Downstream,24.0
+Fording River South Tailings Pond,Canada,50.177177,-114.87642,Active,Downstream,35.0
+Fording River Turnbull Pit South Tailings Storage Facility,Canada,50.218553,-114.873263,Active,In-pit,
+Greenhills Tailings Storage Facility,Canada,50.059724,-114.861663,Active,Downstream,55.0
+ Bethlehem,Canada,50.5094,-120.987025,Inactive,"Upstream, Centreline, Downstream",91.0
+Highland,Canada,50.547334,-121.122614,Active,Centreline,161.0
+Highmont,Canada,50.432155,-120.92119,Inactive,Centreline,47.0
+Trojan,Canada,50.514552,-121.005987,Inactive,"Centreline, Upstream",70.0
+Teck,Canada,48.132622,-77.601511,Inactive,Downstream,15.0
+Tailings Dam,USA,37.630936,-91.108224,Inactive,Downstream,41.2
+Tailings Pond 1,USA,48.889872,-117.35168,Closed,Upstream,21.0
+Tailings Pond 2,USA,48.889117,-117.348237,Closed,Downstream,6.0
+Tailings Pond 3,USA,48.881379,-117.348786,Active,Downstream,24.3
+Pinchi Tailings Storage Facility,Canada,54.627353,-124.426425,Inactive,Downstream,15.0
+Pine Point ,Canada,60.879272,-114.437272,Inactive,Downstream,9.0
+Plant Site TSF,Canada,55.014314,-120.992153,Inactive,Downstream,52.0
+Shikano TSF,Canada,54.986541,-121.026815,Inactive,Single Stage,42.0
+Tailings Storage Facility,USA,68.060681,-162.871763,Active,"Downstream, Centreline Hybrid",63.4
+North Tailings Pond,Canada,60.52825,-128.850678,Closed,Downstream,15.0
+ Tailings Storage Facility,Canada,49.647142,-115.956205,Inactive,Upstream,4.6
+" East Gypsum Dike, West Gypsum Dike, Gypsum Divider Dike, NorthEast Gypsum Dike",Canada,49.64453,-115.93552,Inactive,Upstream,22.9
+ Iron pond,Canada,49.657872,-115.937887,Inactive,"Upstream, Downstream",29.0
+ Old Iron Dike and Iron TSF Divider Dike,Canada,49.658303,-115.952749,Inactive,Unknown,7.6
+" Siliceous No. 1 Dike, Siliceous No. 2 Dike, Siliceous No. 3 Dike",Canada,49.657971,-115.923106,Inactive,Upstream,12.5
+Presa de Relaves de Antamina,Peru,-9.541285,-77.033332,Active,"Downstream, Centreline Hybrid",240.0
+"Fort Hills Out of Pit Tailings Area (OPTA)
+Facility Dams: 
+West Tailings Dyke, West Overburden Dyke, South Dyke, East Dyke, North East Dyke, North Dyke. (Canada)",Canada,57.362136,-111.510648,Active,Upstream,29.0
+Karouni Gold Project TSF,Guyana,5.6,-59.06,Active,Downstream,17.0
+Candelaria Tailings Facility,Chile,-27.506083,-70.311656,Active,Downstream,170.0
+Los Diques Tailings Facility,Chile,-27.53715,-70.318992,Active,Downstream,85.0
+San Esteban Tailings Facility,Chile,-27.485308,-70.291658,Inactive,Centreline,45.0
+Ojos del Salado Tailings Facility – North,Chile,-27.490328,-70.262111,Closed,Centreline,22.0
+Ojos del Salado Tailings Facility – Central,Chile,-27.494564,-70.261461,Closed,Centreline,20.0
+Ojos del Salado Tailings Facility - South,Chile,-27.495997,-70.260122,Closed,Centreline,34.0
+Chapada Tailings Facility,Brazil,-14.217829,-49.403713,Active,Centreline,48.0
+Cerro do Lobo Tailings Facility,Portugal,37.560275,-7.935119,Active,Downstream,42.0
+Enemossen East Tailings Facility,Sweden,58.7773,15.106731,Active,Centreline,8.0
+Enemossen Tailings Facility,Sweden,58.778267,15.096828,Inactive,"Centreline, Downstream, Upstream",35.0
+Humboldt Tailings Facility,USA,46.490714,-87.902417,Active,,
+AGTMF,Canada,58.1636111,-103.6916667,Inactive,"Downstream, Centreline",27.0
+KL AGTMF,Canada,57.2069444,-105.7030556,Inactive,Single Stage,20.0
+RLITMF,Canada,58.1977778,-103.7133333,Inactive Care and Maintenance,In-pit,
+DTMF,Canada,57.2083333,-105.63,Inactive Care and Maintenance,In-pit,
+"1st, 2nd",Japan,44.3158611,143.3179167,Closed,Upstream,20.0
+3rd,Japan,44.3144444,143.3184722,Closed,Upstream,7.0
+Oshidori sawa,Japan,42.9794444,141.1132222,Inactive,Downstream,131.0
+Ishiyama shimote,Japan,42.9628889,141.3314444,Inactive,Upstream,12.0
+Ishiyama Yamate,Japan,42.9553333,141.3308889,Inactive,"Downstream, Upstream",46.0
+Sakuradai 2nd,Japan,43.1241667,140.6993056,Inactive,Upstream,6.0
+Sakuradai 3rd,Japan,43.1212778,140.7012778,Inactive,Upstream,6.0
+Ponshikaribetsu,Japan,43.1407778,140.67625,Inactive,Downstream,53.0
+Shimonosawa,Japan,40.7411389,140.9536389,Inactive,Upstream,34.0
+Tashirodaira 1st,Japan,40.7075,140.9386667,Inactive,Downstream,14.0
+Tashirodaira 2nd,Japan,40.7035,140.9491667,Inactive,"Downstream, Upstream",21.0
+Tanosawa,Japan,40.1742222,140.9186389,Inactive,"Downstream, Upstream",42.0
+Nakanosawa,Japan,40.1772222,140.91525,Inactive,Downstream,42.0
+1st,Japan,40.1751389,140.9073333,Inactive,"Downstream, Upstream",5.0
+"2nd, 3rd, 4th",Japan,40.1751389,140.9073333,Inactive,"Downstream, Upstream",5.0
+"5th, 6th",Japan,40.1751389,140.9073333,Inactive,"Downstream, Upstream",5.0
+7th,Japan,40.1751389,140.9073333,Inactive,Gravity-type rock embankment,6.0
+8th,Japan,40.1751389,140.9073333,Inactive,Downstream,4.0
+Matsuiwa,Japan,38.8797222,141.5375833,Inactive,Upstream,16.0
+Takasegamori,Japan,38.8203611,141.5270278,Inactive,Upstream,41.0
+Kayakari,Japan,38.8145833,141.5316944,Inactive,Downstream,39.0
+"Oyu 1st, 2nd",Japan,40.3023611,140.8455278,Inactive,Upstream,10.0
+Oyu 3rd,Japan,40.3006389,140.851,Inactive,"Upstream, Downstream",7.0
+Oyu 4th,Japan,40.3008889,140.8496667,Inactive,Upstream,5.0
+Oyu 5th,Japan,40.3011944,140.8529167,Inactive,Upstream,5.0
+Oyu 6th,Japan,40.2976944,140.8679722,Inactive,Upstream,8.0
+Adit,Japan,40.4378056,140.8404722,Inactive,Upstream,35.0
+1st,Japan,40.3225,140.5748333,Closed,Downstream,14.0
+Osagasawa,Japan,38.1609167,140.1720833,Inactive,"Downstream, Upstream",55.0
+4th,Japan,38.7078611,140.5073056,Closed,Upstream,24.0
+Sangosawa,Japan,38.5015,140.1576944,Closed,Downstream,38.0
+Zenigami,Japan,37.5092778,140.3025278,Closed,Downstream,10.0
+Nigorisawa,Japan,37.50875,140.2938333,Closed,Upstream,10.0
+1st,Japan,37.3898056,139.4188056,Closed,Downstream,6.0
+2nd,Japan,37.3901389,139.4207222,Closed,Downstream,9.0
+Takasuzu,Japan,36.6266389,140.5952222,Inactive,Upstream,48.0
+Sasame,Japan,36.6370278,140.6020278,Inactive,Upstream,36.0
+Keisekiyama,Japan,36.6285278,140.5921944,Inactive,Downstream,56.0
+5th (2nd),Japan,37.7761111,139.4448056,Closed,Upstream,38.0
+6th,Japan,37.7788333,139.4449444,Closed,Upstream,6.0
+Kuratani,Japan,36.3069722,136.5358056,Inactive,Upstream,67.0
+Horinouchi,Japan,34.6966667,138.9246944,Inactive,Upstream,13.0
+Shiroishi,Japan,35.4626944,135.1355,Closed,Downstream,37.0
+2nd,Japan,35.4620833,135.1375,Closed,Downstream,34.0
+7th,Japan,35.2407222,135.3846389,Closed,Upstream,36.0
+1st,Japan,34.2507778,132.0032222,Closed,Upstream,73.0
+2nd,Japan,34.25375,132.00375,Closed,"Downstream, Upstream",66.0
+3rd,Japan,34.2534444,132.012,Closed,Downstream,39.0
+1st,Japan,34.147,132.0365556,Closed,Upstream,36.0
+2nd,Japan,34.1458333,132.0369167,Closed,Upstream,26.0
+3rd,Japan,34.1455556,132.0318056,Closed,Downstream,9.0
+Serra Azul TSF,Brazil,-20.229625,-44.3953056,Closed,Upstream,89.0
+Serra Azul Dry Stack,Brazil,-20.1380833,-44.40203,Active,Dry stack,64.0
+Serra Azul In Pit,Brazil,-20.130803,-44.402878,Active,In-pit,
+Las Truchas TSF,Mexico,18.0489028,-102.3408389,Active,Downstream,43.0
+Guasimas TSF,Mexico,19.3518722,-104.0774556,Active,Hybrid,55.0
+Arrayanal TSF Basin 1,Mexico,19.2930611,-104.1396556,Active,Downstream,60.0
+Arrayanal TSF Basin 2,Mexico,19.2944056,-104.1425167,Active,Downstream,42.0
+Kryvyi Rih TSF,Ukraine,47.8249028,33.4088972,Active,Hybrid,65.0
+Kryvyi Rih TSF - Karta 4,Ukraine,47.7974556,33.3749361,Active,Hybrid,71.0
+Kryvyi Rih TSF - Centralnoie,Ukraine,47.8271972,33.3945278,Active,Downstream,11.0
+Temirtau Tailings Facility,Kazakhstan,50.0336917,73.0865111,Active,Modified sidehill dam,25.0
+Temirtau Tailings Facility - Coal Wash,Kazakhstan,50.0185278,73.0982528,Active,Downstream,21.0
+Temirtau Tailings Facility - TSF 2,Kazakhstan,50.0102944,73.0861167,Inactive,Modified sidehill dam,29.0
+Vostochnaya,Kazakhstan,49.6982,72.7743139,Active,Segmented ring dike,12.0
+Vostochnaya - TSF 1,Kazakhstan,49.7489361,72.7666889,Inactive,Segmented ring dike,15.0
+Lisakovsk TSF 1,Kazakhstan,52.5334167,62.75,Active,Sidehill embankment,26.0
+Gradina Lake TSF,Bosnia,44.8467056,16.9109361,Inactive,Downstream,27.0
+Jezero TSF,Bosnia,44.8677306,16.8756917,Active,In-pit,6.0
+Mont Wright TSF,Canada,52.7982639,-67.3866583,Active,Sidehill embankment,100.0
+Port Cartier TSF,Canada,50.0436611,-66.7889333,Active,Sidehill embankment,24.0
+Minorca Mine TSF,USA,47.5903694,-92.457075,Active,Hybrid,28.0
+Minorca Mine TSF 2 inpit,USA,47.538875,-92.5122667,Active,Centreline,
+Hibbing Taconite TSF,USA,47.5002111,-92.9837361,Active,Hybrid,43.0
+Thabazimbi TSF,South Africa,-24.6274583,27.3962806,Inactive,Upstream,36.0
+Tailing Volte Grande 1,Brazil,-21.086111,-44.587472,Inactive Care and Maintenance,Upstream,40.0
+Tailing Volte Grande 2,Brazil,-21.088278,-44.58825,Inactive Care and Maintenance,Upstream,32.0
+Tailing Volte Grande 3,Brazil,-21.075556,-44.590056,Active,Centreline,19.0
+Presa de Relaves,Peru,-15.03589,-72.17324,Closed,Downstream,25.0
+Presa de Relaves 1-4,Peru,-14.98797,-72.30835,Closed,Downstream,15.0
+Presa de Relaves No. 5,Peru,-14.99091,-72.30946,Closed,Downstream,28.0
+Presa de Relaves No. 6,Peru,-14.98888,-72.3234,Inactive,Downstream,38.0
+Presa de Relaves No. 1 Selene,Peru,-14.65881,-73.14216,Closed,Downstream,71.0
+Presa de Relaves No. 2 Selene,Peru,-14.66066,-73.13972,Active,Downstream,70.0
+Presa de Relaves No. 3 Pallancata,Peru,-14.68444,-73.14514,Active,Downstream,43.0
+Presa de Relaves,Peru,-14.93498,-73.24011,Active,Downstream,74.0
+Presa de Relaves No. 1,Argentina,-46.665505,-70.298298,Closed,Central Berm,15.0
+Presa de Relaves No. 2,Argentina,-46.664098,-70.293353,Active,Central Berm,43.0
+Presa de Relaves No. 3,Argentina,-46.6645312,-70.274030186,Active,Downstream,6.0
+Bell Creek,Canada,48.55,-81.19,Active,"Downstream, Centreline",10.0
+La Colorada TSF 7,Mexico,23.36,-103.75,Active,Downstream,30.0
+La Colorada TSF 6,Mexico,23.37,-103.75,Active,"Downstream, Upstream, Centreline",27.0
+Huaron,Peru,-11.0,-76.4,Active,Centreline,35.0
+Morococha,Peru,-11.59,-76.1,Active,Downstream,15.0
+San Vicente,Bolivia,-21.27,-66.33,Active,Centreline,40.0
+Manantial Espejo,Argentina,-48.77,-69.49,Active,Downstream,19.0
+Escobal,Guatemala,14.46,-90.16,Inactive Care and Maintenance,Dry stack,42.0
+Alamo Dorado,Mexico,26.75,-108.66,Closed,Dry stack,60.0
+Gold Resources TSF 1-2,Mexico,16.6859639,-96.118264,Inactive Care and Maintenance,Downstream,120.0
+Gold Resources TSF 3,Mexico,16.6861722,-96.114475,Active,Downstream,80.0
+Antiguo.,Mexico,23.1613139,-102.86284,Closed,Upstream,25.0
+Sanjón.,Mexico,23.1626889,-102.85861,Closed,Upstream,25.0
+Chinos.,Mexico,23.1577306,-102.85861,Inactive,Upstream,30.0
+Sección II.,Mexico,23.1584167,-102.86155,Closed,Upstream,37.0
+Emergencia.,Mexico,23.160275,-102.86713,Inactive,Upstream,8.0
+Beleña.,Mexico,23.1550111,-102.86037,Inactive,Upstream,34.0
+San Luis.,Mexico,23.1478222,-102.86186,Active,Upstream,38.0
+Saucito TSF,Mexico,23.1236639,-102.92795,Active,Upstream,55.0
+Deposit 1,Mexico,25.0530417,-106.50011,Active,Downstream,104.0
+Deposit 2,Mexico,25.0388972,-106.33886,Inactive,Downstream,80.0
+Deposit 3,Mexico,25.0340944,-106.32978,Construction,Downstream,77.0
+San Julián TSF,Mexico,26.0418056,-106.50011,Active,Downstream,140.0
+Herradura TSF,Mexico,31.1285,-112.86851,Active,Downstream,50.0
+Las Torres TSF - Coronelas I,Mexico,20.9844861,-101.21771,Inactive,Upstream,27.0
+Las Torres TSF - Coronelas II,Mexico,20.9861083,-101.22212,Inactive,Upstream,30.0
+Las Torres TSF - Cedros I,Mexico,20.9917611,-101.21304,Inactive,Upstream,31.0
+Las Torres TSF - Cedros II,Mexico,21.0023944,-101.21593,Inactive,Upstream,41.0
+Las Torres TSF - Cedros III,Mexico,21.0068222,-101.21451,Inactive,Upstream,57.0
+Las Torres TSF - Cedros IV,Mexico,21.0109417,-101.21251,Inactive,Upstream,51.0
+Toacyos TSF,Mexico,23.6329778,-103.62157,Inactive,Upstream,46.0
+DeGrussa Copper Mine TSF,Australia,-25.536633,119.315194,Active,Downstream,17.0
+ -B1 Dam,Brazil,-3.2652739,-47.7531019,Active,"Centreline, Downstream",32.0
+Dam RP 1,Brazil,-3.2648444,-47.7211722,Active,Single Stage,14.0
+MRN - SP-01,Brazil,-1.6832167,-56.4179833,Inactive,Single Stage,15.0
+MRN - SP-2/3,Brazil,-1.68445,-56.4038,Inactive,Single Stage,17.0
+MRN - SP-4N,Brazil,-1.68515,-56.4268333,Inactive,Upstream,19.0
+MRN - SP-4S,Brazil,-1.6914833,-56.4274333,Inactive,Upstream,19.0
+MRN - SP-5L,Brazil,-1.6834833,-56.4375333,Inactive,Upstream,19.0
+MRN - SP-5O,Brazil,-1.68465,-56.4448833,Inactive,Upstream,19.0
+MRN - SP-06,Brazil,-1.6774667,-56.42485,Inactive,Upstream,12.0
+MRN - SP-7A,Brazil,-1.67215,-56.4343167,Inactive,Upstream,19.0
+MRN - SP-7B,Brazil,-1.6700833,-56.4401,Inactive,Upstream,17.0
+MRN - SP-7C,Brazil,-1.66985,-56.4450667,Inactive,Upstream,17.0
+MRN - SP-08,Brazil,-1.6731333,-56.4525667,Active,Single Stage,12.0
+MRN - SP-09,Brazil,-1.6745833,-56.4609833,Active,Single Stage,16.0
+MRN - SP-9A,Brazil,-1.66825,-56.4620833,Active,Single Stage,12.0
+MRN - SP-10,Brazil,-1.68325,-56.4529833,Active,Single Stage,16.0
+MRN - SP-11,Brazil,-1.6831333,-56.4627167,Active,Single Stage,16.0
+MRN - SP-12,Brazil,-1.6864833,-56.4690667,Active,Single Stage,15.0
+MRN - SP-13,Brazil,-1.69405,-56.4678333,Active,Single Stage,15.0
+MRN - SP-14,Brazil,-1.6991833,-56.4701833,Active,Single Stage,15.0
+MRN - SP-15,Brazil,-1.6991667,-56.4750333,Active,Single Stage,16.0
+MRN - SP-16,Brazil,-1.68735,-56.4796167,Active,Single Stage,17.0
+MRN - SP-19,Brazil,-1.6817833,-56.4687667,Active,Single Stage,20.0
+MRN - TP-01,Brazil,-1.6834167,-56.4109833,Inactive,Single Stage,18.0
+MRN - TP-02,Brazil,-1.6764667,-56.4378667,Active,Single Stage,15.0
+Residue Storage Facility 3,Lesotho,-28.987344,28.6114417,Active,Downstream,111.0
+Hamilton TSF,Australia,-22.3,119.42,Closed,In-pit,
+Daydram TSF,Australia,-22.3,119.39,Closed,In-pit,
+Hook TSF,Australia,-22.3,119.38,Inactive,In-pit,
+ Brampton TSF,Australia,-22.3,119.36,Active,"In-pit, single embankment",20.0
+TSF 1,Australia,-21.2,119.05,Inactive Care and Maintenance,Zoned rockfill valley dam,21.0
+ Vasse TSF,Australia,-22.3,119.73,Inactive,"In-pit, above ground facility",15.0
+Windich TSF,Australia,-22.3,119.78,Inactive,"In-pit, downstream",6.0
+Flinders TSF,Australia,-22.4,119.71,Active,In-pit,
+TSF 1,Australia,-22.1,117.9,Active,Zoned rockfill valley dam,49.0
+ANBP-2 TSF (Multiple Dams),Russia,67.6594444,33.2066667,Active,Upstream,72.0
+ANBP-3 TSF (Multiple Dams),Russia,67.5380556,33.5944444,Active,Upstream,56.0
+Fort Hills Out of Pit Tailings Area,Canada,57.3666667,-111.51667,Active,"Upstream, Downstream",29.0
+Tailings Management Facility #1 (TMF #1),Mexico,24.2973722,-103.4652,Rehabilitated,Single Stage,7.0
+Tailings Management Facility #2 (TMF #2),Mexico,24.3033917,-103.45988,Active,Single Stage,6.0
+"Seabee Mine, Triangle Lake TSF – 2 dams and 2 saddle dikes",Canada,55.6903833,-103.57932,Active,Modified Centreline,19.0
+"Seabee Mine, East Lake TSF – 3 concrete perimeter dams",Canada,55.6900444,-103.59224,Active,Centreline,8.0
+"Marigold Mine TSF – inactive, on-land facility with one crescent dam",USA,40.7511278,-117.13998,Closed,Centreline,22.0
+Mina Pirquitas S.A. – Pirquitas Tailings Dam,Argentina,-22.696692,-66.488256,Inactive,Downstream,30.0
+Long OK TSF,Australia,-31.186989,121.685968,Closed,Downstream,3.0
+Long South Kambalda TSF,Australia,-31.183229,121.682546,Closed,Downstream,5.0
+Nova TSF,Australia,-31.826496,123.176961,Active,Other,14.0
+Tropicana TSF,Australia,-29.232408,124.55277,Active,Downstream,24.0
+TSF 1,North Macedonia,42.111859,22.52056,Closed,Downstream,44.0
+TSF 2,North Macedonia,42.106832,22.522809,Closed,Downstream,62.0
+TSF 3-1,North Macedonia,42.106121,22.527544,Closed,Downstream,61.0
+TSF 3-2,North Macedonia,42.102277,22.532904,Active,Downstream,63.0
+TSF 4,North Macedonia,42.095664,22.537254,Construction,Downstream,61.0
+Palmarejo,Mexico,27.3708333,-108.41278,Active,Downstream,96.0
+Kensington,USA,58.8072222,-135.03833,Active,Downstream,27.0
+Golden Cross,New Zealand,-37.3325,175.79,Closed,Downstream,40.0
+Detour Lake Mine - TMA Cell 1,Canada,50.0196806,-79.70275,Active,Centreline,49.0
+AGBAOU GOLD MINE,Côte d'Ivoire,6.12195556,-5.2379556,Active,Downstream,26.0
+HOUNDÉ GOLD MINE,Burkina Faso,11.4175778,-3.5420556,Active,Downstream,17.0
+ITY GOLD MINE,Côte d'Ivoire,6.87666667,-8.1258333,Active,Downstream,16.0
+Tailings Co-Disposal,Brazil,-9.855352778,-39.86511083,Active,Co-Disposal,14.5
+Historic Tailings Dam,Brazil,-9.851138889,-39.82658333,Rehabilitated,"Rockfill Dam, Single Lift",7.4
+South Pilar Open Pit,Brazil,-9.874716944,-39.87049889,Active,Excavated Pit,
+R22 Open Pit,Brazil,-9.852936944,-39.87131389,Closed,Excavated Pit,
+Non-Inert Tailings Dam pond 1,Brazil,-14.64075,-52.49694444,Active,Excavated Pit,
+Inert Tailings Dam - pond 2,Brazil,-14.63894444,-52.49861111,Active,"Rockfill Dam, Single Lift (Segmented Ring Dyke)",16.2
+Inert Tailings Dam Pond 3,Brazil,-14.63894444,-52.49861111,Active,"Rockfill Dam, Single Lift (Segmented Ring Dyke)",13.6
+Compartment 1,Ukraine,49.0027778,33.7272222,Active,Upstream,37.0
+Compartment 3,Ukraine,49.0027778,33.7272222,Active,Upstream,37.0
+"Bateas 1 Caylloma Mine (Arequipa, Peru)",Peru,-15.205778,-71.862184,Closed,Other,5.0
+"Bateas 2 Caylloma Mine (Arequipa, Peru)",Peru,-15.20854,-71.863021,Active,Downstream,35.0
+"Bateas 3 Caylloma Mine (Arequipa, Peru)",Peru,-15.231201,-71.830093,Active,Downstream,19.5
+"Cuzcatlan Dry Stack San Jose Mine (Oaxaca, México)",Mexico,16.682722,-96.705972,Active,Other,22.5
+"Cuzcatlan Tailings Dam San Jose Mine (Oaxaca, México)",Mexico,16.683972,-96.705611,Active,Downstream,43.0
+ROSEBEL GOLD MINES N.V,Suriname,5.143363889,-55.2004,Active,Centreline,58.0
+IAMGOLD ESSAKANE SA,Burkina Faso,14.35,0.067075,Active,"Centreline, downstream, Upstream",25.0
+IAMGOLD WESTWOOD GOLD MINE/ DOYON,Canada,48.27279389,-78.55009694,Active,Centreline,18.0
+YVAN VEZINA,Canada,48.47883889,-78.92438611,Closed,Closed site,10.0
+SOLBEC,Canada,45.80382778,-71.28860556,Closed,Closed site,11.0
+Tailings Dam 3 & 4 (Combined),South Africa,-25.519183,27.237925,Active,Upstream,83.0
+Tailings Dam 1& 2 (Combined),South Africa,-25.520089,27.1990917,Inactive,Upstream,26.0
+TD1,South Africa,-24.511094,30.1083472,Active,Upstream,34.0
+TD2,South Africa,-24.516964,30.1042306,Construction,Upstream,27.0
+Two Rivers Tailings facility,South Africa,-24.955322,30.1058944,Active,Upstream,50.0
+Mimosa Phase 3 Tailings facility,Zimbabwe,-20.3185,29.8318056,Active,Upstream,40.0
+Ngezi TSF,Zimbabwe,-18.601889,30.3061944,Active,Upstream,11.0
+SMC TSF,Zimbabwe,-18.01,30.0761111,Active,Upstream,32.0
+Mt Weld TSF1,Australia,-28.865664,122.524672,Active,Not proposed for lift currently,5.0
+Mt Weld TSF2,Australia,-28.865647,122.528981,Active,Not proposed for lift currently,5.0
+Mt Weld TSF3,Australia,-28.861819,122.527864,Active,Downstream,5.0
+La Coipa,Chile,-26.83,-69.279,Inactive Care and Maintenance,Dry Stack,200.0
+Chirano TSF1,Ghana,6.306,-2.372,Active,"Downstream, Centreline, Upstream",35.0
+Chirano TSF1 NE,Ghana,6.306,-2.372,Active,Downstream,20.0
+Fort Knox TSF,USA,65.001,-147.31,Active,"Downstream, Centreline",117.0
+Kettle River TSF,USA,48.674,-118.609,Inactive Care and Maintenance,"Downstream, Upstream",62.0
+Kupol TSF,Russia,66.778,169.532,Active,Downstream,60.5
+Kupol Dry Stack TSF,Russia,66.784,169.538,Active,Dry Stack,23.0
+Paracatu Eustáquio TSF,Brazil,-17.155,-46.906,Active,Modified Centreline,87.0
+Paracatu Santo Antônio TSF,Brazil,-17.151,-46.856,Inactive Care and Maintenance,Modified Centreline,109.0
+Paracatu Specific Tank 12,Brazil,-17.18,-46.88,Active,Downstream,46.0
+"Round Mountain
+Cell A",USA,38.68,-117.119,Inactive,"Downstream, Upstream",52.0
+"Round Mountain
+Cell B",USA,38.67,-117.125,Active,Downstream,34.0
+Tasiast TSF 3,Mauritania,20.591,-15.538,Inactive Care and Maintenance,Upstream ring dike,19.0
+Tasiast TSF 4,Mauritania,20.563,-15.537,Active,Downstream ring dike,10.0
+Blanket Mine tailings dam,Zimbabwe,-20.843579,28.908992,Active,Upstream,31.0
+Shimokawa Ichinosawa-1,Japan,44.20833333,142.7027778,Inactive,Earth-type embankment,11.0
+Shimokawa Ichinosawa-2,Japan,44.20833333,142.7027778,Inactive,Earth-type embankment,9.0
+Shimokawa Ichinosawa-3,Japan,44.20833333,142.7027778,Inactive,Earth-type embankment,10.0
+Shimokawa Ichinosawa-4,Japan,44.20833333,142.7027778,Inactive,Earth-type embankment,11.0
+Shimokawa Byouho-1,Japan,44.20833333,142.7027778,Inactive,Upstream,10.0
+Shimokawa Byouho-2,Japan,44.20833333,142.7027778,Inactive,Upstream,10.0
+Shimokawa Byouho-3,Japan,44.20833333,142.7027778,Inactive,Upstream,12.0
+Shimokawa Byouho-4,Japan,44.20833333,142.7027778,Inactive,Upstream,10.0
+Shimokawa Keiwa,Japan,44.20833333,142.7027778,Inactive,Earth-type embankment,15.0
+Shimokawa Keiwa-2,Japan,44.20833333,142.7027778,Inactive,Earth-type embankment,16.0
+Shimokawa 27-senzawa,Japan,44.20833333,142.7027778,Inactive,Earth-type embankment,25.0
+Shimokawa Ochiaizawa,Japan,44.20833333,142.7027778,Inactive,Earth-type embankment,34.0
+Teine Teine,Japan,43.09167,141.20278,Inactive,Upstream,9.0
+Teine Kanayama,Japan,43.09167,141.20278,Inactive,Downstream,5.0
+Chitose Fukujinzawa-1,Japan,42.72174,141.19388,Inactive,Upstream,4.0
+Chitose Fukujinzawa-2,Japan,42.72174,141.19388,Inactive,Upstream,13.0
+Chitose Fukujinzawa-3,Japan,42.72174,141.19388,Inactive,Upstream,13.0
+Osarizawa ShiShizawa,Japan,40.18333,140.75,Inactive,Downstream,49.0
+Osarizawa Nakazawa,Japan,40.18333,140.75,Inactive,Downstream,36.0
+Osarizawa Harukizawa(kou),Japan,40.18333,140.75,Inactive,Downstream,15.0
+Osarizawa Harukizawa(otsu),Japan,40.18333,140.75,Inactive,Downstream,31.0
+Osarizawa Akazawa,Japan,40.18333,140.75,Inactive,Downstream,55.0
+Osarizawa Matsukozawa,Japan,40.18333,140.75,Inactive,Upstream,65.0
+Komagi No.1,Japan,40.2469,140.73087,Inactive,Downstream,17.0
+Komagi No.2,Japan,40.2469,140.73087,Inactive,Downstream,6.0
+Komagi Higashimatazawa,Japan,40.2469,140.73087,Inactive,Downstream,3.0
+Minamifurutobe Hashizawa-1,Japan,40.40201,140.69663,Inactive,Downstream,31.0
+Minamifurutobe Hashizawa-2,Japan,40.40201,140.69663,Inactive,Downstream,36.0
+Yatani Tadenumazawa,Japan,37.775,140.01667,Inactive,Downstream,68.0
+Yatani No.1,Japan,37.775,140.01667,Inactive,Upstream,27.0
+Yatani No.2,Japan,37.775,140.01667,Inactive,Upstream,25.0
+Takatori Minamizawa,Japan,36.5,140.29444,Inactive,Upstream,35.0
+Akenobe Torinooku,Japan,35.28333,134.66667,Inactive,Upstream,105.0
+Akenobe Torinooku-2,Japan,35.28333,134.66667,Inactive,Upstream,100.0
+Akenobe Mabudani,Japan,35.28333,134.66667,Inactive,Upstream,60.0
+Myouhou Ashidani,Japan,33.65559,135.91274,Inactive,Upstream,51.0
+Myouhou Sugitani,Japan,33.65559,135.91274,Inactive,Upstream,33.0
+Myouhou Hiradani,Japan,33.65559,135.91274,Inactive,Gravity-type concrete retaining wall,14.0
+Obira Kasazuka,Japan,32.84167,131.57778,Inactive,Downstream,12.0
+Miyanohara- Obira chuuou,Japan,32.84167,131.57778,Inactive,Downstream,39.0
+Obira Miyanohara-higashi,Japan,32.84167,131.57778,Inactive,Downstream,25.0
+Obira Miyanohara-nisi,Japan,32.84167,131.57778,Inactive,Downstream,15.0
+Obira No.1,Japan,32.84167,131.57778,Inactive,Downstream,3.0
+Obira No.2,Japan,32.84167,131.57778,Inactive,Downstream,3.0
+Obira No.3,Japan,32.84167,131.57778,Inactive,Downstream,
+Obira No.4,Japan,32.84167,131.57778,Inactive,Downstream,7.0
+Obira No.5,Japan,32.84167,131.57778,Inactive,Reinforced concrete,6.0
+Obira No.6,Japan,32.84167,131.57778,Inactive,Reinforced concrete,5.0
+Obira No.7,Japan,32.84167,131.57778,Inactive,Reinforced concrete,4.0
+Obira No.8,Japan,32.84167,131.57778,Inactive,Reinforced concrete,5.0
+Obira No.9,Japan,32.84167,131.57778,Inactive,Reinforced concrete,6.0
+Obira Tenjinbaru,Japan,32.84167,131.57778,Inactive,Upstream,29.0
+Makimine Sin-tsudo,Japan,32.63,131.4583333,Inactive,Downstream,93.0
+Makimine Sugebaru,Japan,32.63,131.4583333,Inactive,Downstream,76.0
+Washiaimori Ketakura,Japan,39.225,140.86667,Inactive,Upstream,30.0
+Washiaimori Kakesu,Japan,39.225,140.86667,Inactive,Upstream,31.0
+Washiaimori Hiyamizuzawa,Japan,39.225,140.86667,Inactive,Upstream,14.0
+Hosokura Hakkouzawa,Japan,38.80833,140.9,Inactive,Downstream,30.0
+Hosokura Irigamazawa,Japan,38.80833,140.9,Inactive,Downstream,46.0
+Hosokura Sangatsuhira,Japan,38.80833,140.9,Inactive,Upstream,26.0
+Hosokura Fujisawa,Japan,38.80833,140.9,Inactive,Downstream,48.0
+Hosokura Kitazawa,Japan,38.80833,140.9,Inactive,Unknown,21.0
+Hosokura Hanashibata,Japan,38.80833,140.9,Inactive,Upstream,30.0
+Hosokura Kyukanten,Japan,38.80833,140.9,Inactive,Downstream,18.0
+Hosokura Kantenkougai,Japan,38.80833,140.9,Inactive,Unknown,20.0
+Hosokura Meikou,Japan,38.80833,140.9,Inactive,Unknown,40.0
+Hosokura Fujikougai,Japan,38.80833,140.9,Inactive,Unknown,22.0
+Hosokura Nikanmekougai,Japan,38.80833,140.9,Inactive,Unknown,30.0
+Hosokura Kanokokougai,Japan,38.80833,140.9,Inactive,Unknown,25.0
+Hosokura Senganmoku,Japan,38.80833,140.9,Inactive,Unknown,43.0
+Hosokura Irigamazawa-sagan,Japan,38.80833,140.9,Inactive,Unknown,47.0
+Hosokura Okuma,Japan,38.80833,140.9,Inactive,Unknown,23.0
+Takane Yakiiwadani-1,Japan,35.99701,137.47173,Inactive,Unknown,
+Takane Yakiiwadani-2,Japan,35.99701,137.47173,Inactive,Unknown,
+Takane Kanayamadani,Japan,35.99701,137.47173,Inactive,Unknown,
+Ikuno Miyanotani,Japan,35.16667,134.8,Inactive,Downstream,100.0
+Ikuno Daisendani,Japan,35.16667,134.8,Inactive,Downstream,75.0
+Ikuno Kyuhodani,Japan,35.16667,134.8,Inactive,Downstream,89.0
+Toi No.1,Japan,34.908,138.7931,Inactive,Downstream,7.0
+Tailings Impoundment Area -7 East Dam,Canada,47.950208,-80.712447,Active,Downstream,50.0
+Tailings Impoundment Area -7 West Dam,Canada,47.950208,-80.712447,Active,Modified Centreline,40.0
+Tailings Impoundment Area -7 North Dam,Canada,47.950208,-80.712447,Active,Modified Centreline,12.0
+Tailings Impoundment Area -7 South Saddle Dam,Canada,47.950208,-80.712447,Active,Upstream,7.0
+Primary Pond Dyke 1,Canada,48.30807,-84.445337,Active,Downstream,11.0
+Primary Pond Dyke 2,Canada,48.30807,-84.445337,Active,Downstream,8.0
+Primary Pond Dyke 3,Canada,48.30807,-84.445337,Active,Downstream,10.0
+Primary Pond Dyke 4,Canada,48.30807,-84.445337,Active,Downstream,10.0
+Primary Pond Dyke 5,Canada,48.30807,-84.445337,Active,Downstream,5.0
+"Carosue Dam
+Operations - Cells 1,
+2 & 3",Australia,-30.138069,122.343244,Active,"Upstream, Downstream",32.0
+"Thunderbox – Cells
+A, B",Australia,-28.189986,121.018828,Active,"Upstream, Downstream",
+"Bannockburn  - Cells
+1, 2 & 3",Australia,-28.448564,120.904381,Closed,,10.0
+Carosue Dam - Luvironza In-Pit,Australia,-30.107053,122.344856,Inactive Care and Maintenance,,
+TEP Residue Facility,South Africa,-26.564383,29.19965,Active,Ring-dyke,28.0
+Coral Bay Nickel Corporation No.1 TSF,Philippines,8.57411944,117.423347,Closed,Downstream,24.0
+Coral Bay Nickel Corporation No.2 TSF,Philippines,8.59077222,117.408506,Active,Downstream,45.0
+Taganito HPAL Nickel Corporation No.1 TSF,Philippines,9.53261944,125.835589,Active,Downstream,60.0
+Tailings storage facility for the Asacha Gold MineRegistered number: 18-18(01)0021-19-ГОР,Russia,52.297379,158.007494,Active,Upstream,20.0
+Cosmic Boy TSF,Australia,-32.58,119.75,Active,Upstream,17.0
+Cosmos TSF,Australia,-27.58,120.58,Inactive Care and Maintenance,Upstream,12.3
+"Black Fox, Matheson, Ontario, Canada",Canada,48.554335,-80.760015,Active,Upstream,11.7
+"Tonkin Springs, Eureka, Nevada",USA,39.904514,-116.4309,Inactive Care and Maintenance,Downstream,9.1
+"San Jose Mine 2, Santa Cruz, Argentina",Argentina,-46.665406,-70.298496,Active,Central Berm,43.0
+Vene Tailings Storage Facility,Brazil,-1.302269,-45.761897,Active,Centreline,31.6
+Lucky Friday MTIS #4,USA,47.47055,-115.75613,Active,Downstream,40.0
+Casa Berardi Cell 4,Canada,49.555972,-79.240528,Active,Upstream,8.0
+Greens Creek,USA,58.1174,-134.7463,Active,Dry stack,109.0
+Midas,USA,41.232357,-116.76192,Active,Downstream,55.0
+Midas Section 22,USA,41.241017,-116.76256,Active,Downstream,48.0
+Velardena,Mexico,25.05,103.683333,Active,Downstream,27.0
+Lucky Friday MTIS #1,USA,47.4656222,-115.80505,Closed,Upstream,22.0
+Lucky Friday MTIS #2,USA,47.4693222,-115.78858,Closed,Upstream,8.0
+Lucky Friday MTIS #3,USA,47.47055,-115.75613,Closure,Upstream,31.0
+Casa Berardi Cell #1,Canada,49.560333,-79.232417,Inactive,Downstream,8.0
+Casa Berardi Cell #2,Canada,49.561333,-79.223056,Closure,Upstream,19.0
+Casa Berardi Cell #3,Canada,49.560389,-79.235528,Inactive,Centreline,7.0
+Grouse Creek,USA,44.4166667,-114.73333,Closed,Downstream,67.0
+Aurora,USA,38.300028,-118.886944,In partial reclamation,Downstream,12.0
+Troy,USA,48.317967,-115.85858,Closure,Upstream,36.0
+Republic,USA,48.6666667,-118.75,Closure,Upstream,32.0
+TSF #1,Russia,53.9214,87.3046,Active,Upstream,49.0
+TSF #3,Russia,53.6837,87.2904,Active,Upstream,58.0
+TSF #2,Russia,53.6986,87.2577,Closed,Upstream,36.0
+TSF,Russia,58.72333,59.556964,Active,Upstream,111.0
+TSF,Russia,57.967686,59.911881,Inactive,Downstream,14.0
+New TSF,Russia,54.1447,37.7493,Inactive,Downstream,9.0
+TSF #4,Russia,53.7932,87.3188,Inactive,Downstream,22.0
+"Holt TSF (Dam 1, 2, 3, 3A, 4, 4A, 6, 7, 8, 10, 11A, 11B, 12, 13)",Canada ,48.516533,-79.952542,Active,upstream,16.0
+"Macassa TSF (Upper Dam B, Lower Dam B, Upper Dam E, Lower Dam E, Dam F, Dam G)",Canada ,48.135833,-80.071667,Active,Upstream,20.0
+NTSF,Canada ,48.149167,-80.086667,Construction,Centreline,7.0
+TSF1 Surface cells: 1),Australia,-36.68875,144.520111,Active,"Upstream, Centreline",35.0
+TSF2 (In-Pit),Australia,36.692349985,144.49413127,Active,,
+"TSF3 (In-Pit) 
+
+
+
+
+",Australia,36.687259997,144.509683095,Active,"N/A 
+
+
+
+
+
+
+",
+TSF4 Surface Cell: 1,Australia,36.692652277,144.499504327,Active,"Upstream, Centreline",18.0
+TSF#1,Australia,-25.31331,119.456724,Rehabilitated,Upstream,28.0
+TSF#2,Australia,-25.309525268,119.46237308,Active,Upstream,27.5
+TSF#3,Australia,-25.314076917,119.455713148,Active,Upstream,27.5
+"Perch Pit TSF
+(PPTSF)",Australia,-25.322688538,119.487365197,Rehabilitated,In-pit,0.0
+"Perch West Pit TSF
+(PWTSF)",Australia,-25.322725487,119.482500255,Rehabilitated,In-pit,0.0
+"Perch North
+TSF(PNTSF)",Australia,-25.319926723,119.487904528,Rehabilitated,In-pit,0.0
+Catfish Pit (CPTSF),Australia,-25.317206634,119.495047817,Rehabilitated,In-pit,0.0
+Dogfish Pit (DPTSF),Australia,-25.31587535,119.50064055,Rehabilitated,In-pit,0.0
+Callop Pit (CalPTSF),Australia,-25.306116116,119.504004444,Rehabilitated,In-pit,0.0
+"Rainbow Pit
+(RPTSF)",Australia,-25.319766571,119.507462745,Rehabilitated,In-pit,0.0
+"Cut Throat Pit
+(CTPTSF)",Australia,-25.322362272,119.508201394,Rehabilitated,In-pit,0.0
+"Brooke Pit TSF
+(BPTSF)",Australia,-25.3241713,119.508496867,Rehabilitated,In-pit,0.0
+"Piranah Pit TSF
+(PirTSF)",Australia,-25.327306475,119.518342791,Rehabilitated,In-pit,0.0
+Pond 1,India,21.8035694,84.0510722,Active,Upstream,38.0
+Pond 2,India,21.8050778,84.0496028,Active,Upstream,38.0
+Pond 3,India,21.8018806,84.0458528,Active,Upstream,37.0
+Lagoon 1,India,21.7776972,84.0714833,Active,Upstream,27.0
+Lagoon 2,India,21.7795722,84.0718528,Inactive,Upstream,28.0
+Lagoon 3,India,21.7827444,84.0733083,Active,Upstream,16.0
+Dyke-1,India,22.405,82.725,Inactive,Upstream,15.0
+Dyke-2,India,22.407,82.728,Active,"Upstream, Downstream",22.0
+Dyke-3A,India,22.41,82.736,Active,Upstream,22.0
+Dyke-3B,India,22.409,82.732,Active,Upstream,22.0
+Dyke-4,India,22.41,82.74,Active,Upstream,22.0
+Dyke-5,India,22.412,82.747,Active,Upstream,20.0
+Dyke-6,India,22.413,82.74,Active,"Upstream, Downstream",23.0
+Dyke-7,India,22.414,82.736,Active,Upstream,22.0
+Scorpion Zinc TSF,Namibia,-29.793306,16.5888056,Active,Upstream,42.0
+Gamsberg Zinc TSF,South Africa,-29.190972,18.9461944,Active,Upstream,6.0
+Black Mountain TSF,South Africa,-29.261167,18.7977778,Active,Upstream,68.3
+Princess Creek TSF,Australia,-42.101306,145.513306,Inactive,Downstream,52.5
+Lisheen Mine Tailing Dam,Ireland,52.7485556,7.66786111,Closed,Downstream,15.0
+TSPL Ash dyke,India,29.9008611,75.21,Active,Upstream,7.5
+RA Mines Tailing dam,India,25.8481944,74.7404722,Active,"Downstream, Upstream",51.0
+RDM complex RDC Tailing dam,India,24.9663056,74.1475,Active,"Downstream, Upstream",26.0
+Zawar Tailing storage facility,India,24.3423167,73.7126611,Active,"Downstream, Upstream",60.0
+Jarosite Pond III,India,24.5946944,73.8233611,Active,"Upstream, Downstream",17.0
+GC Mine TMF,China,22.910555,111.911388,Active,Upstream,51.5
+TSF1 ,China,34.230833,111.339166,Active,Upstream,65.3
+TSF2,China,34.238611,111.343055,Active,Upstream,93.5
+Tailing Management Facility,China,22.8875,111.4,Care and Maintenance,Upstream,24.0
+Relavera 4,Peru,-15.276944,-72.335278,Inactive,downstream,29.0
+Mesapata,Peru,-10.632222,-76.693333,Inactive,upstream,20.0
+Mesapata 1-3,Peru,-10.630556,-76.693611,Inactive,Downstream,4.0
+Mesa de Plata,Peru,-10.628056,-76.691389,Inactive,Downstream,14.0
+Relavera 1-5,Peru,-12.947222,-74.805278,Inactive,Downstream,40.0
+Relavera 6,Peru,-10.800556,-76.294444,Inactive,Upstream,
+Relavera 7,Peru,-12.971667,-74.8075,Inactive,Upstream,40.0
+Relavera 8,Peru,-12.94,-74.769722,Inactive,Upstream,25.0
+Antiguas 1-5,Peru,-10.798889,-76.295278,Inactive,Upstream,38.0
+Antiguas 6-7,Peru,-10.800556,-76.294444,Inactive,Downstream,28.0
+Relavera R1A,Peru,-10.675556,-76.861389,Inactive,Downstream,16.0
+Relavera,Peru,-12.81,-74.976111,Inactive,Upstream,56.0
+Relavera 1-2,Peru,-15.346111,-72.1225,Inactive,Upstream,3.5
+Relavera 3,Peru,-15.344722,-72.107222,Inactive,Upstream,35.0
+Relavera 4,Peru,-15.343611,-72.104167,Inactive,Downstream,30.0
+Relavera 1,Peru,-15.475556,-71.974167,Active,Filtered Tailings Stack,20.0
+Relavera 4a,Peru,-15.281389,-72.333611,Active,Downstream,31.0
+Relavera 3,Peru,-10.640556,-76.692222,Active,Downstream,39.0
+Relavera 9,Peru,-12.921667,-74.796944,Active,Downstream,50.0
+Huachuacaja,Peru,-10.772222,-76.289444,Active,Downstream,24.0
+Triangle Lake TSF – 2 dams and 2 saddle dikes,Canada,55.6903833,-103.57932,Active,"Modified Centreline, Upstream",19.0
+East Lake TSF – 3 concrete perimeter dams,Canada,55.6900444,-103.59224,Active,Centreline,8.0
+Marigold Mine TSF ,USA,40.7511278,-117.13998,Inactive,Centreline,22.0
+Pirquitas Tailings Dam,Argentina,-22.696692,-66.488256,Inactive,Downstream,30.0
+Çöpler Mine TSF,Turkey,39.43194,38.55639,Active,Downstream,75.0
+Youga Gold Mine,Burkina Faso,11.108188,-0.470695,Active,Upstream,22.0
+New Liberty Gold Mine,Liberia,7.01142,-11.14072,Active,"Downstream, centreline ",12.5
+MWTSF1,Australia,-27.588889,122.361389,Active,"Downstream, Upstream",28.0
+GWTSF1,Australia,-27.894444,122.373889,Active,"Downstream, Upstream",23.0
+GWTSF2,Australia,-27.904167,122.370556,Inactive,Downstream,10.0
+BANTSF1,Australia,-27.966111,122.316111,Closed,Downstream,8.0
+Brakpan,South Africa,-26.346122,28.317164,Active,upstream,118.0
+Rooikraal,South Africa,-26.362208,28.294889,Closed,upstream daywall,42.0
+GMTS,South Africa,-26.2413,27.968186,Closed,upstream daywall,97.6
+Diepkloof/Homestead,South Africa,-26.227603,27.952842,Closed,upstream daywall,92.0
+Mooifontein,South Africa,-26.227694,27.971008,Closed,upstream daywall,92.8
+Daggafontein,South Africa,-26.298433,28.535381,Care and Maintenance,upstream daywall,65.0
+Dam 4,South Africa,-26.346736,27.453989,Active,upstream on-wall cyclones,49.5
+TSF 4,South Africa,-26.347483,27.45585,Active,Cycloning upstream,40.0
+TSF 5,South Africa,-26.398783,27.41415,Ongoing reclamation,Upstream,35.0
+TSF 3,South Africa,-26.36845,27.450767,Inactive,Upstream,30.0
+TSF,South Africa,-26.337267,27.618267,Inactive,Upstream,40.0
+North TSF,South Africa,-26.262183,27.637683,Inactive,Upstream,45.0
+ South TSF,South Africa,-26.278283,27.637367,Inactive,Upstream,20.0
+TSF1,South Africa,-26.410017,27.6196,Inactive,Upstream,30.0
+Phase 1,South Africa,-26.564383,29.19965,Active,"Centreline, Downstream",28.0
+Phase 2,South Africa,-26.564383,29.19965,Active,"Centreline, Downstream",28.0
+Phase 3a,South Africa,-26.564383,29.19965,Active,"Centreline, Downstream",28.0
+South Stack,South Africa,-26.564383,29.19965,Active,"Centreline, Downstream",28.0
+FAD1,South Africa,-26.828049,27.83367,Inactive,Upstream,
+FAD2,South Africa,-26.831834,27.835593,Inactive,Upstream,
+FAD3,South Africa,-26.835139,27.83325,Inactive,Upstream,16.0
+FAD4,South Africa,-26.838593,27.826403,Inactive,Upstream,36.0
+FAD5,South Africa,-26.844413,27.817334,Active,Upstream,38.0
+FAD4,South Africa,-26.564722,29.1058333,Active,Upstream,41.0
+FAD5,South Africa,-26.581389,29.1277778,Active,Upstream,44.0
+FAD6,South Africa,-26.599722,29.1094722,Active,Upstream,0.0
+Rosh Pinah TSF,Namibia,-27.970833,16.7730556,Active,Upstream,32.0
+TSF (With Two Containment Dams),Peru,11.195,-76.519444,Active,Upstream,14.0
+TSF 1 STTP,Canada,47.5694444,-66.2975,Active,"Downstream, Upstream",25.7
+TSF 2 Anaconda,Canada,47.5694444,-66.2975,Inactive,"Downstream, Dry stack",11.0
+TSF 1,Burkina Faso,12.3816667,2.59388889,Inactive,Downstream,5.2
+TSF2 phase 1,Burkina Faso,12.3816667,2.59388889,inactive,Downstream,4.9
+TSF2 phase 2,Burkina Faso,12.3816667,2.59388889,Active,Downstream,4.9
+EMO TSF,China,31.2733333,118.684444,Active,Downstream,26.0
+MMG Checkers TSf1,China,28.0261111,117.809722,Closed,upstream,24.0
+"MMG Checkers
+TSF2",China,28.0316667,117.809167,Closed,upstream,18.0
+MMG Checkers TSF3,China,28.0172222,117.803889,Active,upstream,30.5
+"MMG Yuletide
+in pit",China,27.9836111,117.824722,Closed,In-pit,
+TSF Cell 1,Ghana,6.326255,-1.043444,Active,Downstream,36.0
+TSF Cell 2,Ghana,6.326255,-1.043444,Active,Downstream,45.0
+Ahafo TSF,Ghana,7.034309,-2.374835,Active,"Downstream, Modified Centreline",40.0
+Residue Disposal Area,Australia,-32.695925,116.365559,Active,"Downstream, Modified Centreline",68.0
+R4 Residue Disposal Area,Australia,-32.70984,116.380865,Inactive Care and Maintenance,Upstream,27.0
+Fimiston I,Australia,-30.746707,121.508969,Active,Upstream ,60.0
+Fimiston II,Australia,-30.751359,121.546371,Active,Upstream ,60.0
+Kaltails,Australia,-30.798458,121.563501,Active,Upstream ,60.0
+Gidji I,Australia,-30.58317,121.453803,Inactive Care and Maintenance,Upstream ,30.0
+Gidji II,Australia,-30.58317,121.453803,Active,Downstream,25.0
+Mullingar,Australia,-30.729694,121.471046,Inactive Care and Maintenance,Upstream ,8.0
+Mt. Percy,Australia,-30.718556,121.487728,Inactive Care and Maintenance,Upstream,23.0
+Paringa,Australia,-30.757052,121.523793,Inactive Care and Maintenance,Uncertain,5.0
+Croesus,Australia,-30.752291,121.499765,Inactive Care and Maintenance,Uncertain,20.0
+Old Croesus,Australia,-30.759984,121.497266,Inactive Care and Maintenance,Uncertain,23.0
+GTDO8,Australia,-20.533501,130.294334,Active,Upstream ,15.0
+GTDO3,Australia,-20.550019,130.323108,Inactive Care and Maintenance,Upstream ,15.0
+GTD01/02,Australia,-20.545191,130.311066,Inactive/Opened for harvesting,Upstream,15.0
+Shoe (GTD04),Australia,-20.534006,130.307306,Active,In-pit,6.0
+Quorn (GTD05),Australia,-20.538379,130.294877,Inactive Care and Maintenance,In-pit,12.0
+Bunkers (GTD06),Australia,-20.550019,130.323108,Rehabilitated,In-pit,3.0
+Bullakitchie (GTD07),Australia,-20.537194,130.317088,Rehabilitated,In-pit,0.0
+Southern Tailings Dam,Australia,-20.2929,146.2788,Reclaimed  ,Upstream ,36.890243902439
+Old Northern Tailings Dam,Australia,-20.2929,146.2788,Reclaimed  ,"Upstream, Downstream",42.9878048780488
+New Northern Tailings Dam,Australia,-20.2929,146.2788,Reclaimed  ,Upstream ,15.2439024390244
+Mill 1,USA,40.91805,-116.326583,Closed,"Modified Centreline, Upstream ",90.0
+Mill 4/2,USA,40.947096,-116.335377,Inactive Care and Maintenance,Downstream,195.0
+Mill 3 (Rain),USA,40.596529,-116.013734,Closed,Downstream,107.0
+Mill 5/6,USA,40.753694,-116.19986,Active,Downstream,90.0
+Mill 5/6 West,USA,40.753694,-116.19986,Active,Downstream,64.0
+Mill 5/6 East,USA,40.753694,-116.19986,Active,Downstream,70.0
+James Creek,USA,40.775343,-116.205448,Closed,Downstream,
+Lone Tree Mine Section 23 TSF,USA,40.48,-117.13,Closed,Downstream,
+Phoenix TSF,USA,40.494741,-117.132001,Active,"Downstream, Modified Centreline",158.0
+Juniper TSF,USA,41.277754,-117.136099,Active,"Modified Centreline, Upstream ",73.0
+Pinon TSF,USA,41.277754,-117.136099,Closed,Downstream,
+Turquoise Ridge TSF,USA,41.236,-117.22,Closed,"Centreline, Downstream",52.0
+Cells 1 &2,USA,40.2624,-116.7027,Closed,Upstream,65.5
+Cell 4,USA,40.2266,-116.686,Active,Downstream,55.0
+TA 1-3,USA,40.2039,-116.6225,Closed,Unknown,7.5
+TA 4-5,USA,40.2136,-116.612825,Closed,Unknown,10.0
+TA 6,USA,40.2135,-116.624058,Closed,Unknown,16.8
+TA 7,USA,40.2088,-116.6243,Closed,Unknown,19.0
+North Block TDF,USA,41.0033,-116.3586,Active,Downstream,129.5
+TSF 3,USA,40.9945,-116.3472,Active,Downstream,85.5
+AA TSF,USA,40.9853,-116.3426,Closed,Downstream,65.5
+Mill 4 TSF,USA,40.989607,-116.3471,Closed,Downstream,56.5
+Arturo TSF      (TD-1),USA,41.0073,-116.432,Closed,Downstream,33.5
+Presa de Jales,Mexico,24.6212,-101.73,Active,Centreline,126.0
+Dome No.6 TMA,Canada,48.4374,-81.2136,Active,"Downstream , Centreline , Upstream",33.0
+Coniaurum,Canada,48.4976,-81.283,Inactive Care and Maintenance,Upstream,10.0
+Broulan Reef,Canada,48.5135,81.1469,Inactive Care and Maintenance,Downstream,20.0
+"Dome 1, 2, 2A",Canada,48.4763,-81.2476,Inactive Care and Maintenance,Upstream,24.0
+Dome 3,Canada,48.4696,-81.2432,Inactive Care and Maintenance,Upstream,18.0
+Dome 4,Canada,48.4665,-81.2549,Inactive Care and Maintenance,Upstream,10.0
+Dome 5,Canada,48.4635,-81.2519,Inactive Care and Maintenance,Upstream,8.0
+Paymaster North,Canada,48.4537,-81.2674,Inactive Care and Maintenance,Upstream,11.0
+Paymaster South,Canada,48.4425,-81.2599,Inactive Care and Maintenance,Upstream,10.0
+McIntyre,Canada,48.4997,-81.2832,Inactive Care and Maintenance,Upstream,5.0
+Pamour T3,Canada,48.5269,-81.1329,Inactive Care and Maintenance,Upstream,14.0
+Pamour T2,Canada,48.5167,-81.1233,Inactive Care and Maintenance,Upstream,30.0
+Pamour T1,Canada,48.5279,-81.1136,Inactive Care and Maintenance,Upstream,15.0
+Aunor A,Canada,48.4419,-81.2775,Inactive Care and Maintenance,Upstream,14.0
+Aunor B,Canada,48.4382,-81.2818,Inactive Care and Maintenance,Upstream,18.0
+Delnite,Canada,48.43722,-81.29701,Inactive Care and Maintenance,Upstream,16.0
+Hallnor,Canada,45.5239,-81.1455,Inactive Care and Maintenance,Upstream,11.0
+Campbell Complex,Canada,51.0641,-93.7575,Active,Upstream,14.0
+Red Lake Complex,Canada,51.0641,-93.7158,Active,"Modified Centreline, Downstream",8.0
+Balmer Tailings,Canada,51.0641,-93.7575,Inactive Care and Maintenance,Other,3.0
+Cochenour Wilanour Complex,Canada,51.0418,-93.4843,Inactive Care and Maintenance,Centreline,7.0
+Main Tailings Facility,Canada,51.4159,-90.0954,Inactive Care and Maintenance,Upstream,15.0
+Musselwhite TMA,Canada,52.5974,-90.3806,Active,"Centreline, Upstream",21.0
+No Dam,Canada,52.7224,-76.0682,Active,Filtered Tailings Stack on Liner,
+TMA,Canada,54.2043,-126.2691,Inactive Care and Maintenance,"Downstream, centreline",61.0
+Upper Pud,Canada,62.4308,-114.3763,Reclaimed  ,"Upstream, Centreline",13.0
+Middle Pud,Canada,62.4308,-114.3763,Inactive,Upstream,7.0
+"Lower Pud, Neil Lake and Neques TCAs",Canada,62.4308,-114.3763,Inactive,Upstream,1.5
+Interlake Tailings Facility,Canada,48.6956,-85.9051,Inactive   ,Downstream ,38.0
+Stacy Lane Pond,USA,39.2047,-121.0476,Inactive ,Unknown,8.53658536585366
+Sand Dam -  Property owned by California State Parkes.,USA,39.2047,-121.0476,Inactive ,Unknown,21.3414634146341
+San Luis Tailings Storage Facility,USA,37.2538,-105.341,Inactive,Upstream,47.2560975609756
+Oregon Gulch Tailings Impoundment,USA,39.2367,-106.2815,Inactive,Upstream ,28.9634146341463
+Yak WTP Surge Pond,USA,39.2367,-106.2815,Inactive Care and Maintenance,Upstream,22.8658536585366
+Res#2 Tailings Pond (2),USA,39.2367,-106.2815,Closed,Upstream,
+Res #1 Tailings Pond,USA,39.2367,-106.2815,Closed,Upstream ,
+Iowa Gulch Tailings Impoundment,USA,39.2241,-106.2341,Reclaimed  ,"Downstream, Centreline, Upstream",28.9634146341463
+Tailings Disposal Area 1-3,USA,47.9053,-117.8256,Reclaimed  ,Unknown,9.0
+Tailings Disposal Area 4,USA,47.9053,-117.8256,Reclaimed  ,,
+Red Mountain #1,USA,37.91365,-107.7026,Dry Stack Reclaimed,Upstream,15.0
+Red Mountain #2,USA,37.91365,-107.7026,Dry Stack Reclaimed,Upstream,20.0
+Red Mountain #3,USA,37.91365,-107.7026,Dry Stack Reclaimed,Upstream,15.0
+Red Mountain #4,USA,37.91365,-107.7026,Dry Stack Reclaimed,Upstream,15.0
+Red Mountain Buried Tailings,USA,37.91365,-107.7026,Dry Stack Reclaimed,Upstream,30.0
+Telluride Tailings Pile 1-4,USA,37.91365,-107.7026,Dry Stack Reclaimed,Upstream,13.0
+Telluride Tailings Pile 5-6,USA,37.91365,-107.7026,Dry Stack Reclaimed,Upstream,30.0
+Merian TSF,South America,5.001387,-54.643815,Active,Downstream,48.0
+LQ Mill Sands Facility South,Peru,-6.998463,-78.561831,Inactive Care and Maintenance,Downstream,80.0
+LQ Mill Sands Facility North,Peru,-6.998463,-78.561831,Active,Downstream,80.0
+TSF 1,Argentina,-46.8706,-70.1963,Active,Downstream,51.0
+Alumbrera TMS Embankment,Argentina,-27.3319,-66.5639,Inactive Care and Maintenance,Modified Centreline,125.0
+El Llagal TSF ,Dominican Republic,-18.8987,-70.1735,Active,Downstream,114.0
+Represa de Colas,Guatemala,15.2398,-91.6845,Inactive Care and Maintenance,Downstream,82.5
+"Carlin, Mill 1",USA,40.91805,-116.326583,Closed,"Modified Centreline, Upstream",90.0
+"Carlin, Mill 4/2",USA,40.947096,-116.335377,Inactive,Downstream,195.0
+"Carlin, Mill3 (rain)",USA,40.596529,-116.013734,Closed,Downstream,107.0
+Carlin Mill 5/6,USA,40.753694,-116.19986,Active,Downstream,90.0
+Carlin Mill 5/6 West,USA,40.753694,-116.19986,Active,Downstream,64.0
+Carlin Mill 5/6 East,USA,40.753694,-116.19986,Active,Downstream,70.0
+Carlin James Creek,USA,40.775343,-116.205448,Closed,Downstream,
+"Phoenix, TSF",USA,40.494741,-117.132001,Active,"Downstream, Modified Centreline",158.0
+"Phoenix, Lone Tree",USA,40.48,-117.13,Closed,Downstream,
+"Twin Creeks, Juniper TSF",USA,41.277754,-117.136099,Active,"Modified Centreline, Upstream",73.0
+"Twin Creeks, Pinon TSF",USA,41.233607,-117.148035,Closed,Downstream,
+"Tailings pond at processing plant No.3, stage3",Russia,65.607183,113.918425,Active,Upstream,75.0
+"Tailings pond at the Pravy Kieng stream,processing plant No.12 (stage2),Udachny GOK,ALROSA",Russia,66.357814,112.336933,Active,Upstream,71.0
+"Hydraulic structures of the tailings pond at the Novy stream, Udachny Division, ALROSA
+",Russia,66.422053,112.363475,Active,Upstream,63.5
+"Tailings pond at processing plant No.8, stage1:Tailings dam and secondary dykes",Russia,65.9212,111.476208,Active,Upstream,34.0
+Tailings pond at processing plant No.14,Russia,65.029444,111.694722,Active,Upstream,100.0
+"Sectioned tailings pond at processing plant No.16, stage1",Russia,65.017906, 117.139492,Active,Downstream,21.0
+Tailings pond with recycled water fed to the processing plant,Russia,65.300556,41.148056,Active,Upstream,18.6
+Sandmagasinet Kiruna,Sweden,67.832396,20.121349,Active,"Upstream, Downstream",21.0
+Klarningsmagasinet Kiruna,Sweden,67.810218,20.131592,Active,Centerline,11.0
+KS-magasinet Kiruna,Sweden,67.839683,20.14742,Active,No raises planed,16.0
+Sandmagasinet Svappavaara,Sweden,67.642219,20.965394,Active,Downstream,25.0
+Recipientmagasinet Svappavaara,Sweden,67.654636,20.966305,Active,No raises planed,12.0
+Sandmagasinet Malmberget,Sweden,67.213875,20.664149,Active,"Upstream, downstream, centerline",48.0
+Klarningsmagasinet Malmberget,Sweden,67.211646,20.695974,Active,Centerline,15.0
+FoU-magasinet Malmberget,Sweden,67.187953,20.732936,Active,No raises planed,6.0
+Gamla sandmagasinet Malmberget,Sweden,67.198777,20.727898,closed,Downstream,40.0
