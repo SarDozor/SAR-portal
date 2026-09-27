@@ -3,12 +3,11 @@ tsf,country,latitude,longitude,status,raise_type,current_maximum_height
 Southwest 1,USA,33.0323667,-109.3236889,Active,Upstream,198.0
 Mixed Tails Impoundment,New Zealand,-45.3669167,170.4335556,Inactive,"Downstream, Upstream",180.0
 Silver Basin 1X,USA,33.0119472,-109.36805,Active,Upstream,166.0
-Germano Main Dam,Brazil,-20.21811,-43.465195,Inactive,Upstream,163.0
 Main Dam,Brazil,-20.21811,-43.465195,Inactive,Upstream,163.0
-"Endako
-Tailings Pond #2",Canada,54.0507861,-125.09353,Inactive Care and Maintenance,Upstream,147.0
 Omokusa,Japan,35.88,136.5757,Inactive,Upstream,131.0
-Daberas FRD 5 (Zone 8),Namibia,-28.2411111,16.7761111,Active,In-pit,0.0
-Sendelingsdrif FRD 7,Namibia,-28.1488889,16.8436111,Active,In-pit,0.0
-Max Pit Tailings Facility,Australia,-23.3819444,148.9333333,Active,Other,0.0
-DSP in-pit WFSF,Australia,-23.14979,119.56939,Active,In-pit,0.0
+Grizzly Gulch TSF,USA,44.329214,-103.7379,Closed,"Upstream, Downstream",122.0
+Sierrita,USA,31.8472806,-111.0463083,Active,Upstream,119.0
+Linga,Peru,-16.6106917,-71.5969417,Active,Centreline,265.0
+Mammoth,USA,34.5835528,-113.2703556,Active,Centreline,244.0
+Enlozada,Peru,-16.4995222,-71.6057583,Active,Centreline,242.0
+Presa de Relaves de Antamina,Peru,-9.541285,-77.033332,Active,"Downstream, Centreline Hybrid",240.0
