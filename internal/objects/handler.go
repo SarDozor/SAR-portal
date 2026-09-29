@@ -77,7 +77,7 @@ func (h *Handler) UpdateObject(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	if err != nil {
-		http.Error(w, "не удалось получить объект по id", http.StatusInternalServerError)
+		http.Error(w, "не удалось обновить объект", http.StatusInternalServerError)
 		return
 	}
 	w.Header().Set("Content-Type", "application/json")
@@ -97,7 +97,7 @@ func (h *Handler) DeleteObject(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	if err != nil {
-		http.Error(w, "не удалось получить объект по id", http.StatusInternalServerError)
+		http.Error(w, "не удалось удалить объект", http.StatusInternalServerError)
 		return
 	}
 	w.Header().Set("Content-Type", "application/json")
