@@ -1,6 +1,7 @@
 package objects
 
 import (
+	"/sar-dozor/internal/model"
 	"encoding/json"
 	"errors"
 	"net/http"
@@ -44,7 +45,7 @@ func (h *Handler) GetObjectByID(w http.ResponseWriter, r *http.Request) {
 }
 
 func (h *Handler) CreateObject(w http.ResponseWriter, r *http.Request) {
-	var obj Object
+	var obj model.Object
 	if err := json.NewDecoder(r.Body).Decode(&obj); err != nil {
 		http.Error(w, "некорректный JSON", http.StatusBadRequest)
 		return
@@ -66,7 +67,7 @@ func (h *Handler) UpdateObject(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "неверный id", http.StatusBadRequest)
 		return
 	}
-	var obj Object
+	var obj model.Object
 	if err = json.NewDecoder(r.Body).Decode(&obj); err != nil {
 		http.Error(w, "некорректный JSON", http.StatusBadRequest)
 		return
