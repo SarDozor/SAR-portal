@@ -4,25 +4,25 @@ import (
 	"context"
 	"time"
 
-	"/sar-dozor/internal/model"
+	objects "github.com/darkn3sssss/sar-dozor/internal/model"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-type Repository struct {
+type RepositoryObject struct {
 	pool *pgxpool.Pool
 }
 
-func (r *Repository) ListObjects(ctx context.Context) ([]model.Object, error) {
-	query := "SELECT id, name, country, latitude, longitude, raise_type, max_height_m, created_at, updated_at, status FROM objects"
+func (r *RepositoryObject) ListObjects(ctx context.Context) ([]objects.Object, error) {
+	query := "SELECT * FROM objects"
 	rows, err := r.pool.Query(ctx, query)
 	if err != nil {
 		return nil, err
 	}
 	defer rows.Close()
-	var listObjects []model.Object
+	var listObjects []objects.Object
 	for rows.Next() {
-		var object model.Object
+		var object objects.Object
 		err := rows.Scan(
 			&object.ID, &object.Name, &object.Country, &object.Latitude,
 			&object.Longitude, &object.RaiseType, &object.MaxHeightM,
@@ -39,21 +39,21 @@ func (r *Repository) ListObjects(ctx context.Context) ([]model.Object, error) {
 	return listObjects, nil
 }
 
-func (r *Repository) GetObjectByID(ctx context.Context, id int) (model.Object, error) {
-	query := "SELECT id, name, country, latitude, longitude, raise_type, max_height_m, created_at, updated_at, status FROM objects WHERE id = $1"
-	var object model.Object
+func (r *RepositoryObject) GetObjectByID(ctx context.Context, id int) (objects.Object, error) {
+	query := "SELECT * FROM objects WHERE id = $1"
+	var object objects.Object
 	err := r.pool.QueryRow(ctx, query, id).Scan(
 		&object.ID, &object.Name, &object.Country, &object.Latitude,
 		&object.Longitude, &object.RaiseType, &object.MaxHeightM,
 		&object.CreatedAt, &object.UpdatedAt, &object.Status,
 	)
 	if err != nil {
-		return model.Object{}, err
+		return objects.Object{}, err
 	}
 	return object, nil
 }
 
-func (r *Repository) CreateObject(ctx context.Context, obj model.Object) (model.Object, error) {
+func (r *RepositoryObject) CreateObject(ctx context.Context, obj objects.Object) (objects.Object, error) {
 	var id int
 	var createdAt time.Time
 	var updatedAt time.Time
@@ -63,7 +63,7 @@ func (r *Repository) CreateObject(ctx context.Context, obj model.Object) (model.
 		obj.Longitude, obj.RaiseType, obj.MaxHeightM, obj.Status,
 	).Scan(&id, &createdAt, &updatedAt)
 	if err != nil {
-		return model.Object{}, err
+		return objects.Object{}, err
 	}
 	obj.ID = id
 	obj.CreatedAt = createdAt
@@ -71,9 +71,9 @@ func (r *Repository) CreateObject(ctx context.Context, obj model.Object) (model.
 	return obj, nil
 }
 
-func (r *Repository) UpdateObject(ctx context.Context, id int, obj model.Object) (model.Object, error) {
+func (r *RepositoryObject) UpdateObject(ctx context.Context, id int, obj objects.Object) (objects.Object, error) {
 	query := "UPDATE objects SET name = $1, country = $2, latitude = $3, longitude = $4, raise_type = $5, max_height_m = $6, status = $7, updated_at = now() WHERE id = $8 RETURNING id, name, country, latitude, longitude, raise_type, max_height_m, status, updated_at"
-	var updatedObj model.Object
+	var updatedObj objects.Object
 	err := r.pool.QueryRow(
 		ctx, query, obj.Name, obj.Country, obj.Latitude, obj.Longitude,
 		obj.RaiseType, obj.MaxHeightM, obj.Status, id,
@@ -84,14 +84,14 @@ func (r *Repository) UpdateObject(ctx context.Context, id int, obj model.Object)
 		&updatedObj.UpdatedAt,
 	)
 	if err != nil {
-		return model.Object{}, err
+		return objects.Object{}, err
 	}
 	return updatedObj, nil
 }
 
-func (r *Repository) DeleteObject(ctx context.Context, id int) (model.Object, error) {
-	query := "DELETE FROM objects WHERE id = $1 RETURNING id, name, country, latitude, longitude, raise_type, max_height_m, status, created_at, updated_at"
-	var deletedObject model.Object
+func (r *RepositoryObject) DeleteObject(ctx context.Context, id int) (objects.Object, error) {
+	query := "DELETE FROM objects WHERE id = $1 RETURNING *"
+	var deletedObject objects.Object
 	err := r.pool.QueryRow(ctx, query, id).Scan(
 		&deletedObject.ID, &deletedObject.Name, &deletedObject.Country,
 		&deletedObject.Latitude, &deletedObject.Longitude, &deletedObject.RaiseType,
@@ -99,11 +99,11 @@ func (r *Repository) DeleteObject(ctx context.Context, id int) (model.Object, er
 		&deletedObject.CreatedAt, &deletedObject.UpdatedAt,
 	)
 	if err != nil {
-		return model.Object{}, err
+		return objects.Object{}, err
 	}
 	return deletedObject, nil
 }
 
-func NewRepository(pool *pgxpool.Pool) *Repository {
-	return &Repository{pool: pool}
+func NewRepositoryObject(pool *pgxpool.Pool) *RepositoryObject {
+	return &RepositoryObject{pool: pool}
 }
