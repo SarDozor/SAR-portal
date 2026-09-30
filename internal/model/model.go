@@ -17,8 +17,8 @@ type Object struct {
 
 type InsarJob struct {
 	ID               int        `json:"id"`
-	ObjectId         int        `json:"object_id"`
-	Hyp3JobId        string     `json:"hyp3_job_id"`
+	ObjectID         int        `json:"object_id"`
+	Hyp3JobID        string     `json:"hyp3_job_id"`
 	JobType          string     `json:"job_type"`
 	ReferenceGranule string     `json:"reference_granule"`
 	SecondaryGranule string     `json:"secondary_granule"`
