@@ -8,7 +8,10 @@ import (
 	"os"
 
 	"github.com/darkn3sssss/sar-dozor/internal/db"
-	"github.com/darkn3sssss/sar-dozor/internal/objects"
+	insarjob "github.com/darkn3sssss/sar-dozor/internal/insarJob"
+	"github.com/darkn3sssss/sar-dozor/internal/measurement"
+	objects "github.com/darkn3sssss/sar-dozor/internal/object"
+
 	"github.com/joho/godotenv"
 )
 
@@ -28,18 +31,40 @@ func main() {
 	}
 	log.Println("подключились к базе")
 	defer pool.Close()
-	repository := objects.NewRepository(pool)
-	handler := objects.NewHandler(repository)
+
+	repositoryObjects := objects.NewRepositoryObject(pool)
+	handlerObjects := objects.NewHandlerObject(repositoryObjects)
+
+	repositoryInsarJob := insarjob.NewRepositoryInsarJob(pool)
+	handlerInsarJob := insarjob.NewHandlerInsarJob(repositoryInsarJob)
+
+	repositoryMeasurement := measurement.NewRepositoryMeasurement(pool)
+	handlerMeasurement := measurement.NewHandlerMeasurement(repositoryMeasurement)
+
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(HealthResponse{Status: "ok"})
 	})
-	mux.HandleFunc("GET /objects", handler.ListObjects)
-	mux.HandleFunc("GET /objects/{id}", handler.GetObjectByID)
-	mux.HandleFunc("PUT /objects/{id}", handler.UpdateObject)
-	mux.HandleFunc("POST /objects", handler.CreateObject)
-	mux.HandleFunc("DELETE /objects/{id}", handler.DeleteObject)
+
+	mux.HandleFunc("GET /objects", handlerObjects.ListObjects)
+	mux.HandleFunc("GET /objects/{id}", handlerObjects.GetObjectByID)
+	mux.HandleFunc("PUT /objects/{id}", handlerObjects.UpdateObject)
+	mux.HandleFunc("POST /objects", handlerObjects.CreateObject)
+	mux.HandleFunc("DELETE /objects/{id}", handlerObjects.DeleteObject)
+
+	mux.HandleFunc("GET /insar", handlerInsarJob.ListInsarJob)
+	mux.HandleFunc("GET /insar/{id}", handlerInsarJob.GetInsarJobByID)
+	mux.HandleFunc("PUT /insar/{id}", handlerInsarJob.UpdateInsarJob)
+	mux.HandleFunc("POST /insar", handlerInsarJob.CreateInsarJob)
+	mux.HandleFunc("DELETE /insar/{id}", handlerInsarJob.DeleteInsarJob)
+
+	mux.HandleFunc("GET /measurements", handlerMeasurement.ListMeasurement)
+	mux.HandleFunc("GET /measurements/{id}", handlerMeasurement.GetMeasurementByID)
+	mux.HandleFunc("PUT /measurements/{id}", handlerMeasurement.UpdateMeasurement)
+	mux.HandleFunc("POST /measurements", handlerMeasurement.CreateMeasurement)
+	mux.HandleFunc("DELETE /measurements/{id}", handlerMeasurement.DeleteMeasurement)
+
 	log.Println("сервер слушает порт :8080")
 	log.Fatal(http.ListenAndServe(":8080", mux))
 }
