@@ -1,4 +1,4 @@
-package objects
+package model
 
 import "time"
 
@@ -8,17 +8,17 @@ type Object struct {
 	Country    string    `json:"country"`
 	Latitude   *float64  `json:"latitude"`
 	Longitude  *float64  `json:"longitude"`
-	RaiseType  string    `json:"raise_type,omitempty"`
+	Status     *string   `json:"status"`
+	RaiseType  *string   `json:"raise_type"`
 	MaxHeightM *float64  `json:"max_height_m"`
 	CreatedAt  time.Time `json:"created_at"`
 	UpdatedAt  time.Time `json:"updated_at"`
-	Status     string    `json:"status,omitempty"`
 }
 
 type InsarJob struct {
 	ID               int        `json:"id"`
 	ObjectID         int        `json:"object_id"`
-	Hyp3JobID        string     `json:"hyp3_job_id"`
+	Hyp3JobID        *string    `json:"hyp3_job_id"`
 	JobType          string     `json:"job_type"`
 	ReferenceGranule string     `json:"reference_granule"`
 	SecondaryGranule string     `json:"secondary_granule"`
@@ -30,8 +30,8 @@ type InsarJob struct {
 }
 
 type Measurement struct {
-	ID             int       `json:"id"`
-	JobID          int       `jsob:"json_id"`
+	ID             int64     `json:"id"`
+	JobID          int       `json:"job_id"`
 	Latitude       *float64  `json:"latitude"`
 	Longitude      *float64  `json:"longitude"`
 	DisplacementMM float64   `json:"displacement_mm"`
