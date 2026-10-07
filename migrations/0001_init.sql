@@ -1,7 +1,5 @@
 BEGIN;
 
-
-
 CREATE TABLE objects (
     id           INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name         TEXT NOT NULL,
@@ -37,8 +35,6 @@ CREATE TABLE insar_jobs (
 );
 
 CREATE INDEX insar_jobs_object_id_idx ON insar_jobs (object_id);
-
-
 
 CREATE TABLE measurements (
     id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
