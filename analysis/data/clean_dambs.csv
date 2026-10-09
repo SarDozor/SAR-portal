@@ -24,7 +24,7 @@ CIL2 TSF,Finland,67.553955,25.242243,Active,Upstream,19.0
 CIL1 TSF,Finland,67.552612,25.241898,Active,Not Raised,15.0
 Principal TSF,Canada,48.257872,-78.417616,Active,Upstream,30.0
 Extension A4,Canada,48.254847,-78.400641,Active,Not Raised,18.0
-TMF North,Canada,49.293567,-78.224010,Inactive,Downstream,9.0
+TMF North,Canada,49.293567,-78.22401,Inactive,Downstream,9.0
 TMF South,Canada,49.291356,-78.224038,Inactive,Downstream,6.0
 Nova Scotia Tailings Area,Canada,47.392222,-79.6605556,Inactive,Not Raised,9.0
 Gahcho Kué Area 2 FINE PKC,Canada,63.463619,-109.2117519,Active,Downstream,12.0
@@ -1961,7 +1961,7 @@ Carlin James Creek,USA,40.775343,-116.205448,Closed,Downstream,
 ",Russia,66.422053,112.363475,Active,Upstream,63.5
 "Tailings pond at processing plant No.8, stage1:Tailings dam and secondary dykes",Russia,65.9212,111.476208,Active,Upstream,34.0
 Tailings pond at processing plant No.14,Russia,65.029444,111.694722,Active,Upstream,100.0
-"Sectioned tailings pond at processing plant No.16, stage1",Russia,65.017906, 117.139492,Active,Downstream,21.0
+"Sectioned tailings pond at processing plant No.16, stage1",Russia,65.017906,117.139492,Active,Downstream,21.0
 Tailings pond with recycled water fed to the processing plant,Russia,65.300556,41.148056,Active,Upstream,18.6
 Sandmagasinet Kiruna,Sweden,67.832396,20.121349,Active,"Upstream, Downstream",21.0
 Klarningsmagasinet Kiruna,Sweden,67.810218,20.131592,Active,Centerline,11.0
