@@ -13,6 +13,7 @@ df['latitude'] = df['latitude'].astype(str) #на всякий для широт
 df['latitude'] = df['latitude'].str.strip()
 df['latitude'] = pd.to_numeric(df['latitude'], errors = 'coerce')
 df = df.dropna(subset=['latitude', 'longitude'])
+print(df.dtypes) #проверка изменений
 
 print(df.shape)
 print(df.columns)
