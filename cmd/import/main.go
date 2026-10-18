@@ -70,19 +70,26 @@ func main() {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(3)
 	}
+	printReport(result)
 	if !flags.isDryRun {
+		if flags.dsn == "" {
+			if flags.dsn, err = searchDSN(); err != nil {
+				fmt.Fprintln(os.Stderr, err)
+				os.Exit(4)
+			}
+		}
 		pool, err := db.New(ctx, flags.dsn)
 		if err != nil {
 			fmt.Fprintln(os.Stderr, err)
-			os.Exit(4)
-		}
-		defer pool.Close()
-		if err = postListObject(ctx, pool, listObject); err != nil {
-			fmt.Fprintln(os.Stderr, err)
 			os.Exit(5)
 		}
-	} else {
-		dryRun(result)
+		defer pool.Close()
+		countInsertedObjects, err := postListObject(ctx, pool, listObject)
+		if err != nil {
+			fmt.Fprintln(os.Stderr, err)
+			os.Exit(6)
+		}
+		fmt.Println("\ninserted:", countInsertedObjects)
 	}
 }
 
@@ -96,19 +103,20 @@ func parsingFlags() (flags, error) {
 		return flags, fmt.Errorf("flag --file missing")
 	}
 	flags.path = *fileFlag
-	if *dsnFlag == "" {
-		if err := godotenv.Load(); err != nil {
-			return flags, fmt.Errorf("cannot load .env: %w", err)
-		}
-		flags.dsn = os.Getenv(envParameter)
-		if flags.dsn == "" {
-			return flags, errors.New("variable database url is not set")
-		}
-	} else {
-		flags.dsn = *dsnFlag
-	}
+	flags.dsn = *dsnFlag
 	flags.isDryRun = *dryRunFlag
 	return flags, nil
+}
+
+func searchDSN() (string, error) {
+	if err := godotenv.Load(); err != nil {
+		fmt.Fprintf(os.Stderr, "cannot load .env: %s", err.Error())
+	}
+	dsn := os.Getenv(envParameter)
+	if dsn == "" {
+		return "", errors.New("variable database url is not set")
+	}
+	return dsn, nil
 }
 
 func scanCsv(file *os.File, result *result) ([]model.Object, error) {
@@ -123,11 +131,12 @@ func scanCsv(file *os.File, result *result) ([]model.Object, error) {
 		if errors.Is(err, io.EOF) {
 			break
 		}
+		line, _ := reader.FieldPos(0)
 		var parseErr *csv.ParseError
 		if errors.As(err, &parseErr) {
 			result.totalCount++
 			result.countSkip++
-			result.wrongs = append(result.wrongs, parseErr.Error())
+			result.wrongs = append(result.wrongs, fmt.Sprintf("[%d] %v", line, parseErr))
 			continue
 		}
 		if err != nil {
@@ -139,7 +148,7 @@ func scanCsv(file *os.File, result *result) ([]model.Object, error) {
 		object, err := parseObject(record)
 		if err != nil {
 			result.countSkip++
-			result.wrongs = append(result.wrongs, err.Error())
+			result.wrongs = append(result.wrongs, fmt.Sprintf("[%d] %v", line, err))
 		} else {
 			listObject = append(listObject, object)
 			result.countSuccess++
@@ -152,6 +161,10 @@ func scanCsv(file *os.File, result *result) ([]model.Object, error) {
 func parseObject(record []string) (model.Object, error) {
 	var newObject model.Object
 	var errs []string
+	for i := range record {
+		record[i] = strings.TrimSpace(record[i])
+	}
+	record[tsf] = strings.Join(strings.Fields(record[tsf]), " ")
 	if record[tsf] == "" {
 		errs = append(errs, "name: text missing")
 	} else {
@@ -199,35 +212,35 @@ func parseObject(record []string) (model.Object, error) {
 	return newObject, nil
 }
 
-func dryRun(result result) {
-	for index, wrong := range result.wrongs {
-		if wrong != "" {
-			fmt.Fprintf(os.Stdout, "[%d]: %s\n", index+1, wrong)
-		}
+func printReport(result result) {
+	for _, wrong := range result.wrongs {
+		fmt.Fprintf(os.Stdout, "%s\n", wrong)
 	}
 	fmt.Fprintf(os.Stdout, "\nlines read: %d\n", result.totalCount)
 	fmt.Fprintf(os.Stdout, "ready to download: %d\n", result.countSuccess)
 	fmt.Fprintf(os.Stdout, "skipped: %d\n", result.countSkip)
 }
 
-func postListObject(ctx context.Context, pool *pgxpool.Pool, listObject []model.Object) error {
+func postListObject(ctx context.Context, pool *pgxpool.Pool, listObject []model.Object) (int, error) {
+	var countInsertedObjects int
 	query := "INSERT INTO objects (name, country, latitude, longitude, status, raise_type, max_height_m) VALUES ($1, $2, $3, $4, $5, $6, $7)"
 	tx, err := pool.Begin(ctx)
 	if err != nil {
-		return fmt.Errorf("begin transaction: %w", err)
+		return 0, fmt.Errorf("begin transaction: %w", err)
 	}
 	defer tx.Rollback(ctx)
-	for _, obj := range listObject {
+	for index, obj := range listObject {
 		_, err := tx.Exec(
 			ctx, query, obj.Name, obj.Country, obj.Latitude, obj.Longitude,
 			obj.Status, obj.RaiseType, obj.MaxHeightM,
 		)
 		if err != nil {
-			return fmt.Errorf("insert object: %w", err)
+			return 0, fmt.Errorf("[%d] insert %q: %w", index+1, obj.Name, err)
 		}
+		countInsertedObjects++
 	}
 	if err = tx.Commit(ctx); err != nil {
-		return fmt.Errorf("commit: %w", err)
+		return 0, fmt.Errorf("commit: %w", err)
 	}
-	return nil
+	return countInsertedObjects, nil
 }
