@@ -22,6 +22,8 @@ type result struct {
 	wrongs []string
 }
 
+type emptyStruct struct{}
+
 type validationError struct {
 	errors []string
 }
@@ -58,6 +60,33 @@ func main(){
 		os.Exit(2)
 	}
 	defer file.Close()
+	emptyStruct, err := scanSCV()
+	if err != nil{
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(3)
+	}
+	printReport(result)
+	if !flags.isDryRun {
+		// if flags.dsn == "" {
+		// 	if flags.dsn, err = searchDSN(); err != nil {
+		// 		fmt.Fprintln(os.Stderr, err)
+		// 		os.Exit(4)
+		// 	}
+		// }
+		// pool, err := db.New(ctx, flags.dsn)
+		// if err != nil {
+		// 	fmt.Fprintln(os.Stderr, err)
+		// 	os.Exit(5)
+		// }
+		// defer pool.Close()
+		// countInsertedObjects, err := postListObject(ctx, pool, listObject)
+		// if err != nil {
+		// 	fmt.Fprintln(os.Stderr, err)
+		// 	os.Exit(6)
+		// }
+		// fmt.Println("\ninserted:", countInsertedObjects)
+		fmt.Println("query")
+	}
 }
 
 func parsingFlags() (flags, error){
@@ -73,4 +102,14 @@ func parsingFlags() (flags, error){
 	flags.dsn = *dsnFlag
 	flags.isDryRun = *dryRunFlag
 	return  flags, nil
+}
+
+func scanCSV(file *os.File, result *result) (emptyStruct, error) {
+	emptyStruct := emptyStruct{}
+	fmt.Println("scanning csv file")
+	return emptyStruct, nil
+}
+
+func printReport(result result) {
+	fmt.Println("print the result")
 }
