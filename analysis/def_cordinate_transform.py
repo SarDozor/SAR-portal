@@ -1,7 +1,10 @@
+import os
+os.environ.pop('PROJ_LIB', None)
+os.environ.pop('PROJ_DATA', None)
 import rasterio
 from rasterio.warp import transform
 import numpy as np
-import os
+
 
 def window_mean(table, numb_string, numb_column, ots):
     begin_string1 = numb_string - ots
@@ -78,8 +81,35 @@ for n in list2:
         summ = summ + srez
 mean = summ/len(list2)
 print(mean.shape)
-print(np.median(mean[40:40]))
+print(np.median(mean[40, 40]))
 print(np.max(mean), np.min(mean))
+mask = mean > 0.8
+mask[30:51, 30:51] = False 
+print(np.sum(mask))
+dp = 0
+intervals = []
+for n in list2:
+    file = f'B1_series/{n}/{n}_los_disp.tif'
+    with rasterio.open(file) as f:
+        trns_x, trns_y = transform('EPSG:4326', f.crs, [lon], [lat])
+        f_ind_x, f_ind_y = f.index(trns_x[0], trns_y[0])
+        f_table = f.read(1)
+        ots = 40
+        numb_table = f_table[f_ind_x, f_ind_y]
+        begin_string = f_ind_x - ots
+        end_string = f_ind_x + ots + 1 
+        begin_clmn = f_ind_y - ots
+        end_clmn = f_ind_y + ots + 1
+        srez = f_table[begin_string:end_string, begin_clmn:end_clmn]
+        ref_vals = srez[(mask) & (srez != 0)]
+        opora = np.median(ref_vals)
+        damba = window_mean(f_table, f_ind_x, f_ind_y, 1)
+        dps = (damba - opora) * 1000
+        dp += dps
+        intervals.append(dps)
+        data = n[21:29]
+        #print(f"DATA: {data}, displacement za interval: {dps:.2f}, nakoplennoe: {dp:.2f}")
+print(f'{np.std(intervals):.2f}')
 '''dates = []
 disps = []
 cogers = []
