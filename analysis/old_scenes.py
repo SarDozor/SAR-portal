@@ -84,3 +84,7 @@ if subm1t:
     save2 = hyp3.check_credits()
     print(f"credits after: {save2}")
     print(f"raznica: {(save1 - save2)/len(list1)}")
+#print(pairs[1], pairs[2], pairs[3])
+fr, sr = pairs[0]
+print(fr)
+print(sr)
