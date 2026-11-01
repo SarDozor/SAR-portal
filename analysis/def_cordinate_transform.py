@@ -80,12 +80,36 @@ for n in list2:
         srez = f_table[begin_string:end_string, begin_clmn:end_clmn]
         summ = summ + srez
 mean = summ/len(list2)
-print(mean.shape)
-print(np.median(mean[40, 40]))
-print(np.max(mean), np.min(mean))
+#print(mean.shape)
+#print(np.median(mean[40, 40]))
+#print(np.max(mean), np.min(mean))
 mask = mean > 0.8
-mask[30:51, 30:51] = False 
-print(np.sum(mask))
+mask[30:51, 30:51] = False
+foldername = 'S1BB_20180208T082857_20180220T082857_VVP012_INT40_G_weF_3093'
+dem = f'{foldername}/{foldername}/{foldername}_dem.tif'
+dopusk = [100, 75, 50, 30]
+#for z in dopusk:
+'''with rasterio.open(dem) as d:
+    #print(d.shape)
+    trns_x, trns_y = transform('EPSG:4326', d.crs, [lon], [lat])
+    f_ind_x, f_ind_y = d.index(trns_x[0], trns_y[0])
+    f_table = d.read(1)
+    ots = 40
+    numb_table = f_table[f_ind_x, f_ind_y]
+    begin_string = f_ind_x - ots
+    end_string = f_ind_x + ots + 1 
+    begin_clmn = f_ind_y - ots
+    end_clmn = f_ind_y + ots + 1
+    dem_srez = f_table[begin_string:end_string, begin_clmn:end_clmn]
+    mask2 = dem_srez - dem_srez[40, 40]
+    #mask2 = np.abs(mask2) < z
+    mask_z = mask & mask2'''
+coords = np.argwhere(mask)
+random21 = np.random.choice(len(coords), size=21, replace=False)
+index21 = coords[random21]
+new_mask = np.zeros_like(mask)
+new_mask[index21[:, 0], index21[:, 1]] = True
+print(np.sum(new_mask))
 dp = 0
 intervals = []
 for n in list2:
@@ -101,7 +125,7 @@ for n in list2:
         begin_clmn = f_ind_y - ots
         end_clmn = f_ind_y + ots + 1
         srez = f_table[begin_string:end_string, begin_clmn:end_clmn]
-        ref_vals = srez[(mask) & (srez != 0)]
+        ref_vals = srez[(new_mask) & (srez != 0)]
         opora = np.median(ref_vals)
         damba = window_mean(f_table, f_ind_x, f_ind_y, 1)
         dps = (damba - opora) * 1000
@@ -110,6 +134,9 @@ for n in list2:
         data = n[21:29]
         #print(f"DATA: {data}, displacement za interval: {dps:.2f}, nakoplennoe: {dp:.2f}")
 print(f'{np.std(intervals):.2f}')
+check = f'B1_series/{list2[0]}/{list2[0]}_los_disp.tif'
+'''with rasterio.open(check) as c:
+    print(c.shape)'''
 '''dates = []
 disps = []
 cogers = []
