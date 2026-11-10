@@ -89,8 +89,8 @@ foldername = 'S1BB_20180208T082857_20180220T082857_VVP012_INT40_G_weF_3093'
 dem = f'{foldername}/{foldername}/{foldername}_dem.tif'
 dopusk = [100, 75, 50, 30]
 #for z in dopusk:
-'''with rasterio.open(dem) as d:
-    #print(d.shape)
+with rasterio.open(dem) as d:
+#print(d.shape)
     trns_x, trns_y = transform('EPSG:4326', d.crs, [lon], [lat])
     f_ind_x, f_ind_y = d.index(trns_x[0], trns_y[0])
     f_table = d.read(1)
@@ -102,16 +102,20 @@ dopusk = [100, 75, 50, 30]
     end_clmn = f_ind_y + ots + 1
     dem_srez = f_table[begin_string:end_string, begin_clmn:end_clmn]
     mask2 = dem_srez - dem_srez[40, 40]
-    #mask2 = np.abs(mask2) < z
-    mask_z = mask & mask2'''
+    mask2 = np.abs(mask2) <= 100
+    mask_z = mask & mask2
+    print(np.sum(mask_z))
 coords = np.argwhere(mask)
 random21 = np.random.choice(len(coords), size=21, replace=False)
 index21 = coords[random21]
 new_mask = np.zeros_like(mask)
 new_mask[index21[:, 0], index21[:, 1]] = True
-print(np.sum(new_mask))
+#print(np.sum(new_mask))
 dp = 0
 intervals = []
+disp_windows = []
+results = []
+height_intervals = []
 for n in list2:
     file = f'B1_series/{n}/{n}_los_disp.tif'
     with rasterio.open(file) as f:
@@ -126,6 +130,7 @@ for n in list2:
         end_clmn = f_ind_y + ots + 1
         srez = f_table[begin_string:end_string, begin_clmn:end_clmn]
         ref_vals = srez[(new_mask) & (srez != 0)]
+        disp_windows.append(srez.copy())
         opora = np.median(ref_vals)
         damba = window_mean(f_table, f_ind_x, f_ind_y, 1)
         dps = (damba - opora) * 1000
@@ -133,11 +138,77 @@ for n in list2:
         intervals.append(dps)
         data = n[21:29]
         #print(f"DATA: {data}, displacement za interval: {dps:.2f}, nakoplennoe: {dp:.2f}")
-print(f'{np.std(intervals):.2f}')
-check = f'B1_series/{list2[0]}/{list2[0]}_los_disp.tif'
-'''with rasterio.open(check) as c:
-    print(c.shape)'''
-'''dates = []
+    #print(f'{np.std(intervals):.2f}')
+#print(len(disp_windows))
+#print(disp_windows[5].shape)
+print("исходных пикселей:", np.sum(mask))
+print("вырезок:", len(disp_windows))
+np.random.seed(42)
+for i in range(100):
+    coords = np.argwhere(mask)
+    random21 = np.random.choice(len(coords), size=120, replace=False)
+    if i == 0:
+        print("первые 10 выбранных индексов:", random21[:10])
+    index21 = coords[random21]
+    new_mask = np.zeros_like(mask)
+    new_mask[index21[:, 0], index21[:, 1]] = True
+    intervals = []
+    for srez in disp_windows:
+        ref_vals = srez[(new_mask) & (srez != 0)]
+        opora = np.median(ref_vals)
+        damba = window_mean(srez, 40, 40, 1)
+        dps = (damba - opora) * 1000
+        intervals.append(dps)
+    results.append(np.std(intervals))
+print(results)
+height_intervals = []
+for srez in disp_windows:
+    ref_vals = srez[mask_z & (srez != 0)]
+    opora = np.median(ref_vals)
+    damba = window_mean(srez, 40, 40, 1)
+    height_intervals.append((damba - opora) * 1000)
+height_std = np.std(height_intervals)
+print("разброс с фильтром высот, мм:", height_std)
+def window_grid(path):
+    with rasterio.open(path) as src:
+        xs, ys = transform('EPSG:4326', src.crs, [lon], [lat])
+        row, col = src.index(xs[0], ys[0])
+        points = np.array([
+            src.xy(row - 40, col - 40),
+            src.xy(row - 40, col + 40),
+            src.xy(row + 40, col - 40),
+        ]) #центры трёх угловых пикселей вырезки 81×81
+        return src.crs, points
+dem_crs, dem_points = window_grid(dem)
+matched = 0
+checked = 0
+for n in list2:
+    for kind in ('corr', 'los_disp'):
+        path = f'B1_series/{n}/{n}_{kind}.tif'
+        crs, points = window_grid(path)
+        checked += 1
+
+        same_grid = (
+            crs == dem_crs
+            and np.allclose(points, dem_points, rtol=0, atol=1e-6)
+        )
+
+        if same_grid:
+            matched += 1
+        else:
+            print("несовпадение сетки:", n, kind)
+            if crs == dem_crs:
+                print("разности координат углов:", points - dem_points)
+            else:
+                print("разные CRS:", crs, dem_crs)
+print(f"совпало с сеткой DEM: {matched}/{checked}")
+
+
+
+'''#check = f'B1_series/{list2[0]}/{list2[0]}_los_disp.tif'
+with rasterio.open(check) as c:
+    print(c.shape)
+dates = []
 disps = []
 cogers = []
 disps_new = []
