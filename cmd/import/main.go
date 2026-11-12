@@ -7,6 +7,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
+	"math"
 	"os"
 	"strconv"
 	"strings"
@@ -65,7 +66,7 @@ func main() {
 		os.Exit(2)
 	}
 	defer file.Close()
-	listObject, err := scanCsv(file, &result)
+	listObject, err := scanSCV(file, &result)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(3)
@@ -119,7 +120,7 @@ func searchDSN() (string, error) {
 	return dsn, nil
 }
 
-func scanCsv(file *os.File, result *result) ([]model.Object, error) {
+func scanSCV(file *os.File, result *result) ([]model.Object, error) {
 	listObject := []model.Object{}
 	reader := csv.NewReader(file)
 	reader.FieldsPerRecord = 7
@@ -131,12 +132,11 @@ func scanCsv(file *os.File, result *result) ([]model.Object, error) {
 		if errors.Is(err, io.EOF) {
 			break
 		}
-		line, _ := reader.FieldPos(0)
 		var parseErr *csv.ParseError
 		if errors.As(err, &parseErr) {
 			result.totalCount++
 			result.countSkip++
-			result.wrongs = append(result.wrongs, fmt.Sprintf("[%d] %v", line, parseErr))
+			result.wrongs = append(result.wrongs, fmt.Sprintf("[%d] %v", parseErr.Line, parseErr))
 			continue
 		}
 		if err != nil {
@@ -145,6 +145,7 @@ func scanCsv(file *os.File, result *result) ([]model.Object, error) {
 		if len(record) == 0 {
 			continue
 		}
+		line, _ := reader.FieldPos(0)
 		object, err := parseObject(record)
 		if err != nil {
 			result.countSkip++
@@ -177,15 +178,19 @@ func parseObject(record []string) (model.Object, error) {
 	}
 	if latitude, err := strconv.ParseFloat(record[latitude], 64); err != nil {
 		errs = append(errs, "latitude: cannot be format to float")
+	} else if math.IsNaN(latitude) || math.IsInf(latitude, 0) {
+		errs = append(errs, "latitude: must be finite")
 	} else if latitude < -90 || latitude > 90 {
-		errs = append(errs, "latitude: out of range")
+		errs = append(errs, "latitude: must be between -90 and 90")
 	} else {
 		newObject.Latitude = &latitude
 	}
 	if longitude, err := strconv.ParseFloat(record[longitude], 64); err != nil {
 		errs = append(errs, "longitude: cannot be format to float")
+	} else if math.IsNaN(longitude) || math.IsInf(longitude, 0) {
+		errs = append(errs, "longitude: must be finite")
 	} else if longitude < -180 || longitude > 180 {
-		errs = append(errs, "longitude: out of range")
+		errs = append(errs, "longitude: must be between -180 and 180")
 	} else {
 		newObject.Longitude = &longitude
 	}
@@ -200,6 +205,8 @@ func parseObject(record []string) (model.Object, error) {
 	if record[current_maximum_heigh] != "" {
 		if current_maximum_heigh, err := strconv.ParseFloat(record[current_maximum_heigh], 64); err != nil {
 			errs = append(errs, "current_maximum_heigh: cannot be format to float")
+		} else if math.IsNaN(current_maximum_heigh) || math.IsInf(current_maximum_heigh, 0) {
+			errs = append(errs, "current_maximum_heigh: must be finite")
 		} else if current_maximum_heigh < 0 {
 			errs = append(errs, "current_maximum_heigh: cannot be negative")
 		} else {
