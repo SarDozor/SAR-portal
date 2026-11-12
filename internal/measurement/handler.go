@@ -129,6 +129,23 @@ func (h *Handler) DeleteMeasurement(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(deletedMeasurement)
 }
 
+func (h *Handler) ListMeasurementsByObject(w http.ResponseWriter, r *http.Request) {
+	strID := r.PathValue("id")
+	id, err := strconv.ParseInt(strID, 10, 64)
+	if err != nil {
+		http.Error(w, "неверный id", http.StatusBadRequest)
+		return
+	}
+	list, err := h.repo.ListMeasurementsByObject(r.Context(), id)
+	if err != nil {
+		log.Printf("ListMeasurementsByObject %d: %v", id, err)
+		http.Error(w, "не удалось получить измерения задачи", http.StatusInternalServerError)
+		return
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(list)
+}
+
 func NewHandler(repo *Repository) *Handler {
 	return &Handler{repo: repo}
 }

@@ -66,6 +66,8 @@ func main() {
 	mux.HandleFunc("POST /measurements", handlerMeasurements.CreateMeasurement)
 	mux.HandleFunc("DELETE /measurements/{id}", handlerMeasurements.DeleteMeasurement)
 
+	mux.HandleFunc("GET /objects/{id}/measurements", handlerMeasurements.ListMeasurementsByObject)
+
 	server := &http.Server{
 		Addr:              ":8080",
 		Handler:           mux,

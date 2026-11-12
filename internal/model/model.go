@@ -42,6 +42,12 @@ type Measurement struct {
 	CreatedAt               time.Time `json:"created_at"`
 }
 
+type ObjectMeasurement struct {
+	Measurement
+	ReferenceDate time.Time `json:"reference_date"`
+	SecondaryDate time.Time `json:"secondary_date"`
+}
+
 type ResultRow struct {
 	ObjectCode              string
 	PairName                string

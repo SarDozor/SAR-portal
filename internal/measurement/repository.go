@@ -10,6 +10,7 @@ import (
 )
 
 const columns = "id, job_id, latitude, longitude, reference_method, displacement_mm, dam_coherence_mean, dam_coherence_valid_pixels, created_at"
+const columnsWithJoin = "m.id, m.job_id, m.latitude, m.longitude, m.reference_method, m.displacement_mm, m.dam_coherence_mean, m.dam_coherence_valid_pixels, m.created_at"
 
 type Repository struct {
 	pool *pgxpool.Pool
@@ -25,7 +26,18 @@ func scanMeasurement(row pgx.Row) (model.Measurement, error) {
 	return m, err
 }
 
-func (r *Repository) list(ctx context.Context, query string, args ...any) ([]model.Measurement, error) {
+func scanObjectMeasurement(row pgx.Row) (model.ObjectMeasurement, error) {
+	var m model.ObjectMeasurement
+	err := row.Scan(
+		&m.ID, &m.JobID, &m.Latitude, &m.Longitude,
+		&m.ReferenceMethod, &m.DisplacementMM, &m.DamCoherenceMean,
+		&m.DamCoherenceValidPixels, &m.CreatedAt,
+		&m.ReferenceDate, &m.SecondaryDate,
+	)
+	return m, err
+}
+
+func (r *Repository) listMeasurement(ctx context.Context, query string, args ...any) ([]model.Measurement, error) {
 	rows, err := r.pool.Query(ctx, query, args...)
 	if err != nil {
 		return nil, err
@@ -45,12 +57,32 @@ func (r *Repository) list(ctx context.Context, query string, args ...any) ([]mod
 	return listMeasurements, nil
 }
 
+func (r *Repository) listObjectMeasurement(ctx context.Context, query string, args ...any) ([]model.ObjectMeasurement, error) {
+	rows, err := r.pool.Query(ctx, query, args...)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	listObjectMeasurements := []model.ObjectMeasurement{}
+	for rows.Next() {
+		objectMeasurement, err := scanObjectMeasurement(rows)
+		if err != nil {
+			return nil, err
+		}
+		listObjectMeasurements = append(listObjectMeasurements, objectMeasurement)
+	}
+	if err = rows.Err(); err != nil {
+		return nil, err
+	}
+	return listObjectMeasurements, nil
+}
+
 func (r *Repository) ListMeasurements(ctx context.Context) ([]model.Measurement, error) {
-	return r.list(ctx, "SELECT "+columns+" FROM measurements ORDER BY id")
+	return r.listMeasurement(ctx, "SELECT "+columns+" FROM measurements ORDER BY id")
 }
 
 func (r *Repository) ListMeasurementsByJob(ctx context.Context, jobID int) ([]model.Measurement, error) {
-	return r.list(ctx, "SELECT "+columns+" FROM measurements WHERE job_id = $1 ORDER BY id", jobID)
+	return r.listMeasurement(ctx, "SELECT "+columns+" FROM measurements WHERE job_id = $1 ORDER BY id", jobID)
 }
 
 func (r *Repository) GetMeasurementByID(ctx context.Context, id int64) (model.Measurement, error) {
@@ -79,6 +111,11 @@ func (r *Repository) UpdateMeasurement(ctx context.Context, id int64, measuremen
 func (r *Repository) DeleteMeasurement(ctx context.Context, id int64) (model.Measurement, error) {
 	query := "DELETE FROM measurements WHERE id = $1 RETURNING " + columns
 	return scanMeasurement(r.pool.QueryRow(ctx, query, id))
+}
+
+func (r *Repository) ListMeasurementsByObject(ctx context.Context, id int64) ([]model.ObjectMeasurement, error) {
+	query := "SELECT " + columnsWithJoin + ", j.reference_date, j.secondary_date FROM measurements AS m JOIN insar_jobs AS j ON j.id = m.job_id WHERE j.object_id = $1 ORDER BY j.secondary_date, j.reference_date, m.reference_method, m.id"
+	return r.listObjectMeasurement(ctx, query, id)
 }
 
 func NewRepository(pool *pgxpool.Pool) *Repository {
