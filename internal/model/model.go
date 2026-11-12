@@ -19,6 +19,7 @@ type InsarJob struct {
 	ID               int        `json:"id"`
 	ObjectID         int        `json:"object_id"`
 	Hyp3JobID        *string    `json:"hyp3_job_id"`
+	PairName         string     `json:"pair_name"`
 	JobType          string     `json:"job_type"`
 	ReferenceGranule string     `json:"reference_granule"`
 	SecondaryGranule string     `json:"secondary_granule"`
@@ -30,11 +31,28 @@ type InsarJob struct {
 }
 
 type Measurement struct {
-	ID             int64     `json:"id"`
-	JobID          int       `json:"job_id"`
-	Latitude       *float64  `json:"latitude"`
-	Longitude      *float64  `json:"longitude"`
-	DisplacementMM float64   `json:"displacement_mm"`
-	Coherence      *float64  `json:"coherence"`
-	CreatedAt      time.Time `json:"created_at"`
+	ID                      int64     `json:"id"`
+	JobID                   int       `json:"job_id"`
+	Latitude                float64   `json:"latitude"`
+	Longitude               float64   `json:"longitude"`
+	ReferenceMethod         string    `json:"reference_method"`
+	DisplacementMM          float64   `json:"displacement_mm"`
+	DamCoherenceMean        float64   `json:"dam_coherence_mean"`
+	DamCoherenceValidPixels int       `json:"dam_coherence_valid_pixels"`
+	CreatedAt               time.Time `json:"created_at"`
+}
+
+type ResultRow struct {
+	ObjectCode              string
+	PairName                string
+	ReferenceDate           time.Time
+	SecondaryDate           time.Time
+	ReferenceGranule        string
+	SecondaryGranule        string
+	Latitude                float64
+	Longitude               float64
+	DamCoherenceMean        float64
+	DamCoherenceValidPixels int
+	ReferenceMethod         string
+	DisplacementMM          float64
 }
