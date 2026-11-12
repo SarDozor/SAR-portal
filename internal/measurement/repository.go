@@ -9,7 +9,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-const columns = "id, job_id, latitude, longitude, displacement_mm, coherence, created_at"
+const columns = "id, job_id, latitude, longitude, reference_method, displacement_mm, dam_coherence_mean, dam_coherence_valid_pixels, created_at"
 
 type Repository struct {
 	pool *pgxpool.Pool
@@ -19,7 +19,8 @@ func scanMeasurement(row pgx.Row) (model.Measurement, error) {
 	var m model.Measurement
 	err := row.Scan(
 		&m.ID, &m.JobID, &m.Latitude, &m.Longitude,
-		&m.DisplacementMM, &m.Coherence, &m.CreatedAt,
+		&m.ReferenceMethod, &m.DisplacementMM, &m.DamCoherenceMean,
+		&m.DamCoherenceValidPixels, &m.CreatedAt,
 	)
 	return m, err
 }
@@ -58,18 +59,20 @@ func (r *Repository) GetMeasurementByID(ctx context.Context, id int64) (model.Me
 }
 
 func (r *Repository) CreateMeasurement(ctx context.Context, measurement model.Measurement) (model.Measurement, error) {
-	query := "INSERT INTO measurements (job_id, latitude, longitude, displacement_mm, coherence) VALUES ($1, $2, $3, $4, $5) RETURNING " + columns
+	query := "INSERT INTO measurements (job_id, latitude, longitude, reference_method, displacement_mm, dam_coherence_mean, dam_coherence_valid_pixels) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING " + columns
 	return scanMeasurement(r.pool.QueryRow(ctx, query,
 		measurement.JobID, measurement.Latitude, measurement.Longitude,
-		measurement.DisplacementMM, measurement.Coherence,
+		measurement.ReferenceMethod, measurement.DisplacementMM,
+		measurement.DamCoherenceMean, measurement.DamCoherenceValidPixels,
 	))
 }
 
 func (r *Repository) UpdateMeasurement(ctx context.Context, id int64, measurement model.Measurement) (model.Measurement, error) {
-	query := "UPDATE measurements SET job_id = $1, latitude = $2, longitude = $3, displacement_mm = $4, coherence = $5 WHERE id = $6 RETURNING " + columns
+	query := "UPDATE measurements SET job_id = $1, latitude = $2, longitude = $3, reference_method = $4, displacement_mm = $5, dam_coherence_mean = $6, dam_coherence_valid_pixels = $7 WHERE id = $8 RETURNING " + columns
 	return scanMeasurement(r.pool.QueryRow(ctx, query,
 		measurement.JobID, measurement.Latitude, measurement.Longitude,
-		measurement.DisplacementMM, measurement.Coherence, id,
+		measurement.ReferenceMethod, measurement.DisplacementMM,
+		measurement.DamCoherenceMean, measurement.DamCoherenceValidPixels, id,
 	))
 }
 

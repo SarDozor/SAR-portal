@@ -9,7 +9,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-const columns = "id, object_id, hyp3_job_id, job_type, reference_granule, secondary_granule, reference_date, secondary_date, status, created_at, finished_at"
+const columns = "id, object_id, hyp3_job_id, pair_name, job_type, reference_granule, secondary_granule, reference_date, secondary_date, status, created_at, finished_at"
 
 type Repository struct {
 	pool *pgxpool.Pool
@@ -18,7 +18,8 @@ type Repository struct {
 func scanInsarJob(row pgx.Row) (model.InsarJob, error) {
 	var j model.InsarJob
 	err := row.Scan(
-		&j.ID, &j.ObjectID, &j.Hyp3JobID, &j.JobType,
+		&j.ID, &j.ObjectID, &j.Hyp3JobID,
+		&j.PairName, &j.JobType,
 		&j.ReferenceGranule, &j.SecondaryGranule,
 		&j.ReferenceDate, &j.SecondaryDate,
 		&j.Status, &j.CreatedAt, &j.FinishedAt,
@@ -66,9 +67,10 @@ func (r *Repository) CreateInsarJob(ctx context.Context, insarJob model.InsarJob
 	if insarJob.Status == "" {
 		insarJob.Status = "PENDING"
 	}
-	query := "INSERT INTO insar_jobs (object_id, hyp3_job_id, job_type, reference_granule, secondary_granule, reference_date, secondary_date, status, finished_at) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING " + columns
+	query := "INSERT INTO insar_jobs (object_id, hyp3_job_id, pair_name, job_type, reference_granule, secondary_granule, reference_date, secondary_date, status, finished_at) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING " + columns
 	return scanInsarJob(r.pool.QueryRow(ctx, query,
-		insarJob.ObjectID, insarJob.Hyp3JobID, insarJob.JobType,
+		insarJob.ObjectID, insarJob.Hyp3JobID,
+		insarJob.PairName, insarJob.JobType,
 		insarJob.ReferenceGranule, insarJob.SecondaryGranule,
 		insarJob.ReferenceDate, insarJob.SecondaryDate,
 		insarJob.Status, insarJob.FinishedAt,
@@ -76,9 +78,10 @@ func (r *Repository) CreateInsarJob(ctx context.Context, insarJob model.InsarJob
 }
 
 func (r *Repository) UpdateInsarJob(ctx context.Context, id int, insarJob model.InsarJob) (model.InsarJob, error) {
-	query := "UPDATE insar_jobs SET object_id = $1, hyp3_job_id = $2, job_type = $3, reference_granule = $4, secondary_granule = $5, reference_date = $6, secondary_date = $7, status = $8, finished_at = $9 WHERE id = $10 RETURNING " + columns
+	query := "UPDATE insar_jobs SET object_id = $1, hyp3_job_id = $2, pair_name = $3, job_type = $4, reference_granule = $5, secondary_granule = $6, reference_date = $7, secondary_date = $8, status = $9, finished_at = $10 WHERE id = $11 RETURNING " + columns
 	return scanInsarJob(r.pool.QueryRow(ctx, query,
-		insarJob.ObjectID, insarJob.Hyp3JobID, insarJob.JobType,
+		insarJob.ObjectID, insarJob.Hyp3JobID,
+		insarJob.PairName, insarJob.JobType,
 		insarJob.ReferenceGranule, insarJob.SecondaryGranule,
 		insarJob.ReferenceDate, insarJob.SecondaryDate,
 		insarJob.Status, insarJob.FinishedAt, id,
