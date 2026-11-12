@@ -15,10 +15,13 @@ import (
 
 	"github.com/darkn3sssss/sar-dozor/internal/db"
 	"github.com/darkn3sssss/sar-dozor/internal/model"
+	"github.com/jackc/pgx/v5"
+	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
 )
 
 type flags struct {
+	objectID int
 	path     string
 	dsn      string
 	isDryRun bool
@@ -71,7 +74,7 @@ func main() {
 		os.Exit(2)
 	}
 	defer file.Close()
-	//listResult, err := scanSCV(file, &result)
+	listResult, err := scanSCV(file, &result)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(3)
@@ -90,13 +93,12 @@ func main() {
 			os.Exit(5)
 		}
 		defer pool.Close()
-		/*countInsertedResults, err := postListResult(ctx, pool, listResult)
+		countInsertedResults, err := importResults(ctx, pool, flags.objectID, listResult)
 		if err != nil {
 			fmt.Fprintln(os.Stderr, err)
 			os.Exit(6)
 		}
-		fmt.Println("\ninserted:", countInsertedResults)*/
-		fmt.Println("query")
+		fmt.Println("\nmeasurements saved (inserted or updated):", countInsertedResults)
 	}
 }
 
@@ -105,10 +107,15 @@ func parsingFlags() (flags, error) {
 	fileFlag := flag.String("file", "", "file name")
 	dsnFlag := flag.String("dsn", "", "database url")
 	dryRunFlag := flag.Bool("dry-run", false, "test")
+	objectIDFlag := flag.Int("object-id", 0, "existing object ID (required unless --dry-run)")
 	flag.Parse()
 	if *fileFlag == "" {
 		return flags, fmt.Errorf("flag --file missing")
 	}
+	if !*dryRunFlag && *objectIDFlag <= 0 {
+		return flags, fmt.Errorf("--object-id must be positive")
+	}
+	flags.objectID = *objectIDFlag
 	flags.path = *fileFlag
 	flags.dsn = *dsnFlag
 	flags.isDryRun = *dryRunFlag
@@ -275,27 +282,95 @@ func printReport(result result) {
 	fmt.Fprintf(os.Stdout, "skipped: %d\n", result.countSkip)
 }
 
-/*
-func postListResult(ctx context.Context, pool *pgxpool.Pool, listObject []model.ResultRow) (int, error) {
-	var countInsertedObjects int
-	query := "INSERT INTO objects (name, country, latitude, longitude, status, raise_type, max_height_m) VALUES ($1, $2, $3, $4, $5, $6, $7)"
+func importResults(
+	ctx context.Context,
+	pool *pgxpool.Pool,
+	objectID int,
+	rows []model.ResultRow,
+) (int, error) {
+	if objectID <= 0 {
+		return 0, fmt.Errorf("object ID must be positive")
+	}
+	if len(rows) == 0 {
+		return 0, nil
+	}
+	code := strings.TrimSpace(rows[0].ObjectCode)
+	for i, row := range rows {
+		if code == "" || strings.TrimSpace(row.ObjectCode) != code {
+			return 0, fmt.Errorf("row %d: expected a single non-empty object_code %q", i+1, code)
+		}
+	}
+
 	tx, err := pool.Begin(ctx)
 	if err != nil {
 		return 0, fmt.Errorf("begin transaction: %w", err)
 	}
-	defer tx.Rollback(ctx)
-	for index, obj := range listObject {
-		_, err := tx.Exec(
-			ctx, query, obj.Name, obj.Country, obj.Latitude, obj.Longitude,
-			obj.Status, obj.RaiseType, obj.MaxHeightM,
+	defer func() {
+		rollbackCtx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+		defer cancel()
+		_ = tx.Rollback(rollbackCtx)
+	}()
+
+	var existingID int
+	err = tx.QueryRow(ctx, "SELECT id FROM objects WHERE id = $1 FOR KEY SHARE", objectID).Scan(&existingID)
+	if errors.Is(err, pgx.ErrNoRows) {
+		return 0, fmt.Errorf("object %d not found", objectID)
+	}
+	if err != nil {
+		return 0, fmt.Errorf("find object: %w", err)
+	}
+
+	const jobQuery = `
+		INSERT INTO insar_jobs (
+			object_id, pair_name, job_type, reference_granule, secondary_granule,
+			reference_date, secondary_date, status
+		) VALUES ($1, $2, 'INSAR_GAMMA', $3, $4, $5, $6, 'SUCCEEDED')
+		ON CONFLICT (object_id, pair_name) DO UPDATE SET status = 'SUCCEEDED'
+		WHERE insar_jobs.job_type = EXCLUDED.job_type
+			AND insar_jobs.reference_granule = EXCLUDED.reference_granule
+			AND insar_jobs.secondary_granule = EXCLUDED.secondary_granule
+			AND insar_jobs.reference_date = EXCLUDED.reference_date
+			AND insar_jobs.secondary_date = EXCLUDED.secondary_date
+		RETURNING id`
+	const measurementQuery = `
+		INSERT INTO measurements (
+			job_id, latitude, longitude, reference_method, displacement_mm,
+			dam_coherence_mean, dam_coherence_valid_pixels
+		) VALUES ($1, $2, $3, $4, $5, $6, $7)
+		ON CONFLICT (job_id, reference_method) DO UPDATE SET
+			latitude = EXCLUDED.latitude,
+			longitude = EXCLUDED.longitude,
+			displacement_mm = EXCLUDED.displacement_mm,
+			dam_coherence_mean = EXCLUDED.dam_coherence_mean,
+			dam_coherence_valid_pixels = EXCLUDED.dam_coherence_valid_pixels`
+
+	count := 0
+
+	for i, row := range rows {
+		var jobID int
+		err := tx.QueryRow(ctx, jobQuery,
+			objectID, row.PairName, row.ReferenceGranule, row.SecondaryGranule,
+			row.ReferenceDate, row.SecondaryDate,
+		).Scan(&jobID)
+		if errors.Is(err, pgx.ErrNoRows) {
+			return 0, fmt.Errorf("row %d: pair %q conflicts with existing job metadata", i+1, row.PairName)
+		}
+		if err != nil {
+			return 0, fmt.Errorf("row %d: save job %q: %w", i+1, row.PairName, err)
+		}
+		_, err = tx.Exec(ctx, measurementQuery,
+			jobID, row.Latitude, row.Longitude, row.ReferenceMethod,
+			row.DisplacementMM, row.DamCoherenceMean, row.DamCoherenceValidPixels,
 		)
 		if err != nil {
-			return 0, fmt.Errorf("[%d] insert %q: %w", index+1, obj.Name, err)
+			return 0, fmt.Errorf("row %d: save measurement %q/%q: %w", i+1, row.PairName, row.ReferenceMethod, err)
 		}
-		countInsertedObjects++
+		count++
 	}
-	if err = tx.Commit(ctx); err != nil {
+
+	if err := tx.Commit(ctx); err != nil {
 		return 0, fmt.Errorf("commit: %w", err)
 	}
-	return countInsertedObjects, nil
-}*/
+
+	return count, nil
+}
