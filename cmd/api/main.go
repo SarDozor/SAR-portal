@@ -8,6 +8,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/darkn3sssss/sar-dozor/internal/dashboard"
 	"github.com/darkn3sssss/sar-dozor/internal/db"
 	"github.com/darkn3sssss/sar-dozor/internal/insarjob"
 	"github.com/darkn3sssss/sar-dozor/internal/measurement"
@@ -41,6 +42,7 @@ func main() {
 	handlerMeasurements := measurement.NewHandler(measurement.NewRepository(pool))
 
 	mux := http.NewServeMux()
+	dashboard.Register(mux)
 	mux.HandleFunc("GET /health", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(HealthResponse{Status: "ok"})
@@ -78,4 +80,17 @@ func main() {
 	}
 	log.Println("сервер слушает порт :8080")
 	log.Fatal(server.ListenAndServe())
+}
+
+func corsMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+		if r.Method == "OPTIONS" {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+		next.ServeHTTP(w, r)
+	})
 }
