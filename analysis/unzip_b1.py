@@ -5,7 +5,8 @@ import zipfile
 #print(os.listdir('B1_series'))
 allzipz = []
 for s in os.listdir('B1_series'):
-    allzipz.append(s)
+    if s.endswith('.zip'):
+        allzipz.append(s)
 allpathzip = []
 for al in allzipz:
     f = f'B1_series/{al}'
@@ -13,7 +14,6 @@ for al in allzipz:
 #print(allpathzip)
 '''with zipfile.ZipFile(allpathzip[0]) as firstzip:
     print(firstzip.namelist())'''
-
 for al1 in allpathzip:
     with zipfile.ZipFile(al1) as firstzip:
         for zip in firstzip.namelist():
