@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#132e30">
+  <meta name="description" content="SAR-Дозор — спутниковые измерения смещений хвостохранилищ.">
+  <title>SAR-Дозор · Мониторинг объектов</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23132e30'/%3E%3Ccircle cx='20' cy='20' r='12' fill='none' stroke='%237ee1ba'/%3E%3Ccircle cx='20' cy='20' r='6' fill='none' stroke='%237ee1ba'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="module" src="/assets/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">К измерениям</a>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="SAR-Дозор, главная"><span class="radar" aria-hidden="true"><i></i></span><span>SAR<span class="brand-light">ДОЗОР</span><small>СПУТНИКОВЫЙ МОНИТОРИНГ</small></span></a>
+    <div class="sidebar-label">РАБОЧЕЕ ПРОСТРАНСТВО</div>
+    <a href="#main" class="nav-active"><span aria-hidden="true">◈</span> Обзор объекта <span class="nav-dot"></span></a>
+    <div class="object-picker"><label for="object-select">Объект наблюдения</label><select id="object-select" disabled><option>Загрузка объектов…</option></select><p id="object-count">Загрузка реестра</p></div>
+    <div class="sidebar-bottom"><span class="satellite" aria-hidden="true">◎</span><strong>Sentinel-1 / InSAR</strong><p>От спутниковой пары<br>к измерениям на земле.</p><div class="sidebar-rule"></div><p class="muted-light">Исследовательский мониторинг</p><span class="version">SAR-ДОЗОР / 01</span></div>
+  </aside>
+  <main id="main">
+    <header class="topbar"><div class="breadcrumb">Мониторинг <span>/</span> Обзор объекта</div><span id="connection" class="connection" role="status">Подключение…</span></header>
+    <section class="page-heading"><div><div class="eyebrow">СПУТНИКОВЫЕ НАБЛЮДЕНИЯ</div><h1 id="object-name">Мониторинг объектов</h1><p id="object-subtitle">Смещения поверхности и качество измерений</p></div><button id="refresh" class="button secondary" type="button"><span aria-hidden="true">↻</span> Обновить</button></section>
+    <div id="message" class="message" role="status" aria-live="polite" hidden></div>
+    <div id="workspace" hidden>
+      <section class="metrics" aria-label="Сводка по выбранным измерениям">
+        <article class="metric"><span>Пары снимков</span><strong id="pair-count">—</strong><small>В выбранной выборке</small></article>
+        <article class="metric"><span>Измерения</span><strong id="measurement-count">—</strong><small id="method-count">—</small></article>
+        <article class="metric"><span>Средняя когерентность</span><strong id="mean-coherence">—</strong><small>По уникальным парам · от 0 до 1</small></article>
+        <article class="metric accent"><span>Макс. |смещение|</span><strong id="max-displacement">—</strong><small>За одну пару снимков, мм</small></article>
+      </section>
+      <section class="panel filters" aria-label="Фильтры измерений"><div class="filter-heading"><strong>Выборка данных</strong><button id="reset" class="text-button" type="button">Сбросить</button></div><div class="filter-controls"><label>Съёмка от<input type="date" id="date-from"></label><label>Съёмка до<input type="date" id="date-to"></label><label>Мин. когерентность<input type="number" id="coherence-min" min="0" max="1" step="0.05" value="0"></label><fieldset><legend>Методы опоры</legend><div id="methods" class="method-options"></div></fieldset></div><p class="filter-note">Период фильтруется по дате второго снимка пары.</p></section>
+      <div class="overview-grid">
+        <section class="panel displacement-panel"><div class="panel-heading"><div><div class="eyebrow">ДИНАМИКА ПОВЕРХНОСТИ</div><h2>Смещение за интервал</h2></div><span class="unit">мм</span></div><p class="panel-description">Каждая точка — смещение между двумя снимками. Линии связывают результаты одного метода опоры.</p><div id="displacement-chart" class="chart"></div><div id="chart-legend" class="legend"></div><div class="chart-footnote"><span class="info-symbol">i</span> Это интервальные значения, не накопленное смещение и не вероятность аварии.</div></section>
+        <section class="panel location-panel"><div class="panel-heading"><div><div class="eyebrow">ОБЪЕКТ НА КАРТЕ</div><h2>Расположение</h2></div><span aria-hidden="true">↗</span></div><div id="map" class="map"><p>Координаты не указаны</p></div><div class="location-details"><div><span>Координаты объекта</span><strong id="coordinates">—</strong></div><a id="map-link" target="_blank" rel="noopener noreferrer" hidden>Открыть карту ↗</a></div><dl class="object-details"><div><dt>Страна</dt><dd id="country">—</dd></div><div><dt>Тип наращивания</dt><dd id="raise-type">—</dd></div><div><dt>Макс. высота</dt><dd id="height">—</dd></div><div><dt>Статус объекта</dt><dd id="object-status">—</dd></div></dl></section>
+      </div>
+      <section class="panel coherence-panel"><div class="panel-heading"><div><div class="eyebrow">КАЧЕСТВО ДАННЫХ</div><h2>Когерентность</h2></div><span class="unit">0 — 1</span></div><p class="panel-description">Средняя когерентность участка дамбы. Значения разных методов могут совпадать; показатель сам по себе не определяет безопасность объекта.</p><div id="coherence-chart" class="chart compact"></div></section>
+      <section class="panel table-panel"><div class="panel-heading"><div><div class="eyebrow">ИСХОДНЫЕ ИЗМЕРЕНИЯ</div><h2>Детали наблюдений <span id="table-count" class="count-badge">0</span></h2></div><button id="export" class="button secondary" type="button">Скачать JSON ↓</button></div><div class="table-scroll"><table><caption class="sr-only">Измерения в выбранном периоде</caption><thead><tr><th>Интервал съёмки</th><th>Метод опоры</th><th class="numeric">Смещение, мм</th><th class="numeric">Когерентность</th><th class="numeric">Валидные пиксели</th></tr></thead><tbody id="measurement-rows"></tbody></table></div><div class="pagination"><span id="page-info"></span><div><button id="previous" class="button secondary" type="button" aria-label="Предыдущая страница">←</button><button id="next" class="button secondary" type="button" aria-label="Следующая страница">→</button></div></div></section>
+      <footer><span>SAR-Дозор · Открытые спутниковые наблюдения</span><span id="updated-at"></span></footer>
+    </div>
+  </main>
+  <noscript><p class="message">Для отображения дашборда включите JavaScript в браузере.</p></noscript>
+</body>
+</html>
