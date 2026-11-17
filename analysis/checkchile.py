@@ -6,7 +6,7 @@ import numpy as np
 import rasterio
 from rasterio.warp import transform
 
-product = 'S1AA_20250103T100317_20250115T100316_VVP012_INT40_G_weF_BD3A'
+product = 'S1AA_20250127T100316_20250208T100315_VVP012_INT40_G_weF_E083'
 archive_path = f'{product}.zip'
 lon = -69.976503
 lat = -29.766708
